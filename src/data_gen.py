@@ -1,116 +1,178 @@
 """
-Diverse training data generation for Vernex.
-Goal: Model should know when to debug vs when to chat casually.
+Code-focused training data for Vernex 500M.
+Priority: Code generation, then search for unknowns, minimal chat.
 """
 import random
 import os
 
-# === GREETING VARIATIONS ===
-GREETINGS = [
-    "Hi", "Hello", "Hey", "Yo", "Hi there", "Hello there", "Hey there",
-    "Good morning", "Good afternoon", "Good evening", "Morning", "Evening",
-    "Sup", "What's up", "Howdy", "Greetings", "Hey Vernex", "Hi Vernex",
-    "Hello Vernex", "Yo Vernex", "Hey buddy", "Hello friend", "Whats good"
-]
+# === MINIMAL CHAT (just enough to be polite) ===
+GREETINGS = ["Hi", "Hello", "Hey", "Hi there"]
+GREETING_RESPONSES = ["Hi! What code do you need?", "Hello! Show me the code.", "Hey! What's the task?"]
 
-GREETING_RESPONSES = [
-    "Hi! What can I help with?",
-    "Hello! How can I assist?",
-    "Hey! What do you need?",
-    "Hi there. What's the task?",
-    "Hello! Ready to code.",
-    "Hey! What are we building?",
-    "Hi. Show me what you're working on.",
-    "Hello! Let me know what you need."
-]
-
-# === SIMPLE Q&A ===
-SIMPLE_QA = [
-    ("What is JUCE?", "JUCE is a C++ framework for audio applications and plugins."),
-    ("What is latency?", "Latency is the delay between input and output in audio systems."),
-    ("What is a buffer?", "A buffer is temporary storage for audio samples during processing."),
-    ("What is sample rate?", "Sample rate is how many audio samples are captured per second."),
-    ("What is bit depth?", "Bit depth determines the resolution of each audio sample."),
-    ("What is DSP?", "DSP stands for Digital Signal Processing."),
-    ("What is a DAW?", "DAW stands for Digital Audio Workstation."),
-    ("What is VST?", "VST is a plugin format created by Steinberg."),
-    ("What is AU?", "AU (Audio Unit) is Apple's plugin format."),
-    ("What is MIDI?", "MIDI is a protocol for musical instrument communication."),
-]
-
-# === DEBUG EXAMPLES (less frequent) ===
-DEBUG_ISSUES = ["crackling", "stuttering", "glitching", "popping", "buzzing", "distorting"]
-DEBUG_CAUSES = ["allocation", "mutex lock", "file I/O", "vector resize", "new operator"]
+# === CODE TEMPLATES ===
+CLASSES = ["Delay", "Reverb", "Compressor", "EQ", "Limiter", "Filter", "Phaser", "Chorus", "Distortion", "Gate", "Saturator", "Tremolo"]
+PARAMS = ["gain", "mix", "feedback", "time", "rate", "depth", "threshold", "ratio", "attack", "release"]
 
 def gen_greeting():
-    """Generate a casual greeting exchange."""
-    g = random.choice(GREETINGS)
-    r = random.choice(GREETING_RESPONSES)
-    return f"<|im_start|>user\n{g}<|im_end|>\n<|im_start|>assistant\n{r}<|im_end|>\n"
+    return f"<|im_start|>user\n{random.choice(GREETINGS)}<|im_end|>\n<|im_start|>assistant\n{random.choice(GREETING_RESPONSES)}<|im_end|>\n"
 
-def gen_simple_qa():
-    """Generate simple Q&A."""
-    q, a = random.choice(SIMPLE_QA)
-    return f"<|im_start|>user\n{q}<|im_end|>\n<|im_start|>assistant\n{a}<|im_end|>\n"
-
-def gen_debug():
-    """Generate debug scenario - ONLY when user mentions plugin issues."""
-    issue = random.choice(DEBUG_ISSUES)
-    cause = random.choice(DEBUG_CAUSES)
+def gen_simple_class():
+    cls = random.choice(CLASSES)
+    param = random.choice(PARAMS)
+    val = round(random.uniform(0.1, 1.0), 2)
     return f"""<|im_start|>user
-My audio plugin is {issue}. Can you help debug it?<|im_end|>
+Write a {cls} class<|im_end|>
 <|im_start|>assistant
-<thought>User has audio issue: {issue}. Check for realtime violations.</thought>
-Likely cause: {cause} in audio thread. Move heavy operations to prepareToPlay().<|im_end|>
-"""
-
-def gen_code():
-    """Generate code request."""
-    classes = ["Delay", "Reverb", "Compressor", "EQ", "Limiter", "Filter"]
-    cls = random.choice(classes)
-    return f"""<|im_start|>user
-Write a simple {cls} class<|im_end|>
-<|im_start|>assistant
-<thought>User wants a {cls} class. Keep it minimal and complete.</thought>
 ```cpp
 class {cls} {{
-    float param = 0.5f;
+    float {param} = {val}f;
 public:
     void process(float* data, int n) {{
-        for (int i = 0; i < n; ++i) data[i] *= param;
+        for (int i = 0; i < n; ++i) {{
+            data[i] *= {param};
+        }}
     }}
+    void set{param.capitalize()}(float v) {{ {param} = v; }}
 }};
 ```<|im_end|>
 """
 
+def gen_full_plugin():
+    cls = random.choice(CLASSES)
+    return f"""<|im_start|>user
+Write a complete JUCE {cls} plugin processor<|im_end|>
+<|im_start|>assistant
+```cpp
+#include <JuceHeader.h>
+
+class {cls}Processor : public juce::AudioProcessor {{
+public:
+    {cls}Processor() : AudioProcessor(BusesProperties()
+        .withInput("Input", juce::AudioChannelSet::stereo())
+        .withOutput("Output", juce::AudioChannelSet::stereo())) {{}}
+    
+    void prepareToPlay(double sr, int bs) override {{ sampleRate = sr; }}
+    void releaseResources() override {{}}
+    
+    void processBlock(juce::AudioBuffer<float>& buf, juce::MidiBuffer&) override {{
+        for (int ch = 0; ch < buf.getNumChannels(); ++ch) {{
+            float* data = buf.getWritePointer(ch);
+            for (int i = 0; i < buf.getNumSamples(); ++i) {{
+                data[i] *= gain;
+            }}
+        }}
+    }}
+    
+    const juce::String getName() const override {{ return "{cls}"; }}
+    bool acceptsMidi() const override {{ return false; }}
+    bool producesMidi() const override {{ return false; }}
+    double getTailLengthSeconds() const override {{ return 0.0; }}
+    
+    int getNumPrograms() override {{ return 1; }}
+    int getCurrentProgram() override {{ return 0; }}
+    void setCurrentProgram(int) override {{}}
+    const juce::String getProgramName(int) override {{ return {{}}; }}
+    void changeProgramName(int, const juce::String&) override {{}}
+    
+    void getStateInformation(juce::MemoryBlock&) override {{}}
+    void setStateInformation(const void*, int) override {{}}
+    
+    juce::AudioProcessorEditor* createEditor() override {{ return nullptr; }}
+    bool hasEditor() const override {{ return false; }}
+
+private:
+    double sampleRate = 44100.0;
+    float gain = 1.0f;
+}};
+```<|im_end|>
+"""
+
+def gen_dsp_function():
+    funcs = [
+        ("lowpass filter", "y[i] = y[i-1] + alpha * (x[i] - y[i-1]);"),
+        ("highpass filter", "y[i] = alpha * (y[i-1] + x[i] - x[i-1]);"),
+        ("soft clipper", "y[i] = tanh(x[i] * drive) / tanh(drive);"),
+        ("hard clipper", "y[i] = std::clamp(x[i], -threshold, threshold);"),
+        ("ring modulator", "y[i] = x[i] * sin(2.0 * M_PI * freq * i / sr);"),
+    ]
+    name, code = random.choice(funcs)
+    return f"""<|im_start|>user
+Implement a {name}<|im_end|>
+<|im_start|>assistant
+```cpp
+void process(float* x, float* y, int n) {{
+    for (int i = 0; i < n; ++i) {{
+        {code}
+    }}
+}}
+```<|im_end|>
+"""
+
+def gen_search_example():
+    topics = ["JUCE 8 new features", "real-time audio best practices", "lock-free queue implementation", "SIMD optimization for audio"]
+    topic = random.choice(topics)
+    return f"""<|im_start|>user
+What are the {topic}?<|im_end|>
+<|im_start|>assistant
+<thought>I don't have specific info on this. Let me search.</thought>
+[SEARCH: {topic}]<|im_end|>
+"""
+
+def gen_debug_with_search():
+    issues = ["crackling", "latency spikes", "memory leak", "CPU overload"]
+    issue = random.choice(issues)
+    return f"""<|im_start|>user
+My plugin has {issue}, what could cause it?<|im_end|>
+<|im_start|>assistant
+<thought>Audio {issue}. Check common causes then search if needed.</thought>
+Common causes of {issue}:
+1. Allocation in processBlock()
+2. Blocking calls (mutex, file I/O)
+3. Unbounded buffer sizes
+
+[SEARCH: JUCE plugin {issue} causes]<|im_end|>
+"""
+
 def gen_fim():
-    """Generate fill-in-middle example."""
-    cls = random.choice(["Delay", "Reverb", "Filter", "Gain"])
+    cls = random.choice(CLASSES)
+    param = random.choice(PARAMS)
     val = round(random.uniform(0.1, 1.0), 2)
     return f"<PRE>void {cls}::process(float* d, int n) {{\n    <SUF>\n}}<MID>for(int i=0;i<n;++i)d[i]*={val}f;"
 
-def generate_corpus(filepath, entries=10000):
-    print(f"Generating {entries} balanced examples...")
+def gen_uncertainty():
+    return """<|im_start|>user
+What is the capital of France?<|im_end|>
+<|im_start|>assistant
+I focus on audio/code. For general knowledge, try a search:
+[SEARCH: capital of France]<|im_end|>
+"""
+
+def generate_corpus(filepath, entries=15000):
+    print(f"Generating {entries} code-focused examples...")
     with open(filepath, "w", encoding="utf-8") as f:
         for i in range(entries):
             r = random.random()
-            # 40% Greetings/Simple Chat - MOST COMMON
-            if r < 0.40:
-                f.write(gen_greeting() if random.random() < 0.6 else gen_simple_qa())
-            # 25% Debug - ONLY when explicitly asking about issues
-            elif r < 0.65:
-                f.write(gen_debug())
-            # 20% Code requests
-            elif r < 0.85:
-                f.write(gen_code())
+            # 60% Code (main focus)
+            if r < 0.25:
+                f.write(gen_simple_class())
+            elif r < 0.40:
+                f.write(gen_full_plugin())
+            elif r < 0.60:
+                f.write(gen_dsp_function())
             # 15% FIM
-            else:
+            elif r < 0.75:
                 f.write(gen_fim())
+            # 15% Debug + Search
+            elif r < 0.85:
+                f.write(gen_debug_with_search() if random.random() < 0.5 else gen_search_example())
+            # 10% Chat + Uncertainty
+            else:
+                f.write(gen_greeting() if random.random() < 0.5 else gen_uncertainty())
             
-            if i % 2000 == 0:
+            if i % 3000 == 0:
                 print(f"  {i}/{entries}...")
     print("Done.")
 
 if __name__ == "__main__":
     os.makedirs("c:/vernex/data", exist_ok=True)
-    generate_corpus("c:/vernex/data/audio_corpus.txt", entries=10000)
+    generate_corpus("c:/vernex/data/audio_corpus.txt", entries=15000)
