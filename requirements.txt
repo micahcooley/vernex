@@ -1,0 +1,13 @@
+tqdm
+fastapi
+uvicorn
+pydantic
+aiohttp
+html2text
+googlesearch-python
+duckduckgo-search
+colorama
+numpy
+torch
+tokenizers
+
