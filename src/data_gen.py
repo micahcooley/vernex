@@ -1,67 +1,116 @@
+"""
+Diverse training data generation for Vernex.
+Goal: Model should know when to debug vs when to chat casually.
+"""
 import random
 import os
 
-# Vocabulary for variety
-ADJ = ["fast", "slow", "buggy", "clean", "messy", "old", "new", "complex", "simple", "broken", "good", "bad"]
-NOUNS = ["code", "plugin", "module", "function", "class", "buffer", "signal", "sample", "filter", "effect", "audio"]
-VERBS = ["fix", "check", "review", "optimize", "refactor", "debug", "test", "improve", "write", "create", "build"]
-GREETINGS = ["Hi", "Hello", "Hey", "Yo", "Morning", "Evening", "Sup", "Hi there", "Hey there", "Whats up"]
-RESPONSES = ["What do you need?", "Go ahead.", "Ready.", "Listening.", "Yes?", "Here.", "Whats the task?", "Show me."]
-CLASSES = ["Delay", "Reverb", "Compressor", "EQ", "Limiter", "Phaser", "Chorus", "Flanger", "Distortion", "Gate"]
-ISSUES = ["crackling", "glitching", "stuttering", "dropping", "distorting", "clipping", "popping", "buzzing"]
-CAUSES = ["allocation", "blocking call", "mutex", "file IO", "vector resize", "new operator", "lock contention"]
+# === GREETING VARIATIONS ===
+GREETINGS = [
+    "Hi", "Hello", "Hey", "Yo", "Hi there", "Hello there", "Hey there",
+    "Good morning", "Good afternoon", "Good evening", "Morning", "Evening",
+    "Sup", "What's up", "Howdy", "Greetings", "Hey Vernex", "Hi Vernex",
+    "Hello Vernex", "Yo Vernex", "Hey buddy", "Hello friend", "Whats good"
+]
+
+GREETING_RESPONSES = [
+    "Hi! What can I help with?",
+    "Hello! How can I assist?",
+    "Hey! What do you need?",
+    "Hi there. What's the task?",
+    "Hello! Ready to code.",
+    "Hey! What are we building?",
+    "Hi. Show me what you're working on.",
+    "Hello! Let me know what you need."
+]
+
+# === SIMPLE Q&A ===
+SIMPLE_QA = [
+    ("What is JUCE?", "JUCE is a C++ framework for audio applications and plugins."),
+    ("What is latency?", "Latency is the delay between input and output in audio systems."),
+    ("What is a buffer?", "A buffer is temporary storage for audio samples during processing."),
+    ("What is sample rate?", "Sample rate is how many audio samples are captured per second."),
+    ("What is bit depth?", "Bit depth determines the resolution of each audio sample."),
+    ("What is DSP?", "DSP stands for Digital Signal Processing."),
+    ("What is a DAW?", "DAW stands for Digital Audio Workstation."),
+    ("What is VST?", "VST is a plugin format created by Steinberg."),
+    ("What is AU?", "AU (Audio Unit) is Apple's plugin format."),
+    ("What is MIDI?", "MIDI is a protocol for musical instrument communication."),
+]
+
+# === DEBUG EXAMPLES (less frequent) ===
+DEBUG_ISSUES = ["crackling", "stuttering", "glitching", "popping", "buzzing", "distorting"]
+DEBUG_CAUSES = ["allocation", "mutex lock", "file I/O", "vector resize", "new operator"]
 
 def gen_greeting():
-    return f"<|im_start|>user\n{random.choice(GREETINGS)}<|im_end|>\n<|im_start|>assistant\n{random.choice(RESPONSES)}<|im_end|>\n"
+    """Generate a casual greeting exchange."""
+    g = random.choice(GREETINGS)
+    r = random.choice(GREETING_RESPONSES)
+    return f"<|im_start|>user\n{g}<|im_end|>\n<|im_start|>assistant\n{r}<|im_end|>\n"
 
-def gen_qa():
-    topic = random.choice(["audio processing", "DSP", "JUCE framework", "C++ optimization", "plugin development", "latency", "buffer management", "filter design", "real-time audio", "synthesis"])
-    fact = random.choice([f"{topic} is important.", f"Focus on {random.choice(ADJ)} {random.choice(NOUNS)}.", f"Learn {topic} well."])
-    return f"<|im_start|>user\nTell me about {topic}<|im_end|>\n<|im_start|>assistant\n{fact}<|im_end|>\n"
+def gen_simple_qa():
+    """Generate simple Q&A."""
+    q, a = random.choice(SIMPLE_QA)
+    return f"<|im_start|>user\n{q}<|im_end|>\n<|im_start|>assistant\n{a}<|im_end|>\n"
+
+def gen_debug():
+    """Generate debug scenario - ONLY when user mentions plugin issues."""
+    issue = random.choice(DEBUG_ISSUES)
+    cause = random.choice(DEBUG_CAUSES)
+    return f"""<|im_start|>user
+My audio plugin is {issue}. Can you help debug it?<|im_end|>
+<|im_start|>assistant
+<thought>User has audio issue: {issue}. Check for realtime violations.</thought>
+Likely cause: {cause} in audio thread. Move heavy operations to prepareToPlay().<|im_end|>
+"""
 
 def gen_code():
-    cls = random.choice(CLASSES)
-    gain = round(random.uniform(0.1, 1.0), 2)
+    """Generate code request."""
+    classes = ["Delay", "Reverb", "Compressor", "EQ", "Limiter", "Filter"]
+    cls = random.choice(classes)
     return f"""<|im_start|>user
-Write a {cls} class<|im_end|>
+Write a simple {cls} class<|im_end|>
 <|im_start|>assistant
-<thought>User wants {cls}. Simple and complete.</thought>
+<thought>User wants a {cls} class. Keep it minimal and complete.</thought>
 ```cpp
 class {cls} {{
-    float gain = {gain}f;
+    float param = 0.5f;
 public:
-    void process(float* d, int n) {{ for(int i=0;i<n;++i) d[i] *= gain; }}
+    void process(float* data, int n) {{
+        for (int i = 0; i < n; ++i) data[i] *= param;
+    }}
 }};
 ```<|im_end|>
 """
 
-def gen_debug():
-    issue = random.choice(ISSUES)
-    cause = random.choice(CAUSES)
-    return f"""<|im_start|>user
-My plugin is {issue}<|im_end|>
-<|im_start|>assistant
-<thought>Audio {issue}. Realtime violation likely.</thought>
-Check for {cause} in audio thread. Move to prepareToPlay().<|im_end|>
-"""
-
 def gen_fim():
-    cls = random.choice(CLASSES)
-    return f"<PRE>void {cls}::process(float* d, int n) {{\n    <SUF>\n}}<MID>for(int i=0;i<n;++i)d[i]*={round(random.uniform(0.1,1.0),2)}f;"
+    """Generate fill-in-middle example."""
+    cls = random.choice(["Delay", "Reverb", "Filter", "Gain"])
+    val = round(random.uniform(0.1, 1.0), 2)
+    return f"<PRE>void {cls}::process(float* d, int n) {{\n    <SUF>\n}}<MID>for(int i=0;i<n;++i)d[i]*={val}f;"
 
-def generate_corpus(filepath, entries=8000):
-    print(f"Generating {entries} examples...")
+def generate_corpus(filepath, entries=10000):
+    print(f"Generating {entries} balanced examples...")
     with open(filepath, "w", encoding="utf-8") as f:
         for i in range(entries):
             r = random.random()
-            if r < 0.25: f.write(gen_greeting())
-            elif r < 0.45: f.write(gen_qa())
-            elif r < 0.65: f.write(gen_code())
-            elif r < 0.85: f.write(gen_debug())
-            else: f.write(gen_fim())
-            if i % 1000 == 0: print(f"  {i}/{entries}...")
+            # 40% Greetings/Simple Chat - MOST COMMON
+            if r < 0.40:
+                f.write(gen_greeting() if random.random() < 0.6 else gen_simple_qa())
+            # 25% Debug - ONLY when explicitly asking about issues
+            elif r < 0.65:
+                f.write(gen_debug())
+            # 20% Code requests
+            elif r < 0.85:
+                f.write(gen_code())
+            # 15% FIM
+            else:
+                f.write(gen_fim())
+            
+            if i % 2000 == 0:
+                print(f"  {i}/{entries}...")
     print("Done.")
 
 if __name__ == "__main__":
     os.makedirs("c:/vernex/data", exist_ok=True)
-    generate_corpus("c:/vernex/data/audio_corpus.txt", entries=8000)
+    generate_corpus("c:/vernex/data/audio_corpus.txt", entries=10000)

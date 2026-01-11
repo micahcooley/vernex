@@ -12,11 +12,11 @@ from typing import Optional, Tuple
 @dataclass
 class VernexConfig:
     vocab_size: int = 4096
-    dim: int = 256
-    n_layers: int = 8       # Must match train.py
-    n_heads: int = 8
-    n_kv_heads: int = 4
-    hidden_dim: int = 512
+    dim: int = 1024           # 256→1024 for 500M
+    n_layers: int = 24        # 8→24 for 500M
+    n_heads: int = 16         # 8→16 for 500M
+    n_kv_heads: int = 8       # 4→8 for 500M
+    hidden_dim: int = 4096    # 512→4096 for 500M
     max_seq_len: int = 512
     norm_eps: float = 1e-6
     rope_theta: float = 10000.0

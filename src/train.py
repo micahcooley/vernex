@@ -40,12 +40,13 @@ def train():
         print("Tokenizer not found! Run src/tokenizer.py first.")
         return
 
-    # Nano Config for testing
+    # 500M Config (user requirement)
     cfg = VernexConfig(
-        dim=256,        # Small for testing
-        n_layers=8, 
-        n_heads=8, 
-        n_kv_heads=4,
+        dim=1024,       # 500M model
+        n_layers=24,    # 500M model
+        n_heads=16,     # 500M model
+        n_kv_heads=8,   # 500M model
+        hidden_dim=4096,  # 500M model
         vocab_size=tokenizer.get_vocab_size(),
         max_seq_len=512
     )
