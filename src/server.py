@@ -13,18 +13,19 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, 
 print("Loading Vernex...")
 TOK = Tokenizer.from_file("c:/vernex/model/tokenizer.json")
 CFG = VernexConfig(vocab_size=TOK.get_vocab_size())
-MODEL = VernexForCausalLM(CFG)
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+MODEL = VernexForCausalLM(CFG).to(DEVICE)
 
 paths = glob.glob("c:/vernex/model/vernex_nano_*.pt")
 if paths:
     try:
-        MODEL.load_state_dict(torch.load(max(paths, key=os.path.getctime), map_location="cpu"))
-        print("Weights loaded!")
+        MODEL.load_state_dict(torch.load(max(paths, key=os.path.getctime), map_location=DEVICE))
+        print(f"Weights loaded to {DEVICE}!")
     except Exception as e:
         print(f"Using random weights: {e}")
 
 MODEL.eval()
-print(f"Model ready! Params: {sum(p.numel() for p in MODEL.parameters())/1e6:.1f}M")
+print(f"Model ready on {DEVICE}! Params: {sum(p.numel() for p in MODEL.parameters())/1e6:.1f}M")
 
 def execute_tool(text):
     """Detect and execute tool calls, return result."""
@@ -78,10 +79,13 @@ async def chat(request: Request):
         
         for _ in range(3):  # Max 3 tool loops
             MODEL.clear_cache()
-            generator = MODEL.generate(input_ids, max_new_tokens=150, tokenizer=TOK, temperature=temp, top_p=top_p)
             
-            chunk = ""
-            for token_id in generator:
+            # Autocast for faster generation
+            with torch.cuda.amp.autocast(enabled=(DEVICE == "cuda")):
+                generator = MODEL.generate(input_ids.to(DEVICE), max_new_tokens=150, tokenizer=TOK, temperature=temp, top_p=top_p)
+                
+                chunk = ""
+                for token_id in generator:
                 text = TOK.decode([token_id])
                 if "<|im_end|>" in text: break
                 chunk += text

@@ -55,24 +55,30 @@ def train():
     print(f"Model Parameters: {sum(p.numel() for p in model.parameters())/1e6:.2f}M")
     
     optimizer = optim.AdamW(model.parameters(), lr=3e-4)
+    scaler = torch.cuda.amp.GradScaler(enabled=(device == "cuda")) # FP16 Scaler
     
     dataset = CodeDataset("c:/vernex/data/audio_corpus.txt", tokenizer, max_len=cfg.max_seq_len)
     loader = DataLoader(dataset, batch_size=4, shuffle=True)
     
     model.train()
     
-    print("Starting Training Loop...")
-    for epoch in range(10): # Short test run
+    print("Starting Training Loop (AMP Enabled)...")
+    for epoch in range(10):
         total_loss = 0
         start_time = time.time()
         for batch_idx, (x, y) in enumerate(loader):
             x, y = x.to(device), y.to(device)
             
             optimizer.zero_grad()
-            logits, loss = model(x, y)
             
-            loss.backward()
-            optimizer.step()
+            # Autocast for FP16 speed
+            with torch.cuda.amp.autocast(enabled=(device == "cuda")):
+                logits, loss = model(x, y)
+            
+            # Scaled backward pass
+            scaler.scale(loss).backward()
+            scaler.step(optimizer)
+            scaler.update()
             
             total_loss += loss.item()
             
