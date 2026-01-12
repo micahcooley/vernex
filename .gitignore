@@ -1,5 +1,5 @@
-# Model weights (too large for git)
-model/*.pt
+# Model weights (Handled by Git LFS)
+# model/*.pt
 
 # Python
 __pycache__/
