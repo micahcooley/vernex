@@ -169,34 +169,69 @@ class VernexForCausalLM(nn.Module):
         self.model.clear_cache()
 
     @torch.inference_mode()
-    def generate(self, input_ids, max_new_tokens=50, tokenizer=None, temperature=0.7, top_p=0.9):
-        """Fast generation with KV cache and sampling. Yields tokens."""
+    def generate(self, input_ids, max_new_tokens=50, tokenizer=None, temperature=0.5, top_p=0.9, repetition_penalty=1.3):
+        """Fast generation with KV cache, sampling, and repetition penalty. Yields tokens."""
         self.clear_cache()
+        
+        # Track generated tokens for repetition penalty
+        generated_ids = list(input_ids[0].tolist())
         
         # Prefill
         logits, _ = self(input_ids, start_pos=0, use_cache=True)
-        next_token = self.sample(logits[:, -1, :], temperature, top_p)
+        next_logits = logits[:, -1, :].clone()
+        
+        # Apply repetition penalty to prefill
+        for prev_id in set(generated_ids[-50:]):
+            next_logits[0, prev_id] /= repetition_penalty
+        
+        next_token = self.sample(next_logits, temperature, top_p)
         
         token_id = next_token.item()
+        generated_ids.append(token_id)
         yield token_id
         
         pos = input_ids.shape[1]
+        accumulated_text = ""
         
         for _ in range(max_new_tokens - 1):
             logits, _ = self(next_token, start_pos=pos, use_cache=True)
-            next_token = self.sample(logits[:, -1, :], temperature, top_p)
+            next_logits = logits[:, -1, :].clone()
+            
+            # Apply repetition penalty
+            for prev_id in set(generated_ids[-50:]):
+                next_logits[0, prev_id] /= repetition_penalty
+            
+            next_token = self.sample(next_logits, temperature, top_p)
             token_id = next_token.item()
+            generated_ids.append(token_id)
             yield token_id
             pos += 1
             
+            # Decode and check for stop patterns
             if tokenizer:
                 text = tokenizer.decode([token_id])
-                if "<|im_end|>" in text:
+                accumulated_text += text
+                # Stop on role markers or end tokens
+                if any(stop in accumulated_text for stop in ["<|im_end|>", "<|im_start|>", "user\n", "assistant\n", "<|model|>", "<|thought|>"]):
                     break
+                # Stop on repetition loops (same 3-char sequence 3+ times)
+                if len(accumulated_text) > 15:
+                    last_chunk = accumulated_text[-15:]
+                    if last_chunk[:5] == last_chunk[5:10] == last_chunk[10:15]:
+                        break
 
     def sample(self, logits, temperature, top_p):
         if temperature > 0:
             probs = torch.softmax(logits / temperature, dim=-1)
+            # Top-p filtering
+            sorted_probs, sorted_indices = torch.sort(probs, descending=True)
+            cumulative_probs = torch.cumsum(sorted_probs, dim=-1)
+            sorted_indices_to_remove = cumulative_probs > top_p
+            sorted_indices_to_remove[..., 1:] = sorted_indices_to_remove[..., :-1].clone()
+            sorted_indices_to_remove[..., 0] = 0
+            indices_to_remove = sorted_indices_to_remove.scatter(1, sorted_indices, sorted_indices_to_remove)
+            probs[indices_to_remove] = 0
+            probs = probs / probs.sum(dim=-1, keepdim=True)
             next_token = torch.multinomial(probs, num_samples=1)
         else:
             next_token = torch.argmax(logits, dim=-1, keepdim=True)

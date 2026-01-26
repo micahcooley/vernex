@@ -2,8 +2,13 @@ import torch
 from model import VernexConfig, VernexForCausalLM
 from tokenizers import Tokenizer
 import sys, os, glob, re
+from pathlib import Path
 from search import search_and_fetch
 from tools import read_file, write_file, edit_file, run_command as exec_cmd, grep_search
+
+# Resolve paths
+ROOT = Path(__file__).parent.parent
+MODEL_DIR = ROOT / "model"
 
 SESSION_EDITS = []
 
@@ -36,28 +41,46 @@ def execute_tool(tag_name, content):
             return edit_file(path, search, replacement)
     return "Unknown tool."
 
-def generate(prompt, model_path="c:/vernex/model/vernex_nano_latest.pt", max_tokens=300):
+def generate(prompt, model_path=None, max_tokens=300):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
-    tokenizer = Tokenizer.from_file("c:/vernex/model/tokenizer.json")
-    cfg = VernexConfig(dim=256, n_layers=8, n_heads=8, n_kv_heads=4, vocab_size=tokenizer.get_vocab_size(), max_seq_len=512)
+    tokenizer = Tokenizer.from_file(str(MODEL_DIR / "tokenizer.json"))
+    print(f"DEBUG: Tokenizer vocab size: {tokenizer.get_vocab_size()}")
+    # Vernex Nano Config
+    cfg = VernexConfig(dim=768, n_layers=12, n_heads=12, n_kv_heads=4, hidden_dim=3072, vocab_size=tokenizer.get_vocab_size(), max_seq_len=512)
     model = VernexForCausalLM(cfg).to(device)
     
-    if not os.path.exists(model_path):
-        paths = glob.glob("c:/vernex/model/vernex_nano_epoch_*.pt")
-        model_path = max(paths, key=os.path.getctime) if paths else None
+    if model_path is None:
+        model_path = MODEL_DIR / "vernex_nano_latest.pt"
+    
+    if not model_path.exists():
+        paths = glob.glob(str(MODEL_DIR / "vernex_nano_epoch_*.pt"))
+        model_path = Path(max(paths, key=os.path.getctime)) if paths else None
     
     if model_path:
-        model.load_state_dict(torch.load(model_path, map_location=device))
-        print(f"Loaded: {model_path}")
+        try:
+            model.load_state_dict(torch.load(str(model_path), map_location=device))
+            print(f"Loaded: {model_path.name}")
+        except Exception as e:
+            print(f"DEBUG: Caught exception: {type(e).__name__}: {e}")
+            if "size mismatch" in str(e):
+                print("DEBUG: Vocab mismatch detected. Retrying with vocab_size=50257...")
+                cfg = VernexConfig(dim=768, n_layers=12, n_heads=12, n_kv_heads=4, hidden_dim=3072, vocab_size=50257, max_seq_len=512)
+                model = VernexForCausalLM(cfg).to(device)
+                model.load_state_dict(torch.load(str(model_path), map_location=device))
+                print(f"Loaded with adjusted vocab: {model_path.name}")
+            else:
+                raise e
     else:
         print("No weights found.")
     
     model.eval()
     
     sys_prompt = ""
-    if os.path.exists("c:/vernex/SYSTEM_PROMPT.txt"):
-        with open("c:/vernex/SYSTEM_PROMPT.txt", "r") as f: sys_prompt = f.read()
+    system_prompt_path = ROOT / "SYSTEM_PROMPT.txt"
+    if system_prompt_path.exists():
+        with open(system_prompt_path, "r") as f: 
+            sys_prompt = f.read()
             
     chat = f"<|im_start|>system\n{sys_prompt}<|im_end|>\n<|im_start|>user\n{prompt}<|im_end|>\n<|im_start|>assistant\n"
     
@@ -66,7 +89,7 @@ def generate(prompt, model_path="c:/vernex/model/vernex_nano_latest.pt", max_tok
 
     for _ in range(5):  # Max tool loops
         ids = tokenizer.encode(chat).ids
-        tensor = torch.tensor([ids], device=device)
+        tensor = torch.tensor([ids[-400:]], device=device)  # Keep context manageable
         
         gen = ""
         for _ in range(max_tokens):
@@ -107,5 +130,11 @@ def generate(prompt, model_path="c:/vernex/model/vernex_nano_latest.pt", max_tok
     print("\n")
 
 if __name__ == "__main__":
-    prompt = sys.argv[1] if len(sys.argv) > 1 else "What files are in the src folder?"
-    generate(prompt)
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("prompt", nargs="?", default="What files are in the src folder?")
+    parser.add_argument("--model", help="Path to model checkpoint", default=None)
+    args = parser.parse_args()
+    
+    model_path = Path(args.model) if args.model else None
+    generate(args.prompt, model_path=model_path)

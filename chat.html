@@ -19,6 +19,54 @@
             flex-direction: column;
         }
 
+        header {
+            padding: 18px 20px;
+            background: #16213e;
+            border-bottom: 1px solid #2d2d44;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        header h1 {
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        header .status {
+            font-size: 14px;
+            color: #888;
+            font-weight: normal;
+        }
+
+        .model-selector {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .model-selector label {
+            font-size: 13px;
+            color: #888;
+        }
+
+        .model-selector select {
+            padding: 8px 12px;
+            background: #252538;
+            border: 1px solid #3d3d5c;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .model-selector select:focus {
+            outline: 2px solid #7b2cbf;
+        }
+
         #chat {
             flex: 1;
             overflow-y: auto;
@@ -43,7 +91,6 @@
             border: 1px solid #2d2d44;
         }
 
-        /* Collapsible Thought Section - OPEN by default */
         .thought-container {
             margin-bottom: 10px;
         }
@@ -82,7 +129,6 @@
             color: #aaa;
             border-radius: 4px;
             display: block;
-            /* Open by default */
         }
 
         .thought-toggle:not(.open)+.thought-content {
@@ -132,23 +178,41 @@
             opacity: 0.9;
         }
 
-        #send.stop {
-            background: linear-gradient(135deg, #dc2626, #ef4444);
-        }
-
-        h1 {
-            padding: 18px 20px;
-            background: #16213e;
-            border-bottom: 1px solid #2d2d44;
+        #reload {
+            padding: 10px 15px;
+            background: #2d2d44;
+            border: 1px solid #3d3d5c;
+            border-radius: 8px;
+            color: #888;
+            cursor: pointer;
+            font-size: 12px;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 6px;
+            transition: all 0.2s;
         }
 
-        h1 span {
-            font-size: 14px;
-            color: #888;
-            font-weight: normal;
+        #reload:hover {
+            background: #3d3d5c;
+            color: #fff;
+        }
+
+        #reload.loading {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        #send.stop {
+            background: linear-gradient(135deg, #dc2626, #ef4444);
         }
 
         pre {
@@ -181,11 +245,47 @@
                 opacity: 0.5;
             }
         }
+
+        .model-badge {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .model-badge.base {
+            background: #22c55e;
+            color: #000;
+        }
+
+        .model-badge.micro {
+            background: #3b82f6;
+            color: #fff;
+        }
+
+        .model-badge.pro {
+            background: #7b2cbf;
+            color: #fff;
+        }
     </style>
 </head>
 
 <body>
-    <h1>🔮 Vernex <span>• 88 TPS • Local AI</span></h1>
+    <header>
+        <h1>🔮 Vernex <span class="status" id="status">• Connecting...</span></h1>
+        <div class="model-selector">
+            <label for="model">Model:</label>
+            <select id="model" onchange="switchModel()">
+                <option value="pro" selected>Pro (500M) - Agentic</option>
+                <option value="base">Base (105M) - Fast</option>
+                <option value="micro">Micro (14M) - Critic</option>
+            </select>
+            <button id="reload" onclick="reloadData()" title="Reload weights">
+                <span class="icon">🔄</span> Reload
+            </button>
+        </div>
+    </header>
     <div id="chat"></div>
     <div id="input-area">
         <input id="prompt" placeholder="Ask Vernex..." onkeypress="if(event.key==='Enter' && !isGenerating)send()">
@@ -195,9 +295,71 @@
         const chat = document.getElementById('chat');
         const promptInput = document.getElementById('prompt');
         const sendBtn = document.getElementById('send');
+        const modelSelect = document.getElementById('model');
+        const statusEl = document.getElementById('status');
 
         let isGenerating = false;
         let abortController = null;
+        let currentModel = 'pro';
+
+        // Check server status on load
+        checkStatus();
+
+        async function checkStatus() {
+            try {
+                const res = await fetch('http://localhost:8000/v1/models');
+                const data = await res.json();
+                statusEl.textContent = `• ${data.current || 'base'} • GPU Ready`;
+                statusEl.style.color = '#4ade80';
+            } catch {
+                statusEl.textContent = '• Server offline';
+                statusEl.style.color = '#f87171';
+            }
+        }
+
+        async function reloadData() {
+            const reloadBtn = document.getElementById('reload');
+            const icon = reloadBtn.querySelector('.icon');
+            reloadBtn.disabled = true;
+            icon.classList.add('loading');
+            statusEl.textContent = '• Reloading...';
+
+            try {
+                const res = await fetch('http://localhost:8000/v1/reload', {
+                    method: 'POST'
+                });
+                const data = await res.json();
+                statusEl.textContent = `• ${data.model} • ${data.params} • Updated`;
+                statusEl.style.color = '#4ade80';
+            } catch (e) {
+                statusEl.textContent = `• Error: ${e.message}`;
+                statusEl.style.color = '#f87171';
+            } finally {
+                reloadBtn.disabled = false;
+                icon.classList.remove('loading');
+            }
+        }
+
+        async function switchModel() {
+            const model = modelSelect.value;
+            currentModel = model;
+            statusEl.textContent = '• Switching...';
+            statusEl.style.color = '#fbbf24';
+
+            try {
+                const res = await fetch('http://localhost:8000/v1/switch', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ model })
+                });
+                const data = await res.json();
+                statusEl.textContent = `• ${data.model} • ${data.params} • GPU`;
+                statusEl.style.color = '#4ade80';
+            } catch (e) {
+                statusEl.textContent = `• Error: ${e.message}`;
+                statusEl.style.color = '#f87171';
+            }
+        }
 
         function handleButton() {
             if (isGenerating) {
@@ -218,12 +380,19 @@
         }
 
         function parseThoughts(text) {
-            const thoughtRegex = /<thought>([\s\S]*?)<\/thought>/g;
+            const thoughtRegex = /<\|thinking\|>([\s\S]*?)<\/\|thinking\|>/g;
+            const legacyThoughtRegex = /<thought>([\s\S]*?)<\/thought>/g;
             let thoughts = [];
             let cleanText = text;
             let match;
 
+            // Check new format
             while ((match = thoughtRegex.exec(text)) !== null) {
+                thoughts.push(match[1].trim());
+                cleanText = cleanText.replace(match[0], '');
+            }
+            // Check legacy format
+            while ((match = legacyThoughtRegex.exec(text)) !== null) {
                 thoughts.push(match[1].trim());
                 cleanText = cleanText.replace(match[0], '');
             }
@@ -235,7 +404,6 @@
             const { thoughts, cleanText } = parseThoughts(text);
             let html = '';
 
-            // Add collapsible thought section - OPEN by default
             if (thoughts.length > 0) {
                 html += `
                     <div class="thought-container">
@@ -269,7 +437,9 @@
             sendBtn.classList.add('stop');
             abortController = new AbortController();
 
-            chat.innerHTML += `<div class="msg user">${text}</div>`;
+            // Add model badge to user message
+            const badgeClass = currentModel;
+            chat.innerHTML += `<div class="msg user"><span class="model-badge ${badgeClass}">${currentModel}</span> ${text}</div>`;
             promptInput.value = '';
 
             const assistantDiv = document.createElement('div');
@@ -284,7 +454,11 @@
                 const response = await fetch('http://localhost:8000/v1/chat/completions', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ messages: [{ role: 'user', content: text }], stream: true }),
+                    body: JSON.stringify({
+                        messages: [{ role: 'user', content: text }],
+                        stream: true,
+                        model: currentModel
+                    }),
                     signal: abortController.signal
                 });
 

@@ -29,18 +29,32 @@ def ddg_search(query, num_results=3):
         return []
 
 async def fetch_page(session, url):
-    """Fetch and convert page to text."""
+    """Fetch and convert page to text using Jina Reader (for clean MD) with local fallback."""
+    jina_url = f"https://r.jina.ai/{url}"
+    
+    # Strategy 1: Jina Reader (Best for LLM comprehension)
     try:
-        headers = {"User-Agent": "Mozilla/5.0 VernexBot/1.0"}
+        async with session.get(jina_url, timeout=10, ssl=False) as resp:
+            if resp.status == 200:
+                text = await resp.text()
+                if len(text) > 100: # Ensure we got actual content
+                    return {"url": url, "content": text[:2000], "ok": True, "method": "jina"}
+    except:
+        pass
+    
+    # Strategy 2: Direct Fetch + html2text (Fallback)
+    try:
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
         async with session.get(url, timeout=8, headers=headers, ssl=False) as resp:
             if resp.status == 200:
                 html = await resp.text()
                 text = h2t.handle(html)
                 text = re.sub(r'\n{3,}', '\n\n', text)
-                return {"url": url, "content": text[:1500], "ok": True}
-    except:
-        pass
-    return {"url": url, "content": "", "ok": False}
+                return {"url": url, "content": text[:1500], "ok": True, "method": "local"}
+    except Exception as e:
+        print(f"Fallback fetch failed for {url}: {e}")
+        
+    return {"url": url, "content": "", "ok": False, "method": "failed"}
 
 async def fetch_all(urls):
     connector = aiohttp.TCPConnector(ssl=False)

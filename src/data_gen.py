@@ -85,5 +85,8 @@ def generate_corpus(filepath, entries=15000):
     print("Done.")
 
 if __name__ == "__main__":
-    os.makedirs("c:/vernex/data", exist_ok=True)
-    generate_corpus("c:/vernex/data/audio_corpus.txt", entries=15000)
+    from pathlib import Path
+    ROOT = Path(__file__).parent.parent
+    DATA_DIR = ROOT / "data"
+    DATA_DIR.mkdir(exist_ok=True)
+    generate_corpus(str(DATA_DIR / "audio_corpus.txt"), entries=15000)

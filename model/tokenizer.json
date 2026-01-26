@@ -349,641 +349,2289 @@
       "Ł": 259,
       "ł": 260,
       "Ń": 261,
-      "čĊ": 262,
-      "im": 263,
-      "<|": 264,
-      "|>": 265,
-      "ta": 266,
-      "ĠĠ": 267,
-      "sta": 268,
-      "Ġi": 269,
-      "er": 270,
-      "ss": 271,
-      "nd": 272,
-      "rt": 273,
-      "nt": 274,
-      "io": 275,
-      "end": 276,
-      "start": 277,
-      "Ġa": 278,
-      "at": 279,
-      "ug": 280,
-      "ass": 281,
-      "th": 282,
-      "ser": 283,
-      "re": 284,
-      "Ġp": 285,
-      "in": 286,
-      "Ġc": 287,
-      "or": 288,
-      "Ġd": 289,
-      "ĠĠĠ": 290,
-      "ht": 291,
-      "oug": 292,
-      "thoug": 293,
-      "thought": 294,
-      "ud": 295,
-      "udio": 296,
-      "ista": 297,
-      "user": 298,
-      "assista": 299,
-      "assistant": 300,
-      "Ġaudio": 301,
-      "Ġf": 302,
-      "el": 303,
-      "Ġh": 304,
-      "``": 305,
-      "lo": 306,
-      "ing": 307,
-      "Ġn": 308,
-      "ĠC": 309,
-      "ion": 310,
-      "lass": 311,
-      "ation": 312,
-      "?<|": 313,
-      "Ġfor": 314,
-      "Ġ{": 315,
-      "loat": 316,
-      "le": 317,
-      "Ġis": 318,
-      "ations": 319,
-      ".<|": 320,
-      "rea": 321,
-      "Ġv": 322,
-      "ra": 323,
-      "te": 324,
-      "ple": 325,
-      ".<": 326,
-      "User": 327,
-      "Ġit": 328,
-      ".</": 329,
-      "ram": 330,
-      "ay": 331,
-      "oc": 332,
-      "op": 333,
-      "ata": 334,
-      "aram": 335,
-      "Ġ0": 336,
-      "Ġ=": 337,
-      "Ġparam": 338,
-      "Ġclass": 339,
-      "Ġdata": 340,
-      "```": 341,
-      "ck": 342,
-      "lt": 343,
-      "Ġs": 344,
-      "ess": 345,
-      "roc": 346,
-      "rocess": 347,
-      "Ġth": 348,
-      "to": 349,
-      "hat": 350,
-      "ou": 351,
-      "++": 352,
-      "Ġw": 353,
-      "Ġm": 354,
-      "*=": 355,
-      "float": 356,
-      "id": 357,
-      "int": 358,
-      "oid": 359,
-      "Ġ<": 360,
-      "Ġint": 361,
-      "you": 362,
-      "Ġyou": 363,
-      "an": 364,
-      "om": 365,
-      "Ġop": 366,
-      "Ġoper": 367,
-      "What": 368,
-      "ea": 369,
-      "Ġde": 370,
-      "Ġin": 371,
-      "lug": 372,
-      "Ġplug": 373,
-      "Ġplugin": 374,
-      "li": 375,
-      "Ġto": 376,
-      "elp": 377,
-      "Ġhelp": 378,
-      "ee": 379,
-      "ve": 380,
-      "Ġca": 381,
-      "us": 382,
-      "ĠM": 383,
-      "()": 384,
-      "Li": 385,
-      "My": 386,
-      "Pl": 387,
-      "To": 388,
-      "as": 389,
-      "are": 390,
-      "bug": 391,
-      "eck": 392,
-      "heck": 393,
-      "kel": 394,
-      "lations": 395,
-      "ove": 396,
-      "pare": 397,
-      "ue": 398,
-      "vy": 399,
-      "Ġrea": 400,
-      "ime": 401,
-      "Ġiss": 402,
-      "iolations": 403,
-      "repare": 404,
-      "Ġprepare": 405,
-      "Ġhea": 406,
-      "Ġhas": 407,
-      "ĠCan": 408,
-      "ĠCheck": 409,
-      "read": 410,
-      "Ġviolations": 411,
-      "ltime": 412,
-      "Ġthread": 413,
-      "Ġoperations": 414,
-      "Ġdebug": 415,
-      "Ġcaus": 416,
-      "ĠMove": 417,
-      "().<|": 418,
-      "Likel": 419,
-      "Play": 420,
-      "ToPlay": 421,
-      "Ġrealtime": 422,
-      "Ġissue": 423,
-      "ĠprepareToPlay": 424,
-      "Ġheavy": 425,
-      "Ġcause": 426,
-      "Likely": 427,
-      "pu": 428,
-      "al": 429,
-      "Ġand": 430,
-      "Ġprocess": 431,
-      "Ġ(": 432,
-      "Ġcom": 433,
-      "pp": 434,
-      "lic": 435,
-      "Ġb": 436,
-      "ri": 437,
-      "ter": 438,
-      "ĠD": 439,
-      "Kee": 440,
-      "Wri": 441,
-      "ant": 442,
-      "blic": 443,
-      "class": 444,
-      "cpp": 445,
-      "};": 446,
-      "Ġ}": 447,
-      "Ġ++": 448,
-      "Ġ*=": 449,
-      "ĠKee": 450,
-      "imple": 451,
-      "imal": 452,
-      "ĠĠĠĠ": 453,
-      "inimal": 454,
-      "Ġfloat": 455,
-      "Ġvoid": 456,
-      "plete": 457,
-      "```<|": 458,
-      "Ġsimple": 459,
-      "Ġwant": 460,
-      "Ġminimal": 461,
-      "public": 462,
-      "Ġcomplete": 463,
-      "Write": 464,
-      "ĠKeep": 465,
-      "ĠĠĠĠĠĠĠ": 466,
-      "Ġwants": 467,
-      "ID": 468,
-      "ĠR": 469,
-      "MID": 470,
-      "elay": 471,
-      "::": 472,
-      ";++": 473,
-      "PR": 474,
-      "SU": 475,
-      "]*=": 476,
-      "for": 477,
-      "process": 478,
-      "void": 479,
-      "}<": 480,
-      "PRE": 481,
-      "SUF": 482,
-      "Ġbu": 483,
-      "ev": 484,
-      "erb": 485,
-      "ĠRev": 486,
-      "ĠReverb": 487,
-      "Hel": 488,
-      "Hello": 489,
-      "Fi": 490,
-      "ĠFi": 491,
-      "lter": 492,
-      "ĠFilter": 493,
-      "ĠDelay": 494,
-      ";<|": 495,
-      "ĠL": 496,
-      "ĠWhat": 497,
-      "Hi": 498,
-      "ow": 499,
-      "ĠI": 500,
-      "is": 501,
-      "He": 502,
-      "Hey": 503,
-      "pre": 504,
-      "ssor": 505,
-      "ĠCom": 506,
-      "pressor": 507,
-      "ĠCompressor": 508,
-      "iter": 509,
-      "imiter": 510,
-      "ĠLimiter": 511,
-      "ch": 512,
-      "EQ": 513,
-      "ĠEQ": 514,
-      "ut": 515,
-      "Ġst": 516,
-      "Ġg": 517,
-      "ping": 518,
-      "Ġpop": 519,
-      "Ġpopping": 520,
-      "ling": 521,
-      "Ġcra": 522,
-      "ckling": 523,
-      "Ġcrackling": 524,
-      "zz": 525,
-      "Ġbuzz": 526,
-      "Ġbuzzing": 527,
-      "rting": 528,
-      "Ġdis": 529,
-      "torting": 530,
-      "Ġdistorting": 531,
-      "ate": 532,
-      "tch": 533,
-      "litch": 534,
-      "Ġglitch": 535,
-      "Ġglitching": 536,
-      "am": 537,
-      "ample": 538,
-      "od": 539,
-      "tering": 540,
-      "uttering": 541,
-      "Ġstuttering": 542,
-      "ew": 543,
-      "cation": 544,
-      "Ġre": 545,
-      "Ġres": 546,
-      "ĠS": 547,
-      "Ġnee": 548,
-      "Ġneed": 549,
-      "ec": 550,
-      "Ġcan": 551,
-      "Ġsample": 552,
-      "ere": 553,
-      "Ġthere": 554,
-      "ork": 555,
-      "Ġwhat": 556,
-      "Ġme": 557,
-      "Ġthe": 558,
-      "dy": 559,
-      "et": 560,
-      "ĠV": 561,
-      "'s": 562,
-      "ator": 563,
-      "Ġnew": 564,
-      "Ġoperator": 565,
-      "ile": 566,
-      "Ġfile": 567,
-      "ute": 568,
-      "Ġlo": 569,
-      "Ġmute": 570,
-      "Ġlock": 571,
-      "Ġmutex": 572,
-      "llo": 573,
-      "Ġallo": 574,
-      "Ġallocation": 575,
-      "iz": 576,
-      "tor": 577,
-      "Ġvec": 578,
-      "Ġresiz": 579,
-      "Ġvector": 580,
-      "Ġresize": 581,
-      "ig": 582,
-      "it": 583,
-      "ĠA": 584,
-      "Ġo": 585,
-      "Ġare": 586,
-      "ning": 587,
-      "ood": 588,
-      "How": 589,
-      "ex": 590,
-      "nex": 591,
-      "ernex": 592,
-      "ĠVernex": 593,
-      "Ga": 594,
-      "ĠGa": 595,
-      "ĠGain": 596,
-      "ST": 597,
-      "Ġdo": 598,
-      "Ġcod": 599,
-      "eady": 600,
-      "ĠReady": 601,
-      "Ġcode": 602,
-      "mat": 603,
-      "Ġformat": 604,
-      "cy": 605,
-      "ncy": 606,
-      "put": 607,
-      "atency": 608,
-      "SP": 609,
-      "Good": 610,
-      "tem": 611,
-      "ita": 612,
-      "pth": 613,
-      "Ġsta": 614,
-      "nds": 615,
-      "Ġdepth": 616,
-      "ĠDig": 617,
-      "ital": 618,
-      "Ġstands": 619,
-      "ĠDigital": 620,
-      "ff": 621,
-      "ora": 622,
-      "Ġbuff": 623,
-      "Ġbuffer": 624,
-      "AW": 625,
-      "ith": 626,
-      "Ġwith": 627,
-      "ol": 628,
-      "ĠHow": 629,
-      "ssis": 630,
-      "Ġassis": 631,
-      "Ġsamples": 632,
-      "Ġassist": 633,
-      "'re": 634,
-      "how": 635,
-      "Ġwork": 636,
-      "ĠShow": 637,
-      "Ġon": 638,
-      "Ġworking": 639,
-      "ding": 640,
-      "il": 641,
-      "Ġwe": 642,
-      "Ġbuil": 643,
-      "Ġbuilding": 644,
-      "rate": 645,
-      "Ġrate": 646,
-      "kn": 647,
-      "Ġkn": 648,
-      "ĠLet": 649,
-      "Ġknow": 650,
-      "CE": 651,
-      "JU": 652,
-      "JUCE": 653,
-      "sk": 654,
-      "Ġta": 655,
-      "Ġtask": 656,
-      "orning": 657,
-      ";<": 658,
-      "vening": 659,
-      "Yo": 660,
-      "up": 661,
-      "VST": 662,
-      "ber": 663,
-      "reate": 664,
-      "inber": 665,
-      "Ġcreate": 666,
-      "teinber": 667,
-      "Ġby": 668,
-      "ĠSteinber": 669,
-      "ĠVST": 670,
-      "Ġcreated": 671,
-      "ĠSteinberg": 672,
-      "Latency": 673,
-      "latency": 674,
-      "stem": 675,
-      "tput": 676,
-      "wee": 677,
-      "ystem": 678,
-      "Ġou": 679,
-      "Ġlatency": 680,
-      "Ġdelay": 681,
-      "Ġsystem": 682,
-      "Ġinput": 683,
-      "Ġbet": 684,
-      "ween": 685,
-      "Ġoutput": 686,
-      "Ġsystems": 687,
-      "Ġbetween": 688,
-      "DSP": 689,
-      "Process": 690,
-      "nal": 691,
-      "ĠProcess": 692,
-      "ĠDSP": 693,
-      "ĠSig": 694,
-      "ĠProcessing": 695,
-      "ĠSignal": 696,
-      "Bit": 697,
-      "es": 698,
-      "min": 699,
-      "Ġea": 700,
-      "Ġdeter": 701,
-      "Ġbit": 702,
-      "ution": 703,
-      "Ġresol": 704,
-      "Ġof": 705,
-      "mines": 706,
-      "Ġeach": 707,
-      "Ġdetermines": 708,
-      "Ġresolution": 709,
-      "ge": 710,
-      "pora": 711,
-      "ry": 712,
-      "ring": 713,
-      "uring": 714,
-      "Ġtem": 715,
-      "Ġduring": 716,
-      "Ġprocessing": 717,
-      "Ġstora": 718,
-      "porary": 719,
-      "Ġtemporary": 720,
-      "Ġstorage": 721,
-      "AU": 722,
-      "Audio": 723,
-      "DAW": 724,
-      "Un": 725,
-      "Work": 726,
-      "pple": 727,
-      "tion": 728,
-      "ĠUn": 729,
-      "ĠWork": 730,
-      "station": 731,
-      "ĠDAW": 732,
-      "ĠAU": 733,
-      "ĠAudio": 734,
-      "ĠApple": 735,
-      "ĠUnit": 736,
-      "ĠWorkstation": 737,
-      "Sample": 738,
-      "ond": 739,
-      "pt": 740,
-      "ure": 741,
-      "Ġper": 742,
-      "Ġhow": 743,
-      "Ġsec": 744,
-      "Ġman": 745,
-      "Ġcapt": 746,
-      "ured": 747,
-      "Ġsecond": 748,
-      "Ġmany": 749,
-      "Ġcaptured": 750,
-      "cal": 751,
-      "ent": 752,
-      "ication": 753,
-      "ical": 754,
-      "mu": 755,
-      "ment": 756,
-      "nication": 757,
-      "ot": 758,
-      "ru": 759,
-      "rot": 760,
-      "st": 761,
-      "Ġprot": 762,
-      "ocol": 763,
-      "Ġmus": 764,
-      "Ġinst": 765,
-      "ĠMID": 766,
-      "Ġcommu": 767,
-      "MIDI": 768,
-      "rument": 769,
-      "Ġprotocol": 770,
-      "Ġmusical": 771,
-      "Ġinstrument": 772,
-      "ĠMIDI": 773,
-      "Ġcommunication": 774,
-      "ĠJUCE": 775,
-      "Ġapp": 776,
-      "Ġfram": 777,
-      "Ġplugins": 778,
-      "lications": 779,
-      "ework": 780,
-      "Ġapplications": 781,
-      "Ġframework": 782,
-      "Morning": 783,
-      "uddy": 784,
-      "Ġbuddy": 785,
-      "Howdy": 786,
-      "Ġfri": 787,
-      "Whats": 788,
-      "Ġgood": 789,
-      "Ġfriend": 790,
-      "evening": 791,
-      "fter": 792,
-      "no": 793,
-      "on": 794,
-      "Ġevening": 795,
-      "Ġafter": 796,
-      "noon": 797,
-      "Ġafternoon": 798,
-      "Ġmorning": 799,
-      "Evening": 800,
-      "Gre": 801,
-      "ings": 802,
-      "etings": 803,
-      "Greetings": 804,
-      "Sup": 805,
-      "Ġup": 806,
-      "86": 807,
-      "22": 808,
-      "31": 809,
-      "41": 810,
-      "13": 811,
-      "34": 812,
-      "89": 813,
-      "33": 814,
-      "49": 815,
-      "51": 816,
-      "65": 817,
-      "92": 818,
-      "98": 819,
-      "14": 820,
-      "16": 821,
-      "56": 822,
-      "58": 823,
-      "76": 824,
-      "88": 825,
-      "26": 826,
-      "64": 827,
-      "91": 828,
-      "29": 829,
-      "32": 830,
-      "48": 831,
-      "67": 832,
-      "74": 833,
-      "75": 834,
-      "85": 835,
-      "95": 836,
-      "18": 837,
-      "19": 838,
-      "37": 839,
-      "39": 840,
-      "62": 841,
-      "78": 842,
-      "94": 843,
-      "97": 844,
-      "99": 845,
-      "25": 846,
-      "35": 847,
-      "45": 848,
-      "87": 849,
-      "11": 850,
-      "21": 851,
-      "24": 852,
-      "43": 853,
-      "52": 854,
-      "63": 855,
-      "68": 856,
-      "71": 857,
-      "72": 858,
-      "93": 859,
-      "17": 860,
-      "23": 861,
-      "28": 862,
-      "36": 863,
-      "73": 864,
-      "79": 865,
-      "38": 866,
-      "77": 867,
-      "82": 868,
-      "83": 869,
-      "12": 870,
-      "44": 871,
-      "46": 872,
-      "53": 873,
-      "54": 874,
-      "27": 875,
-      "57": 876,
-      "42": 877,
-      "55": 878,
-      "61": 879,
-      "66": 880,
-      "69": 881,
-      "84": 882,
-      "15": 883,
-      "47": 884,
-      "96": 885,
-      "59": 886,
-      "81": 887
+      "ĠĠ": 262,
+      "ĠĠĠĠ": 263,
+      "ĠĠĠ": 264,
+      "in": 265,
+      "er": 266,
+      "at": 267,
+      "st": 268,
+      "et": 269,
+      "Ġ=": 270,
+      "lo": 271,
+      "re": 272,
+      "le": 273,
+      "on": 274,
+      "ce": 275,
+      "ĠĠĠĠĠĠĠ": 276,
+      "``": 277,
+      "im": 278,
+      "Ġc": 279,
+      "as": 280,
+      "int": 281,
+      "ar": 282,
+      ");": 283,
+      "an": 284,
+      "Ġf": 285,
+      "Ġb": 286,
+      "am": 287,
+      "Ġ{": 288,
+      "<|": 289,
+      "|>": 290,
+      "or": 291,
+      "en": 292,
+      "Ġp": 293,
+      "::": 294,
+      "id": 295,
+      "Ġs": 296,
+      "it": 297,
+      "Ġa": 298,
+      "ate": 299,
+      "loat": 300,
+      "//": 301,
+      "ro": 302,
+      "ff": 303,
+      "Ġ0": 304,
+      "al": 305,
+      "ck": 306,
+      "Ġd": 307,
+      "Ġt": 308,
+      "uff": 309,
+      "```": 310,
+      "uffer": 311,
+      "()": 312,
+      "ur": 313,
+      "ut": 314,
+      "Sk": 315,
+      "ad": 316,
+      "end": 317,
+      "Ġ}": 318,
+      "ple": 319,
+      "el": 320,
+      "Ġv": 321,
+      "aint": 322,
+      "ss": 323,
+      "star": 324,
+      "start": 325,
+      "ct": 326,
+      "Ġ(": 327,
+      "Ġo": 328,
+      "ample": 329,
+      "ue": 330,
+      "si": 331,
+      "get": 332,
+      "Ġfloat": 333,
+      "ĠĠĠĠĠĠĠĠ": 334,
+      "Ġw": 335,
+      "Ġ//": 336,
+      "ing": 337,
+      "ay": 338,
+      "Ġi": 339,
+      "oid": 340,
+      "ion": 341,
+      "cess": 342,
+      "ain": 343,
+      "Ġ-": 344,
+      "us": 345,
+      "Ġbuffer": 346,
+      "Ġ*": 347,
+      "li": 348,
+      "os": 349,
+      "rocess": 350,
+      "pp": 351,
+      "ud": 352,
+      "ju": 353,
+      "io": 354,
+      "udio": 355,
+      "Ġr": 356,
+      "rit": 357,
+      "ĠI": 358,
+      "Re": 359,
+      "juce": 360,
+      "Ġm": 361,
+      "Ġ1": 362,
+      "Ġre": 363,
+      "ra": 364,
+      "();": 365,
+      "ĠSk": 366,
+      "Ġy": 367,
+      "Co": 368,
+      "ex": 369,
+      "fa": 370,
+      "rite": 371,
+      "ak": 372,
+      "aram": 373,
+      "ĠĠĠĠĊ": 374,
+      "he": 375,
+      "Rate": 376,
+      "Ġpaint": 377,
+      "Ġvoid": 378,
+      "Ġn": 379,
+      "ver": 380,
+      "alue": 381,
+      "Ġst": 382,
+      "Pos": 383,
+      "cpp": 384,
+      "ĠA": 385,
+      "ont": 386,
+      "set": 387,
+      "ant": 388,
+      "vas": 389,
+      "anvas": 390,
+      "face": 391,
+      "put": 392,
+      "Ġint": 393,
+      "amples": 394,
+      "00": 395,
+      "St": 396,
+      "float": 397,
+      "ext": 398,
+      "ack": 399,
+      "pt": 400,
+      "Ġin": 401,
+      "lor": 402,
+      "ide": 403,
+      "ride": 404,
+      "Ġover": 405,
+      "Ġoverride": 406,
+      "om": 407,
+      "assi": 408,
+      "ul": 409,
+      "ĠG": 410,
+      ".<|": 411,
+      "ase": 412,
+      "ot": 413,
+      "un": 414,
+      "lock": 415,
+      "etur": 416,
+      "Ġretur": 417,
+      "Ġreturn": 418,
+      "user": 419,
+      "ze": 420,
+      "stant": 421,
+      "assistant": 422,
+      "elay": 423,
+      "eter": 424,
+      "ve": 425,
+      "raw": 426,
+      "ĠD": 427,
+      "ic": 428,
+      "Color": 429,
+      "ake": 430,
+      "Ġ2": 431,
+      "ritePos": 432,
+      "rocessor": 433,
+      "Ġjuce": 434,
+      "Ġset": 435,
+      "ol": 436,
+      "Samples": 437,
+      "ed": 438,
+      "ow": 439,
+      "Ġ+": 440,
+      "nt": 441,
+      "arameter": 442,
+      "Rect": 443,
+      "**": 444,
+      "ug": 445,
+      "our": 446,
+      "ec": 447,
+      "Ġif": 448,
+      "Ġprocess": 449,
+      "};": 450,
+      "Ġcanvas": 451,
+      "onst": 452,
+      "_;": 453,
+      "Ġg": 454,
+      "Audio": 455,
+      "lease": 456,
+      "Ġis": 457,
+      "ĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠ": 458,
+      "ent": 459,
+      "se": 460,
+      "Processor": 461,
+      "Ġ/": 462,
+      "Ġfor": 463,
+      "read": 464,
+      "th": 465,
+      "ions": 466,
+      "->": 467,
+      "Ġsample": 468,
+      "?<|": 469,
+      "Ġh": 470,
+      "Ġcli": 471,
+      "size": 472,
+      "ust": 473,
+      "tack": 474,
+      "Ġdo": 475,
+      "Ġx": 476,
+      "Parameter": 477,
+      "\",": 478,
+      "ub": 479,
+      "Ġvalue": 480,
+      "Ġ`": 481,
+      "Make": 482,
+      "Ġstd": 483,
+      "ecay": 484,
+      "ustain": 485,
+      "ĠC": 486,
+      "std": 487,
+      "um": 488,
+      "Ġ<": 489,
+      "ith": 490,
+      "ass": 491,
+      "vel": 492,
+      "For": 493,
+      "ĠĠĠĠĠĠĠĠĠĠĠ": 494,
+      "Ġconst": 495,
+      "utput": 496,
+      "_.": 497,
+      "pe": 498,
+      "is": 499,
+      "ptr": 500,
+      "Ġdelay": 501,
+      "Ġth": 502,
+      "arget": 503,
+      "Ġto": 504,
+      "Ġms": 505,
+      "ontext": 506,
+      "idx": 507,
+      "getN": 508,
+      "void": 509,
+      "In": 510,
+      "ĠĠĠĠĠĠĠĠĊ": 511,
+      "paint": 512,
+      "ram": 513,
+      "Block": 514,
+      "Ġat": 515,
+      "ĠT": 516,
+      "rect": 517,
+      "il": 518,
+      "How": 519,
+      "ĠwritePos": 520,
+      "han": 521,
+      "ote": 522,
+      "Ms": 523,
+      "iq": 524,
+      "Ġ\"": 525,
+      "Ġwith": 526,
+      "arams": 527,
+      "es": 528,
+      "Ġan": 529,
+      "ull": 530,
+      "Ġoutput": 531,
+      "adi": 532,
+      "ine": 533,
+      "Ġon": 534,
+      "(\"": 535,
+      "ri": 536,
+      "fo": 537,
+      "Le": 538,
+      "Ġ**": 539,
+      "ation": 540,
+      "Ġyour": 541,
+      "lug": 542,
+      "lugin": 543,
+      "ĠAudio": 544,
+      "ho": 545,
+      "Context": 546,
+      "erface": 547,
+      "Ġtim": 548,
+      "Ġstate": 549,
+      "all": 550,
+      "ptions": 551,
+      "buffer": 552,
+      "oint": 553,
+      "Ġnull": 554,
+      "Ġnullptr": 555,
+      "ĠsampleRate": 556,
+      "Ġinput": 557,
+      "()`": 558,
+      "Ġit": 559,
+      "em": 560,
+      "sp": 561,
+      "Buffer": 562,
+      "UI": 563,
+      "Ġaudio": 564,
+      "idi": 565,
+      "Ġ{}": 566,
+      "Ġthe": 567,
+      "ype": 568,
+      "Ġfont": 569,
+      "up": 570,
+      "Ġup": 571,
+      "Ġ100": 572,
+      "Ġdraw": 573,
+      "ile": 574,
+      "Ġthread": 575,
+      "ĠRe": 576,
+      "Pro": 577,
+      "Gain": 578,
+      "ge": 579,
+      "ĠFor": 580,
+      "ID": 581,
+      "der": 582,
+      "GB": 583,
+      "RGB": 584,
+      "Ġsustain": 585,
+      "Level": 586,
+      "ĠsustainLevel": 587,
+      "omic": 588,
+      "ab": 589,
+      "ĠB": 590,
+      "Set": 591,
+      "Ġget": 592,
+      "_[": 593,
+      "draw": 594,
+      "orm": 595,
+      "ata": 596,
+      "Paint": 597,
+      "55": 598,
+      "ique": 599,
+      "lic": 600,
+      "ublic": 601,
+      "ĠprocessBlock": 602,
+      "ĠId": 603,
+      "ere": 604,
+      "urface": 605,
+      "..": 606,
+      "Gr": 607,
+      "unique": 608,
+      "Value": 609,
+      "Ġle": 610,
+      "cl": 611,
+      "class": 612,
+      "reate": 613,
+      "writePos": 614,
+      "if": 615,
+      "ia": 616,
+      "ĠSkia": 617,
+      "Ġal": 618,
+      "alse": 619,
+      "ypeface": 620,
+      "ist": 621,
+      "Ġrelease": 622,
+      "rom": 623,
+      "nel": 624,
+      "hannel": 625,
+      "State": 626,
+      "od": 627,
+      "ou": 628,
+      "Ġgain": 629,
+      "())": 630,
+      "'s": 631,
+      "ĠM": 632,
+      "Ġ3": 633,
+      "getNum": 634,
+      "CE": 635,
+      "JU": 636,
+      "JUCE": 637,
+      "ool": 638,
+      "Ġdecay": 639,
+      "ĠIdle": 640,
+      "Canvas": 641,
+      "rue": 642,
+      "ĠS": 643,
+      "op": 644,
+      "ĠW": 645,
+      "Ali": 646,
+      "Ant": 647,
+      "iAli": 648,
+      "AntiAli": 649,
+      "AntiAlias": 650,
+      "ch": 651,
+      "setColor": 652,
+      "));": 653,
+      "use": 654,
+      "irect": 655,
+      "Com": 656,
+      "ore": 657,
+      "iti": 658,
+      "gain": 659,
+      "Info": 660,
+      "Ġidx": 661,
+      "ĠdelaySamples": 662,
+      "date": 663,
+      "RE": 664,
+      "heck": 665,
+      "ĠSkRect": 666,
+      "ĠL": 667,
+      "gram": 668,
+      "Program": 669,
+      "),": 670,
+      "Ed": 671,
+      "Ġclip": 672,
+      "Ġread": 673,
+      "Ġyou": 674,
+      "Ġupdate": 675,
+      "ep": 676,
+      "ory": 677,
+      "emory": 678,
+      "able": 679,
+      "ĠUI": 680,
+      "Ġ4": 681,
+      "mo": 682,
+      "Ġradi": 683,
+      "Ġradius": 684,
+      "Ġnote": 685,
+      "001": 686,
+      "ttack": 687,
+      "reak": 688,
+      "Ġcase": 689,
+      "Ġbreak": 690,
+      "Rates": 691,
+      "Ġattack": 692,
+      "ĠupdateRates": 693,
+      "Ġde": 694,
+      "Ġpro": 695,
+      "ĠJUCE": 696,
+      "Ġuse": 697,
+      "per": 698,
+      "ĠN": 699,
+      "public": 700,
+      "SkCanvas": 701,
+      "SkColor": 702,
+      "Midi": 703,
+      "and": 704,
+      "und": 705,
+      "Your": 706,
+      "WH": 707,
+      "ARGB": 708,
+      "aniti": 709,
+      "SetARGB": 710,
+      "\");": 711,
+      "true": 712,
+      "ice": 713,
+      "ree": 714,
+      "Ġtarget": 715,
+      "Ġtimer": 716,
+      "Th": 717,
+      "Use": 718,
+      "TE": 719,
+      "Ġ8": 720,
+      "uto": 721,
+      "itor": 722,
+      "GL": 723,
+      "bInfo": 724,
+      "ĠGL": 725,
+      "ĠGr": 726,
+      "rame": 727,
+      "value": 728,
+      "ctor": 729,
+      "pol": 730,
+      "erpol": 731,
+      "Ġfra": 732,
+      "ring": 733,
+      "String": 734,
+      "store": 735,
+      "50": 736,
+      "Ġgr": 737,
+      "atomic": 738,
+      "sk": 739,
+      "Ġl": 740,
+      "Ġhere": 741,
+      "getNumSamples": 742,
+      "options": 743,
+      "Ġ+=": 744,
+      "pon": 745,
+      "ponent": 746,
+      "inear": 747,
+      "Ġcos": 748,
+      "Ġcosw": 749,
+      "pped": 750,
+      "ame": 751,
+      "AudioProcessor": 752,
+      "ter": 753,
+      "Ġbool": 754,
+      "ha": 755,
+      "Ġ30": 756,
+      "The": 757,
+      "ition": 758,
+      "ill": 759,
+      "ener": 760,
+      "ke": 761,
+      "back": 762,
+      "Ġmet": 763,
+      "Float": 764,
+      "AudioParameter": 765,
+      "ction": 766,
+      "gg": 767,
+      "yle": 768,
+      "Style": 769,
+      "adata": 770,
+      "Ġmsg": 771,
+      "Plugin": 772,
+      "YourPlugin": 773,
+      "Ġparams": 774,
+      "ĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠ": 775,
+      "Ġplugin": 776,
+      "AD": 777,
+      "OD": 778,
+      "OOD": 779,
+      "ĠGOOD": 780,
+      "ĠBAD": 781,
+      "Ġen": 782,
+      "ĠRelease": 783,
+      "Ġ:": 784,
+      "Ġlo": 785,
+      "dd": 786,
+      "faul": 787,
+      "ĠDe": 788,
+      "fault": 789,
+      "ave": 790,
+      "make": 791,
+      "Point": 792,
+      "Text": 793,
+      "loc": 794,
+      "Ġlevel": 795,
+      "ity": 796,
+      "255": 797,
+      "setAntiAlias": 798,
+      "ds": 799,
+      "Write": 800,
+      "ĠSkPaint": 801,
+      "Ġpoint": 802,
+      "100": 803,
+      "Ġbe": 804,
+      "ace": 805,
+      "Ġ++": 806,
+      "ĠIn": 807,
+      "ax": 808,
+      "ind": 809,
+      "add": 810,
+      "move": 811,
+      "form": 812,
+      "ress": 813,
+      "Ġchannel": 814,
+      "Ġac": 815,
+      "rent": 816,
+      "urrent": 817,
+      "ormal": 818,
+      "Ġcall": 819,
+      "Ġsamples": 820,
+      "Ġcom": 821,
+      "Ġwrite": 822,
+      "88": 823,
+      "Direct": 824,
+      "Surface": 825,
+      "Ġframe": 826,
+      "Ġsurface": 827,
+      "Ġinterface": 828,
+      "ĠCreate": 829,
+      "DirectContext": 830,
+      "Int": 831,
+      "...": 832,
+      "Ġfrac": 833,
+      "order": 834,
+      "ber": 835,
+      "ode": 836,
+      "List": 837,
+      "yCom": 838,
+      "yComponent": 839,
+      "ial": 840,
+      "olor": 841,
+      "Ġcolor": 842,
+      "adient": 843,
+      "ht": 844,
+      "Ġver": 845,
+      "pass": 846,
+      "ATE": 847,
+      "IV": 848,
+      "PR": 849,
+      "fs": 850,
+      "ĠPR": 851,
+      "anitize": 852,
+      "IVATE": 853,
+      "fsanitize": 854,
+      "ĠPRIVATE": 855,
+      "&)": 856,
+      "Ġfalse": 857,
+      "Editor": 858,
+      "From": 859,
+      "gin": 860,
+      "const": 861,
+      "cle": 862,
+      "pha": 863,
+      "Ġalpha": 864,
+      "pri": 865,
+      "vate": 866,
+      "private": 867,
+      "Ġnot": 868,
+      "Ġclipped": 869,
+      "SK": 870,
+      "Ġcreate": 871,
+      "Typeface": 872,
+      "Ġtext": 873,
+      "imple": 874,
+      "Ġsy": 875,
+      "Step": 876,
+      "ĠDefault": 877,
+      "false": 878,
+      "ive": 879,
+      "SkPaint": 880,
+      "dRe": 881,
+      "uldRe": 882,
+      "houldRe": 883,
+      "houldRepaint": 884,
+      "Ġun": 885,
+      "This": 886,
+      "Ġfrom": 887,
+      "Ġ200": 888,
+      "umber": 889,
+      "Ġ255": 890,
+      "Ġmetadata": 891,
+      ">(": 892,
+      "{\"": 893,
+      "},": 894,
+      "ange": 895,
+      "Ġparameter": 896,
+      "ParameterID": 897,
+      "PU": 898,
+      "Target": 899,
+      "for": 900,
+      "sion": 901,
+      "Ġversion": 902,
+      "_)": 903,
+      "_);": 904,
+      "ĠAttack": 905,
+      "ĠDecay": 906,
+      "ĠreleaseRate": 907,
+      "ĠdecayRate": 908,
+      "ĠSustain": 909,
+      "ĠattackRate": 910,
+      "Ġcan": 911,
+      "Ġ.": 912,
+      "Ġor": 913,
+      "Ġ>": 914,
+      "_]": 915,
+      "Ġq": 916,
+      "ly": 917,
+      "'t": 918,
+      "Ġdata": 919,
+      "sample": 920,
+      "Ġcr": 921,
+      "vector": 922,
+      "Ġ<=": 923,
+      "Channel": 924,
+      "ag": 925,
+      "ever": 926,
+      "this": 927,
+      ">&": 928,
+      "AudioBuffer": 929,
+      "MidiBuffer": 930,
+      "Ġremove": 931,
+      "Ġleak": 932,
+      "ig": 933,
+      "Ġli": 934,
+      "ĠsetS": 935,
+      "Ra": 936,
+      "wParameter": 937,
+      "getRa": 938,
+      "wParameterValue": 939,
+      "getRawParameterValue": 940,
+      "Ġrect": 941,
+      "SkColorSetARGB": 942,
+      "Ġauto": 943,
+      "Ġmidi": 944,
+      "Ġclick": 945,
+      "ron": 946,
+      "ER": 947,
+      "EV": 948,
+      "Ġlock": 949,
+      "ĠNEV": 950,
+      "ĠNEVER": 951,
+      "Ġblock": 952,
+      "Ġatomic": 953,
+      "params": 954,
+      "round": 955,
+      "Ġrace": 956,
+      "resize": 957,
+      "hat": 958,
+      ":**": 959,
+      "AK": 960,
+      "ton": 961,
+      "utton": 962,
+      "Listener": 963,
+      "Ġ%": 964,
+      "Ġ*=": 965,
+      "ĠThe": 966,
+      "Ġ20": 967,
+      "Ġby": 968,
+      "uble": 969,
+      "ĠAudioProcessor": 970,
+      "Den": 971,
+      "ormals": 972,
+      "Denormals": 973,
+      "formation": 974,
+      "Sh": 975,
+      "fe": 976,
+      "ne": 977,
+      "target": 978,
+      "()`,": 979,
+      "Ġch": 980,
+      "Ġ50": 981,
+      "memory": 982,
+      "Ġand": 983,
+      "Ġ40": 984,
+      "Back": 985,
+      "Rend": 986,
+      "fbInfo": 987,
+      "Ġk": 988,
+      "erTarget": 989,
+      "Ġcontext": 990,
+      "interface": 991,
+      "ĠfbInfo": 992,
+      "endRend": 993,
+      "Ġoptions": 994,
+      "ĠGPU": 995,
+      "RGBA": 996,
+      "ĠGrGL": 997,
+      "ĠGrDirectContext": 998,
+      "ĠgrContext": 999,
+      "Ġframebuffer": 1000,
+      "Interface": 1001,
+      "BackendRend": 1002,
+      "BackendRenderTarget": 1003,
+      "rap": 1004,
+      "Delay": 1005,
+      "delay": 1006,
+      "ated": 1007,
+      "Ġinterpol": 1008,
+      "readPos": 1009,
+      "ĠreadPos": 1010,
+      "erpolated": 1011,
+      "axSamples": 1012,
+      "delaySamples": 1013,
+      "Ġinterpolation": 1014,
+      "kC": 1015,
+      "tom": 1016,
+      "ottom": 1017,
+      "Linear": 1018,
+      "Ġpos": 1019,
+      "pl": 1020,
+      "ĠUse": 1021,
+      "Ġacce": 1022,
+      "asic": 1023,
+      "Ġbasic": 1024,
+      "60": 1025,
+      "Ġ60": 1026,
+      "ader": 1027,
+      "ĠSkColor": 1028,
+      "ĠSkPoint": 1029,
+      "ĠDraw": 1030,
+      "Ġgradient": 1031,
+      "Ġpoints": 1032,
+      "Ġcolors": 1033,
+      "Shader": 1034,
+      "ĠSkColorSetARGB": 1035,
+      "++": 1036,
+      "nder": 1037,
+      "ath": 1038,
+      "Ġrender": 1039,
+      "());": 1040,
+      "opy": 1041,
+      "Ġwant": 1042,
+      "Ġ80": 1043,
+      "Current": 1044,
+      "Name": 1045,
+      "Output": 1046,
+      "oug": 1047,
+      "pv": 1048,
+      "sMidi": 1049,
+      "ts": 1050,
+      "with": 1051,
+      "stere": 1052,
+      "ainProcessor": 1053,
+      "ĠGainProcessor": 1054,
+      "AudioChannel": 1055,
+      "thoug": 1056,
+      "Input": 1057,
+      "Information": 1058,
+      "StateInformation": 1059,
+      "ProgramName": 1060,
+      "CurrentProgram": 1061,
+      "pvts": 1062,
+      "stereo": 1063,
+      "AudioChannelSet": 1064,
+      "thought": 1065,
+      "Al": 1066,
+      "idth": 1067,
+      "(),": 1068,
+      "Or": 1069,
+      "uad": 1070,
+      "inw": 1071,
+      "req": 1072,
+      "Ġfreq": 1073,
+      "Ġsinw": 1074,
+      "ĠDirect": 1075,
+      "owpass": 1076,
+      "iquad": 1077,
+      "ĠForm": 1078,
+      "Ci": 1079,
+      "cli": 1080,
+      "pRect": 1081,
+      "rcle": 1082,
+      "save": 1083,
+      "restore": 1084,
+      "drawCi": 1085,
+      "ĠclipRect": 1086,
+      "Ġ>=": 1087,
+      "clipRect": 1088,
+      "drawCircle": 1089,
+      "Ġhas": 1090,
+      "oth": 1091,
+      "Font": 1092,
+      "ging": 1093,
+      "ix": 1094,
+      "pix": 1095,
+      "text": 1096,
+      "typeface": 1097,
+      "elAntiAlias": 1098,
+      "ubpix": 1099,
+      "Edging": 1100,
+      "ubpixelAntiAlias": 1101,
+      "Ġfl": 1102,
+      "hange": 1103,
+      "Mode": 1104,
+      "Ġcle": 1105,
+      "app": 1106,
+      "stem": 1107,
+      "ching": 1108,
+      "Ġlinear": 1109,
+      "ies": 1110,
+      "Params": 1111,
+      "Tree": 1112,
+      "ract": 1113,
+      "ValueTree": 1114,
+      "AudioProcessorValueTree": 1115,
+      "AudioParameterFloat": 1116,
+      "AudioProcessorValueTreeState": 1117,
+      "Ġ...": 1118,
+      "repaint": 1119,
+      "ĠshouldRepaint": 1120,
+      "XY": 1121,
+      "MakeXY": 1122,
+      "MakeXYWH": 1123,
+      "gn": 1124,
+      "ias": 1125,
+      "Ġant": 1126,
+      "iasing": 1127,
+      "Ġwill": 1128,
+      "Ġju": 1129,
+      "Ġproper": 1130,
+      "eff": 1131,
+      "Coeff": 1132,
+      "ac": 1133,
+      "rigg": 1134,
+      "rigger": 1135,
+      "Ġrec": 1136,
+      "release": 1137,
+      "Ro": 1138,
+      "roke": 1139,
+      "setStyle": 1140,
+      "Stroke": 1141,
+      "drawRo": 1142,
+      "undRect": 1143,
+      "drawRoundRect": 1144,
+      "ang": 1145,
+      "Note": 1146,
+      "Number": 1147,
+      "eloc": 1148,
+      "ms": 1149,
+      "oice": 1150,
+      "Ġvoice": 1151,
+      "Position": 1152,
+      "nth": 1153,
+      "isNote": 1154,
+      "getNote": 1155,
+      "Ġtiming": 1156,
+      "Ġsynth": 1157,
+      "samplePosition": 1158,
+      "elocity": 1159,
+      "msg": 1160,
+      "isNoteO": 1161,
+      "getNoteNumber": 1162,
+      "age": 1163,
+      "ess": 1164,
+      "essage": 1165,
+      "pus": 1166,
+      "Ġ));": 1167,
+      "Ġrange": 1168,
+      "Ġhint": 1169,
+      "hoice": 1170,
+      "ĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠ": 1171,
+      "push": 1172,
+      "Ġ10": 1173,
+      "Attack": 1174,
+      "attack": 1175,
+      "!=": 1176,
+      "DS": 1177,
+      "ĠState": 1178,
+      "Ġ!=": 1179,
+      "state": 1180,
+      "lope": 1181,
+      "Ġsr": 1182,
+      "Ġ-=": 1183,
+      "ĠADS": 1184,
+      "velope": 1185,
+      "ĠreleaseMs": 1186,
+      "ĠdecayMs": 1187,
+      "ĠnoteO": 1188,
+      "ĠattackMs": 1189,
+      "Ġenvelope": 1190,
+      "ĠADSR": 1191,
+      "ampleRate": 1192,
+      "Check": 1193,
+      "gr": 1194,
+      "MID": 1195,
+      "PRE": 1196,
+      "SU": 1197,
+      "SUF": 1198,
+      "low": 1199,
+      "'re": 1200,
+      "uil": 1201,
+      "Ġbuil": 1202,
+      "Ġpublic": 1203,
+      "RED": 1204,
+      "Ġremoves": 1205,
+      "ution": 1206,
+      "En": 1207,
+      "imer": 1208,
+      "itions": 1209,
+      "ical": 1210,
+      "Ġof": 1211,
+      "Ġone": 1212,
+      "onds": 1213,
+      "Ġno": 1214,
+      "econds": 1215,
+      "lyGain": 1216,
+      "applyGain": 1217,
+      "ire": 1218,
+      "zer": 1219,
+      "bug": 1220,
+      "ally": 1221,
+      "bst": 1222,
+      "Ġsimple": 1223,
+      "Ġclicks": 1224,
+      "bstract": 1225,
+      "pping": 1226,
+      "File": 1227,
+      "cre": 1228,
+      "den": 1229,
+      "Ġscre": 1230,
+      "lassi": 1231,
+      "ting": 1232,
+      "ther": 1233,
+      "lassic": 1234,
+      "Ġany": 1235,
+      "rong": 1236,
+      "ks": 1237,
+      "ading": 1238,
+      "Ġloading": 1239,
+      "com": 1240,
+      "ash": 1241,
+      "No": 1242,
+      "sol": 1243,
+      "ations": 1244,
+      "utex": 1245,
+      "Ġoper": 1246,
+      "Ġprocessing": 1247,
+      "Ġoperations": 1248,
+      "Meter": 1249,
+      "bool": 1250,
+      "free": 1251,
+      "Ġpol": 1252,
+      "Ġpoll": 1253,
+      "are": 1254,
+      "pare": 1255,
+      "repare": 1256,
+      "ĠAdd": 1257,
+      "10": 1258,
+      "ond": 1259,
+      "Ġcond": 1260,
+      "Line": 1261,
+      "];": 1262,
+      "samples": 1263,
+      "elayLine": 1264,
+      "ĠDelayLine": 1265,
+      "Ġsw": 1266,
+      "ize": 1267,
+      "MakeWH": 1268,
+      "drawRect": 1269,
+      "EAK": 1270,
+      "MyComponent": 1271,
+      "ru": 1272,
+      "stru": 1273,
+      "Ġbutton": 1274,
+      "ĠMyComponent": 1275,
+      "REQ": 1276,
+      "ĠLEAK": 1277,
+      "Ġproc": 1278,
+      "address": 1279,
+      "My": 1280,
+      "ete": 1281,
+      "Ġdel": 1282,
+      "Saniti": 1283,
+      "bash": 1284,
+      "lin": 1285,
+      "mon": 1286,
+      "pile": 1287,
+      "ĠProcessor": 1288,
+      "Ġfind": 1289,
+      "ĠCheck": 1290,
+      "Common": 1291,
+      "compile": 1292,
+      "Sanitizer": 1293,
+      "link": 1294,
+      "dGain": 1295,
+      "ling": 1296,
+      "mp": 1297,
+      "Ġstart": 1298,
+      "Ġsmo": 1299,
+      "hedGain": 1300,
+      "othedGain": 1301,
+      "Ġjump": 1302,
+      "ĠsmoothedGain": 1303,
+      "Ver": 1304,
+      "ev": 1305,
+      "ĠVer": 1306,
+      "igh": 1307,
+      "Table": 1308,
+      "ground": 1309,
+      "ifo": 1310,
+      "mun": 1311,
+      "etim": 1312,
+      "ashe": 1313,
+      "Ġback": 1314,
+      "Ġsom": 1315,
+      "plex": 1316,
+      "Ġ->": 1317,
+      "ication": 1318,
+      "thread": 1319,
+      "Ġthreads": 1320,
+      "andom": 1321,
+      "Ġcommun": 1322,
+      "Ġwrites": 1323,
+      "Ġcrashe": 1324,
+      "etimes": 1325,
+      "Ġbackground": 1326,
+      "Ġsometimes": 1327,
+      "Ġcommunication": 1328,
+      "Ġcrashes": 1329,
+      "Pl": 1330,
+      "To": 1331,
+      "Ġprepare": 1332,
+      "Play": 1333,
+      "ToPlay": 1334,
+      "That": 1335,
+      "ify": 1336,
+      "Ġprocessor": 1337,
+      "Ġall": 1338,
+      "Ġadd": 1339,
+      "ĠAudioBuffer": 1340,
+      "fter": 1341,
+      "do": 1342,
+      "ĠprepareToPlay": 1343,
+      "double": 1344,
+      "Ġcurrent": 1345,
+      "Ġne": 1346,
+      "cur": 1347,
+      "curate": 1348,
+      "(...": 1349,
+      "Call": 1350,
+      "afe": 1351,
+      "processor": 1352,
+      "Ġed": 1353,
+      "adlock": 1354,
+      "ĠThat": 1355,
+      "Ġdeadlock": 1356,
+      "ĠtimerCall": 1357,
+      "(...)": 1358,
+      "Ġeditor": 1359,
+      "ĠtimerCallback": 1360,
+      "way": 1361,
+      "ways": 1362,
+      "}<": 1363,
+      "gent": 1364,
+      "ĠAgent": 1365,
+      "BG": 1366,
+      "BO": 1367,
+      "Bottom": 1368,
+      "Fa": 1369,
+      "Frame": 1370,
+      "FBO": 1371,
+      "Mas": 1372,
+      "Nat": 1373,
+      "Ori": 1374,
+      "Options": 1375,
+      "Path": 1376,
+      "Type": 1377,
+      "Wrap": 1378,
+      "aching": 1379,
+      "ft": 1380,
+      "fFor": 1381,
+      "fAl": 1382,
+      "fFBO": 1383,
+      "ie": 1384,
+      "ler": 1385,
+      "land": 1386,
+      "mat": 1387,
+      "width": 1388,
+      "Ġhe": 1389,
+      "Ġever": 1390,
+      "atform": 1391,
+      "oned": 1392,
+      "Ġdie": 1393,
+      "Ġtrue": 1394,
+      "SkSurface": 1395,
+      "Ġ(!": 1396,
+      "getCanvas": 1397,
+      "Ġwind": 1398,
+      "ayland": 1399,
+      "ĠSkSurface": 1400,
+      "ĠGet": 1401,
+      "ĠDBG": 1402,
+      "owing": 1403,
+      "ecif": 1404,
+      "MakeGL": 1405,
+      "MakeNat": 1406,
+      "Left": 1407,
+      "ContextOptions": 1408,
+      "Ġtime": 1409,
+      "bufferInfo": 1410,
+      "specif": 1411,
+      "iled": 1412,
+      "aband": 1413,
+      "GrGL": 1414,
+      "GrSurface": 1415,
+      "GrDirectContext": 1416,
+      "GrBackendRenderTarget": 1417,
+      "GrContextOptions": 1418,
+      "ĠWayland": 1419,
+      "SkColorType": 1420,
+      "8888": 1421,
+      "Ġsystem": 1422,
+      "iveInterface": 1423,
+      "ight": 1424,
+      "ĠkRGBA": 1425,
+      "ĠkBottom": 1426,
+      "ĠGrGLInterface": 1427,
+      "ĠGrGLMakeNat": 1428,
+      "kCaching": 1429,
+      "platform": 1430,
+      "Ġacceler": 1431,
+      "Ġrendering": 1432,
+      "grContext": 1433,
+      "lowPath": 1434,
+      "Failed": 1435,
+      "FramebufferInfo": 1436,
+      "MaskCaching": 1437,
+      "Origin": 1438,
+      "WrapBackendRenderTarget": 1439,
+      "fFormat": 1440,
+      "fAllowPath": 1441,
+      "fFBOID": 1442,
+      "Ġheight": 1443,
+      "Ġevery": 1444,
+      "Ġwindowing": 1445,
+      "ĠSkSurfaces": 1446,
+      "specific": 1447,
+      "abandoned": 1448,
+      "GrGLFramebufferInfo": 1449,
+      "GrSurfaceOrigin": 1450,
+      "ĠkBottomLeft": 1451,
+      "ĠGrGLMakeNativeInterface": 1452,
+      "Ġacceleration": 1453,
+      "fAllowPathMaskCaching": 1454,
+      "Im": 1455,
+      "Max": 1456,
+      "_++": 1457,
+      "dv": 1458,
+      "flo": 1459,
+      "min": 1460,
+      "ment": 1461,
+      "maxSamples": 1462,
+      "erfe": 1463,
+      "interpolated": 1464,
+      "ance": 1465,
+      "Ġfine": 1466,
+      "Ġperfe": 1467,
+      "plement": 1468,
+      "Ġwrap": 1469,
+      "ĠmaxSamples": 1470,
+      "ĠAdv": 1471,
+      "ĠsetDelay": 1472,
+      "ĠsetMax": 1473,
+      "ĠprocessInt": 1474,
+      "Ġdelays": 1475,
+      "ĠRead": 1476,
+      "ĠWrite": 1477,
+      "Ġfraction": 1478,
+      "Ġline": 1479,
+      "ctionist": 1480,
+      "Ġposition": 1481,
+      "Ġallpass": 1482,
+      "Implement": 1483,
+      "_++;": 1484,
+      "floor": 1485,
+      "Ġperfectionist": 1486,
+      "ĠAdvance": 1487,
+      "ĠsetMaxDelay": 1488,
+      "ĠprocessInterpolated": 1489,
+      "Ġfractional": 1490,
+      "200": 1491,
+      "Tile": 1492,
+      "bution": 1493,
+      "canvas": 1494,
+      "lam": 1495,
+      "tical": 1496,
+      "Ġev": 1497,
+      "Ġpass": 1498,
+      "Ġdist": 1499,
+      "SkRect": 1500,
+      "SkGr": 1501,
+      "SkPoint": 1502,
+      "ĠSkTile": 1503,
+      "setShader": 1504,
+      "MakeLinear": 1505,
+      "ĠTop": 1506,
+      "ribution": 1507,
+      "ĠBottom": 1508,
+      "adientShader": 1509,
+      "kClam": 1510,
+      "Ġpositions": 1511,
+      "ĠVertical": 1512,
+      "Ġeven": 1513,
+      "Ġdistribution": 1514,
+      "SkGradientShader": 1515,
+      "ĠSkTileMode": 1516,
+      "kClamp": 1517,
+      "clear": 1518,
+      "Ġafter": 1519,
+      "Ġplugins": 1520,
+      "Don": 1521,
+      "copy": 1522,
+      "ead": 1523,
+      "ner": 1524,
+      "py": 1525,
+      "ually": 1526,
+      "ĠCo": 1527,
+      "ĠOr": 1528,
+      "stead": 1529,
+      "Ġcopy": 1530,
+      "anually": 1531,
+      "roug": 1532,
+      "Ġmanually": 1533,
+      "Ġrepl": 1534,
+      "Ġinstead": 1535,
+      "Ġthroug": 1536,
+      "Ġanoth": 1537,
+      "hods": 1538,
+      "Ġmethods": 1539,
+      "Ġloop": 1540,
+      "Ġbegin": 1541,
+      "addFrom": 1542,
+      "Ġlike": 1543,
+      "Ġbuilt": 1544,
+      "copyFrom": 1545,
+      "ĠCopy": 1546,
+      "Ġreplace": 1547,
+      "Ġthrough": 1548,
+      "Ġanother": 1549,
+      "Ġbeginner": 1550,
+      "\";": 1551,
+      ")}": 1552,
+      "*,": 1553,
+      ".<": 1554,
+      ">(\"": 1555,
+      "Bus": 1556,
+      "Ke": 1557,
+      "Len": 1558,
+      "Memory": 1559,
+      "Seconds": 1560,
+      "Ta": 1561,
+      "Us": 1562,
+      "apvts": 1563,
+      "du": 1564,
+      "gth": 1565,
+      "sour": 1566,
+      "ties": 1567,
+      "{*": 1568,
+      "ĠgetN": 1569,
+      "ĠgetNum": 1570,
+      "ĠKe": 1571,
+      "inim": 1572,
+      "ces": 1573,
+      "cesMidi": 1574,
+      "Ġchange": 1575,
+      "ary": 1576,
+      "Ġ{};": 1577,
+      "Ġapvts": 1578,
+      "Ġabstract": 1579,
+      "cessary": 1580,
+      "Resour": 1581,
+      "Ġminim": 1582,
+      "ptsMidi": 1583,
+      "ĠsetStateInformation": 1584,
+      "ĠsetCurrentProgram": 1585,
+      "Ġdouble": 1586,
+      "ilLen": 1587,
+      "esPro": 1588,
+      "ĠgetStateInformation": 1589,
+      "ĠgetProgramName": 1590,
+      "ĠgetCurrentProgram": 1591,
+      "ĠgetTa": 1592,
+      "ĠreleaseResour": 1593,
+      "()))": 1594,
+      "Programs": 1595,
+      "Ġprodu": 1596,
+      "perties": 1597,
+      "ĠNo": 1598,
+      "AudioProcessorEditor": 1599,
+      "ĠcreateEditor": 1600,
+      "Ġunne": 1601,
+      "ĠacceptsMidi": 1602,
+      "Ġwants": 1603,
+      "withOutput": 1604,
+      "withInput": 1605,
+      "ĠhasEditor": 1606,
+      "Ġfluff": 1607,
+      ")}};": 1608,
+      ".</": 1609,
+      "BusesPro": 1610,
+      "MemoryBlock": 1611,
+      "User": 1612,
+      "gthSeconds": 1613,
+      "ĠgetName": 1614,
+      "ĠgetNumPrograms": 1615,
+      "ĠKeep": 1616,
+      "ĠchangeProgramName": 1617,
+      "Ġabstractions": 1618,
+      "Ġminimal": 1619,
+      "ilLengthSeconds": 1620,
+      "ĠgetTailLengthSeconds": 1621,
+      "ĠreleaseResources": 1622,
+      "ĠproducesMidi": 1623,
+      "Ġunnecessary": 1624,
+      "BusesProperties": 1625,
+      "Lowpass": 1626,
+      "PI": 1627,
+      "cos": 1628,
+      "ient": 1629,
+      "ran": 1630,
+      "sin": 1631,
+      "ating": 1632,
+      "Ġcuto": 1633,
+      "Ġfil": 1634,
+      "Ġbiquad": 1635,
+      "Ġavoid": 1636,
+      "Ġ((": 1637,
+      "Ġ(-": 1638,
+      "sign": 1639,
+      "osed": 1640,
+      "ĠII": 1641,
+      "Ġmod": 1642,
+      "Ġreset": 1643,
+      "ulating": 1644,
+      "icient": 1645,
+      "ĠsetCoeff": 1646,
+      "ĠsetLowpass": 1647,
+      "ĠTran": 1648,
+      "sposed": 1649,
+      "ĠBiquad": 1650,
+      "ĠLowpass": 1651,
+      "Ġdesign": 1652,
+      "++<|": 1653,
+      "Ġcutoff": 1654,
+      "Ġfilter": 1655,
+      "Ġmodulating": 1656,
+      "icients": 1657,
+      "ĠsetCoefficients": 1658,
+      "ĠTransposed": 1659,
+      "/`": 1660,
+      "250": 1661,
+      "AY": 1662,
+      "BL": 1663,
+      "Cli": 1664,
+      "Ever": 1665,
+      "LW": 1666,
+      "UE": 1667,
+      "gion": 1668,
+      "yth": 1669,
+      "ĠEver": 1670,
+      "Ġclassic": 1671,
+      "Ġbug": 1672,
+      "Ġsave": 1673,
+      "Ġother": 1674,
+      "getting": 1675,
+      "Ġregion": 1676,
+      "ĠALW": 1677,
+      "Ġinto": 1678,
+      "ColorRED": 1679,
+      "ColorBL": 1680,
+      "Ġclipping": 1681,
+      "Forgetting": 1682,
+      "fore": 1683,
+      "()`/`": 1684,
+      "Ġdrawn": 1685,
+      "Ġdrawing": 1686,
+      "ĠdrawCli": 1687,
+      "ĠRestore": 1688,
+      "ĠWill": 1689,
+      "Ġbefore": 1690,
+      "Ġcalls": 1691,
+      "ĠDrawing": 1692,
+      "AYS": 1693,
+      "ything": 1694,
+      "ĠEverything": 1695,
+      "ĠALWAYS": 1696,
+      "ColorBLUE": 1697,
+      "ĠdrawClipped": 1698,
+      "14": 1699,
+      "CD": 1700,
+      "Em": 1701,
+      "ITE": 1702,
+      "Simple": 1703,
+      "SubpixelAntiAlias": 1704,
+      "Size": 1705,
+      "TF": 1706,
+      "UTF": 1707,
+      "bol": 1708,
+      "cod": 1709,
+      "font": 1710,
+      "gul": 1711,
+      "kSubpixelAntiAlias": 1712,
+      "kUTF": 1713,
+      "lur": 1714,
+      "oks": 1715,
+      "path": 1716,
+      "ry": 1717,
+      "rle": 1718,
+      "tf": 1719,
+      "to": 1720,
+      "ttf": 1721,
+      "Ġblur": 1722,
+      "ens": 1723,
+      "Ġtypeface": 1724,
+      "SkTypeface": 1725,
+      "SkFont": 1726,
+      "ĠSkText": 1727,
+      "ĠSkTypeface": 1728,
+      "ĠSkFont": 1729,
+      "Ġstrle": 1730,
+      "setTypeface": 1731,
+      "setEdging": 1732,
+      "setEm": 1733,
+      "setSize": 1734,
+      "ColorWH": 1735,
+      "MakeFrom": 1736,
+      "(\"/": 1737,
+      "ĠdrawText": 1738,
+      "ĠRegul": 1739,
+      "drawSimple": 1740,
+      "ĠSubpixelAntiAlias": 1741,
+      "ĠLCD": 1742,
+      "Ġlooks": 1743,
+      "ialiasing": 1744,
+      "Ġchar": 1745,
+      "Ġclean": 1746,
+      "Ġantialiasing": 1747,
+      "Encod": 1748,
+      "Ġscreens": 1749,
+      "bolden": 1750,
+      "Ġblurry": 1751,
+      "ĠSkTextEncod": 1752,
+      "Ġstrlen": 1753,
+      "setEmbolden": 1754,
+      "ColorWHITE": 1755,
+      "MakeFromFile": 1756,
+      "ĠRegular": 1757,
+      "drawSimpleText": 1758,
+      "ĠSkTextEncoding": 1759,
+      "\")": 1760,
+      "Ġmemory": 1761,
+      "ĠTimer": 1762,
+      "Ġwrong": 1763,
+      "Ġnumber": 1764,
+      "Ġnumbers": 1765,
+      "))": 1766,
+      "Is": 1767,
+      "Lo": 1768,
+      "bsol": 1769,
+      "change": 1770,
+      "ipe": 1771,
+      "qu": 1772,
+      "shouldRepaint": 1773,
+      "Ġsafe": 1774,
+      "Ġtrigger": 1775,
+      "utel": 1776,
+      "Ġmust": 1777,
+      "Ġmutex": 1778,
+      "Ġrepaint": 1779,
+      "exchange": 1780,
+      "ĠAbsol": 1781,
+      "ome": 1782,
+      "Ġgo": 1783,
+      "Ġhome": 1784,
+      "Ġthat": 1785,
+      "ĠlevelMeter": 1786,
+      "Ġflag": 1787,
+      "acqu": 1788,
+      "Ġrecipe": 1789,
+      "Ġdeadlocks": 1790,
+      "Lock": 1791,
+      "utely": 1792,
+      "Ġmutexes": 1793,
+      "ĠAbsolutely": 1794,
+      "acquire": 1795,
+      "Ġclear": 1796,
+      "Ġdebug": 1797,
+      "24": 1798,
+      "Ġcheck": 1799,
+      "```<|": 1800,
+      "Ġalloc": 1801,
+      "AN": 1802,
+      "Fill": 1803,
+      "Width": 1804,
+      "agg": 1805,
+      "jagg": 1806,
+      "kStroke": 1807,
+      "kFill": 1808,
+      "Ġround": 1809,
+      "Ġjagg": 1810,
+      "less": 1811,
+      "Ġborder": 1812,
+      "aliasing": 1813,
+      "setStroke": 1814,
+      "ĠWAN": 1815,
+      "Ġenable": 1816,
+      "Ġunless": 1817,
+      "Ġrectang": 1818,
+      "Always": 1819,
+      "Ġanti": 1820,
+      "Ġrounded": 1821,
+      "Ġjaggies": 1822,
+      "setStrokeWidth": 1823,
+      "ĠWANT": 1824,
+      "Ġrectangle": 1825,
+      "Message": 1826,
+      "Velocity": 1827,
+      "cial": 1828,
+      "met": 1829,
+      "off": 1830,
+      "uck": 1831,
+      "ucial": 1832,
+      "Ġel": 1833,
+      "Ġsuck": 1834,
+      "Ġvelocity": 1835,
+      "getFloat": 1836,
+      "getMessage": 1837,
+      "ĠIgn": 1838,
+      "ĠTrigger": 1839,
+      "IDI": 1840,
+      "ĠMIDI": 1841,
+      "Ġcrucial": 1842,
+      "accurate": 1843,
+      "isNoteOn": 1844,
+      "isNoteOff": 1845,
+      "metadata": 1846,
+      "Ġelse": 1847,
+      "getFloatVelocity": 1848,
+      "ĠIgnore": 1849,
+      "\"},": 1850,
+      "01": 1851,
+      ">>": 1852,
+      "AW": 1853,
+      "Ar": 1854,
+      "Agg": 1855,
+      "Cle": 1856,
+      "Choice": 1857,
+      "Lay": 1858,
+      "Normal": 1859,
+      "PV": 1860,
+      "Range": 1861,
+      "Rang": 1862,
+      "TS": 1863,
+      "War": 1864,
+      "be": 1865,
+      "bil": 1866,
+      "dex": 1867,
+      "ip": 1868,
+      "ibil": 1869,
+      "kip": 1870,
+      "mode": 1871,
+      "out": 1872,
+      "pat": 1873,
+      "ray": 1874,
+      "ĠFloat": 1875,
+      "ĠParameterID": 1876,
+      "atter": 1877,
+      "Ġpatter": 1878,
+      "Ġske": 1879,
+      "Ġskip": 1880,
+      "()};": 1881,
+      "Ġwa": 1882,
+      "ĠID": 1883,
+      "Ġstep": 1884,
+      "ĠAPV": 1885,
+      "Ġindex": 1886,
+      "ĠDon": 1887,
+      "ĠDAW": 1888,
+      "edAudioParameter": 1889,
+      "ParameterLay": 1890,
+      "ĠChoice": 1891,
+      "isable": 1892,
+      "ĠName": 1893,
+      "StringAr": 1894,
+      "AudioParameterChoice": 1895,
+      "ressive": 1896,
+      "Ġaccess": 1897,
+      "Ġcompat": 1898,
+      "ĠcreateParams": 1899,
+      "Ġparameters": 1900,
+      "Ġproperly": 1901,
+      "Ġrecall": 1902,
+      "ĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠ": 1903,
+      "Ġcondition": 1904,
+      "Aggressive": 1905,
+      "Clean": 1906,
+      "Normalisable": 1907,
+      "RangedAudioParameter": 1908,
+      "Warm": 1909,
+      "begin": 1910,
+      "ibility": 1911,
+      "Ġpattern": 1912,
+      "Ġskew": 1913,
+      "ĠAPVTS": 1914,
+      "ParameterLayout": 1915,
+      "StringArray": 1916,
+      "Ġcompatibility": 1917,
+      "NormalisableRange": 1918,
+      "4100": 1919,
+      "Act": 1920,
+      "Decay": 1921,
+      "_`": 1922,
+      "cal": 1923,
+      "decay": 1924,
+      "usi": 1925,
+      "Ġex": 1926,
+      "Ġcur": 1927,
+      "itch": 1928,
+      "Ġ};": 1929,
+      "Release": 1930,
+      "Ġmusi": 1931,
+      "ves": 1932,
+      "ĠsetAttack": 1933,
+      "ĠsetDecay": 1934,
+      "ĠsetRelease": 1935,
+      "ĠisAct": 1936,
+      "ĠdecayCoeff": 1937,
+      "Ġ44100": 1938,
+      "ponential": 1939,
+      "Ġenum": 1940,
+      "ĠsetSustain": 1941,
+      "ĠsetSampleRate": 1942,
+      "releaseMs": 1943,
+      "attackMs": 1944,
+      "ĠnoteOn": 1945,
+      "ĠnoteOff": 1946,
+      "Ġenvelopes": 1947,
+      "Ġswitch": 1948,
+      "_`.<|": 1949,
+      "decayMs": 1950,
+      "Ġexponential": 1951,
+      "Ġcurves": 1952,
+      "Ġmusical": 1953,
+      "ĠisActive": 1954,
+      "SampleRate": 1955,
+      "orrect": 1956,
+      "You": 1957,
+      "crit": 1958,
+      "sy": 1959,
+      "atching": 1960,
+      "onse": 1961,
+      "Ġare": 1962,
+      "Ġwatching": 1963,
+      "Ġresp": 1964,
+      "agent": 1965,
+      "critic": 1966,
+      "system": 1967,
+      "Ġresponse": 1968,
+      "):": 1969,
+      ">();": 1970,
+      "AL": 1971,
+      "AS": 1972,
+      "Add": 1973,
+      "BUI": 1974,
+      "CM": 1975,
+      "De": 1976,
+      "EM": 1977,
+      "LD": 1978,
+      "OR": 1979,
+      "PE": 1980,
+      "Run": 1981,
+      "RAS": 1982,
+      "TY": 1983,
+      "Timer": 1984,
+      "TREQ": 1985,
+      "UAL": 1986,
+      "bj": 1987,
+      "bet": 1988,
+      "check": 1989,
+      "dow": 1990,
+      "ect": 1991,
+      "full": 1992,
+      "hut": 1993,
+      "ned": 1994,
+      "prit": 1995,
+      "tx": 1996,
+      "uclear": 1997,
+      "val": 1998,
+      "wned": 1999,
+      "Ġas": 2000,
+      "ĠREQ": 2001,
+      "stener": 2002,
+      "etes": 2003,
+      "remove": 2004,
+      "leak": 2005,
+      "Ġcul": 2006,
+      "Ġfire": 2007,
+      "Ġshut": 2008,
+      "Ġdete": 2009,
+      "endif": 2010,
+      "Ġopt": 2011,
+      "Ġobj": 2012,
+      "Ġowned": 2013,
+      "Ġ--": 2014,
+      "Ġnever": 2015,
+      "Ġnuclear": 2016,
+      "Ġstop": 2017,
+      "ready": 2018,
+      "Ġhow": 2019,
+      "MakeList": 2020,
+      "ĠCRAS": 2021,
+      "ĠCMakeList": 2022,
+      "Ġthis": 2023,
+      "UIRED": 2024,
+      "ĠButton": 2025,
+      "Ġalready": 2026,
+      "istener": 2027,
+      "ĠMEM": 2028,
+      "ĠSTREQ": 2029,
+      "ĠWho": 2030,
+      "ĠListener": 2031,
+      "Ġdefault": 2032,
+      "Ġdestru": 2033,
+      "backs": 2034,
+      "ĠDestru": 2035,
+      "addListener": 2036,
+      "ressSanitizer": 2037,
+      "Ġcallbacks": 2038,
+      "Ġ./": 2039,
+      "Ġremoved": 2040,
+      "Ġleaking": 2041,
+      "Ġlistener": 2042,
+      "AKE": 2043,
+      "grind": 2044,
+      "Ġbuilds": 2045,
+      "Enable": 2046,
+      "Ġdeletes": 2047,
+      "Ġnew": 2048,
+      "AddressSanitizer": 2049,
+      "BUILD": 2050,
+      "CMAKE": 2051,
+      "Debug": 2052,
+      "ORY": 2053,
+      "TYPE": 2054,
+      "better": 2055,
+      "down": 2056,
+      "ects": 2057,
+      "prits": 2058,
+      "txt": 2059,
+      "valgrind": 2060,
+      "ĠREQUIRED": 2061,
+      "removeListener": 2062,
+      "Ġculprits": 2063,
+      "Ġshutdown": 2064,
+      "Ġdetector": 2065,
+      "Ġoption": 2066,
+      "Ġobjects": 2067,
+      "ĠstopTimer": 2068,
+      "ĠCRASH": 2069,
+      "ĠCMakeLists": 2070,
+      "ĠMEMORY": 2071,
+      "ĠSTREQUAL": 2072,
+      "Ġdestruction": 2073,
+      "ĠDestructor": 2074,
+      "Dis": 2075,
+      "Sc": 2076,
+      "Wrong": 2077,
+      "ast": 2078,
+      "ause": 2079,
+      "auto": 2080,
+      "cont": 2081,
+      "clock": 2082,
+      "file": 2083,
+      "high": 2084,
+      "iho": 2085,
+      "kel": 2086,
+      "mutex": 2087,
+      "now": 2088,
+      "opping": 2089,
+      "popping": 2090,
+      "rate": 2091,
+      "run": 2092,
+      "uiti": 2093,
+      "wed": 2094,
+      "Ġend": 2095,
+      "ĠParameter": 2096,
+      "ĠPro": 2097,
+      "ĠYour": 2098,
+      "iny": 2099,
+      "inuiti": 2100,
+      "resol": 2101,
+      "Ġcra": 2102,
+      "Ġcause": 2103,
+      "ank": 2104,
+      "Ġfile": 2105,
+      "Ġfree": 2106,
+      "Ġpast": 2107,
+      "Ġslow": 2108,
+      "Ġseconds": 2109,
+      "alloc": 2110,
+      "ckling": 2111,
+      "Ġtake": 2112,
+      "Ġtank": 2113,
+      "Ġoff": 2114,
+      "Ġfloating": 2115,
+      "Ġwhat": 2116,
+      "udden": 2117,
+      "ĠIf": 2118,
+      "Ġmalloc": 2119,
+      "();`": 2120,
+      "Ġnum": 2121,
+      "ĠAre": 2122,
+      "setTarget": 2123,
+      "extValue": 2124,
+      "edNo": 2125,
+      "Ġhand": 2126,
+      "ĠCPU": 2127,
+      "Ġtoo": 2128,
+      "getNextValue": 2129,
+      "Blocking": 2130,
+      "ĠTiny": 2131,
+      "dered": 2132,
+      "derrun": 2133,
+      "ĠMemory": 2134,
+      "ĠSudden": 2135,
+      "opedNo": 2136,
+      "chron": 2137,
+      "Ġreading": 2138,
+      "ĠtargetGain": 2139,
+      "Ġunderrun": 2140,
+      "Ġlikel": 2141,
+      "Ġlocks": 2142,
+      "new": 2143,
+      "targetGain": 2144,
+      "Ordered": 2145,
+      "ĠnoDenormals": 2146,
+      "Ġscrewed": 2147,
+      "Ġdelete": 2148,
+      "Ġjumps": 2149,
+      "Ġallocation": 2150,
+      "Discont": 2151,
+      "ScopedNo": 2152,
+      "ihood": 2153,
+      "ĠProfile": 2154,
+      "inuities": 2155,
+      "resolution": 2156,
+      "Ġcrackling": 2157,
+      "Ġtakes": 2158,
+      "ĠnumSamples": 2159,
+      "setTargetValue": 2160,
+      "Ġhandling": 2161,
+      "chrono": 2162,
+      "Ġlikelihood": 2163,
+      "Discontinuities": 2164,
+      "ScopedNoDenormals": 2165,
+      "'m": 2166,
+      "*>": 2167,
+      "Abstract": 2168,
+      "Crit": 2169,
+      "Chan": 2170,
+      "Fifo": 2171,
+      "IL": 2172,
+      "Never": 2173,
+      "Other": 2174,
+      "Random": 2175,
+      "Se": 2176,
+      "Wave": 2177,
+      "ap": 2178,
+      "ged": 2179,
+      "hread": 2180,
+      "oad": 2181,
+      "pre": 2182,
+      "process": 2183,
+      "vet": 2184,
+      "write": 2185,
+      "ysi": 2186,
+      "ĠCom": 2187,
+      "ĠCommon": 2188,
+      "ĠOther": 2189,
+      "ĠĠĊ": 2190,
+      "red": 2191,
+      "Ġfifo": 2192,
+      "Ġboth": 2193,
+      "ority": 2194,
+      "orks": 2195,
+      "Ġparam": 2196,
+      "Ġpri": 2197,
+      "Ġsha": 2198,
+      "alysi": 2199,
+      "ueue": 2200,
+      "Ġworks": 2201,
+      "Ġrandom": 2202,
+      "ĠIt": 2203,
+      "sets": 2204,
+      "Ġsets": 2205,
+      "entify": 2206,
+      "Ġhigh": 2207,
+      "Ġdoes": 2208,
+      "Ġvalues": 2209,
+      "ĠClassic": 2210,
+      "ForMeter": 2211,
+      "ĠThread": 2212,
+      "Ġanalysi": 2213,
+      "Ġgetting": 2214,
+      "ĠIdentify": 2215,
+      "ĠMessage": 2216,
+      "ĠWIL": 2217,
+      "ĠLoad": 2218,
+      "Ġreads": 2219,
+      "ables": 2220,
+      "Ġtimers": 2221,
+      "ĠlevelForMeter": 2222,
+      "Ġpointer": 2223,
+      "Ġcomplex": 2224,
+      "Ġqueue": 2225,
+      "Ġblocks": 2226,
+      "Ġatomically": 2227,
+      "resized": 2228,
+      "icalSe": 2229,
+      "Ġpolls": 2230,
+      "1024": 2231,
+      "Ġconditions": 2232,
+      "Ġswap": 2233,
+      "ĠcurrentTable": 2234,
+      "Ġclears": 2235,
+      "Ġchecks": 2236,
+      "Ġwavet": 2237,
+      "Ġpatterns": 2238,
+      "AbstractFifo": 2239,
+      "CriticalSe": 2240,
+      "Changed": 2241,
+      "WaveTable": 2242,
+      "presets": 2243,
+      "processBlock": 2244,
+      "ĠComplex": 2245,
+      "ĠparamChanged": 2246,
+      "Ġpriority": 2247,
+      "Ġshared": 2248,
+      "Ġdoesn": 2249,
+      "ĠThreadSanitizer": 2250,
+      "Ġanalysis": 2251,
+      "ĠWILL": 2252,
+      "Ġwavetables": 2253,
+      "CriticalSection": 2254,
+      "getSampleRate": 2255,
+      "atest": 2256,
+      "Ġlatest": 2257,
+      "()];": 2258,
+      "};<": 2259,
+      "_[(": 2260,
+      "ĠsetSize": 2261,
+      "ForUI": 2262,
+      "abel": 2263,
+      "getWrite": 2264,
+      "getNumChannel": 2265,
+      "Pointer": 2266,
+      "getWritePointer": 2267,
+      "getNumChannels": 2268,
+      "Dev": 2269,
+      "Man": 2270,
+      "Ġapp": 2271,
+      "Ġrate": 2272,
+      "iceMan": 2273,
+      "ager": 2274,
+      "ĠVerify": 2275,
+      "DeviceMan": 2276,
+      "DeviceManager": 2277,
+      "ear": 2278,
+      "Ġsear": 2279,
+      "Ġsearch": 2280,
+      "Correct": 2281,
+      "Ġjust": 2282,
+      "setText": 2283,
+      "ĠvalueForUI": 2284,
+      "Ġlabel": 2285,
+      "What": 2286,
+      "Ġneed": 2287,
+      "oes": 2288,
+      "Ġzer": 2289,
+      "Ġcorrect": 2290,
+      "Ġdirect": 2291,
+      "ĠSimple": 2292,
+      "ĠNoth": 2293,
+      "Ġchannels": 2294,
+      "Ġaccurate": 2295,
+      "ness": 2296,
+      "Ġzeroes": 2297,
+      "Ġcorrectness": 2298,
+      "ĠNothing": 2299,
+      "FTE": 2300,
+      "Per": 2301,
+      "alo": 2302,
+      "ach": 2303,
+      "hic": 2304,
+      "here": 2305,
+      "prepare": 2306,
+      "ror": 2307,
+      "sw": 2308,
+      "where": 2309,
+      "Ġer": 2310,
+      "ĠSt": 2311,
+      "led": 2312,
+      "Ġcal": 2313,
+      "Ġfun": 2314,
+      "roach": 2315,
+      "Ġwhic": 2316,
+      "ritique": 2317,
+      "Ġmem": 2318,
+      "Ġstand": 2319,
+      "ĠAFTE": 2320,
+      "AudioDeviceManager": 2321,
+      "ĠCorrect": 2322,
+      "ĠCritique": 2323,
+      "Ġansw": 2324,
+      "ĠAudioDeviceManager": 2325,
+      "()`.": 2326,
+      "ĠsamplesPer": 2327,
+      "Ġanywhere": 2328,
+      "ĠcurrentSampleRate": 2329,
+      "Ġapps": 2330,
+      "Ġapproach": 2331,
+      "alone": 2332,
+      "prepareToPlay": 2333,
+      "rors": 2334,
+      "Ġerrors": 2335,
+      "ĠStore": 2336,
+      "Ġcalled": 2337,
+      "Ġfunction": 2338,
+      "Ġwhich": 2339,
+      "Ġmember": 2340,
+      "Ġstandalone": 2341,
+      "ĠAFTER": 2342,
+      "Ġanswer": 2343,
+      "ĠsamplesPerBlock": 2344,
+      "AR": 2345,
+      "After": 2346,
+      "CH": 2347,
+      "EAR": 2348,
+      "SEAR": 2349,
+      "ale": 2350,
+      "eb": 2351,
+      "iv": 2352,
+      "lways": 2353,
+      "Ġ7": 2354,
+      "Ġ[": 2355,
+      "utdate": 2356,
+      "Ġoutdate": 2357,
+      "Ġweb": 2358,
+      "Ġstale": 2359,
+      "ĠAlways": 2360,
+      "Ġinformation": 2361,
+      "Ġgiv": 2362,
+      "Ġreleased": 2363,
+      "Ġbeen": 2364,
+      "Ġverify": 2365,
+      "Ġ2024": 2366,
+      "Ġchecking": 2367,
+      "Ġneeded": 2368,
+      "SEARCH": 2369,
+      "Ġoutdated": 2370,
+      "Ġgiving": 2371,
+      "Eas": 2372,
+      "Fl": 2373,
+      "Label": 2374,
+      "OP": 2375,
+      "ST": 2376,
+      "ef": 2377,
+      "ior": 2378,
+      "lax": 2379,
+      "my": 2380,
+      "side": 2381,
+      "safe": 2382,
+      "vior": 2383,
+      "Ġund": 2384,
+      "ĠFl": 2385,
+      "ined": 2386,
+      "load": 2387,
+      "relax": 2388,
+      "Ġpot": 2389,
+      "Ġpract": 2390,
+      "iting": 2391,
+      "ates": 2392,
+      "Ġmessage": 2393,
+      "puted": 2394,
+      "Ġinside": 2395,
+      "ĠsetText": 2396,
+      "ential": 2397,
+      "Ġhapp": 2398,
+      "ĠCall": 2399,
+      "()));": 2400,
+      "ices": 2401,
+      "valueForUI": 2402,
+      "havior": 2403,
+      "Ġbehavior": 2404,
+      "Ġunsafe": 2405,
+      "Ġcrash": 2406,
+      "computed": 2407,
+      "\")`": 2408,
+      "Ġallocates": 2409,
+      "Ġwaiting": 2410,
+      "Ġaccesses": 2411,
+      "Easy": 2412,
+      "STOP": 2413,
+      "efined": 2414,
+      "myLabel": 2415,
+      "Ġundefined": 2416,
+      "ĠFlag": 2417,
+      "relaxed": 2418,
+      "Ġpotential": 2419,
+      "Ġpractices": 2420,
+      "Ġhappen": 2421,
+      "ĠCalling": 2422,
+      "computedValue": 2423,
+      "Hel": 2424,
+      "Hello": 2425,
+      "Let": 2426,
+      "Hi": 2427,
+      "ble": 2428,
+      "Ġme": 2429,
+      "Ġproble": 2430,
+      "Show": 2431,
+      "Ġproblem": 2432,
+      "Ġcode": 2433,
+      "He": 2434,
+      "Hey": 2435
     },
     "merges": [
       [
-        "č",
-        "Ċ"
+        "Ġ",
+        "Ġ"
+      ],
+      [
+        "ĠĠ",
+        "ĠĠ"
+      ],
+      [
+        "ĠĠ",
+        "Ġ"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "s",
+        "t"
+      ],
+      [
+        "e",
+        "t"
+      ],
+      [
+        "Ġ",
+        "="
+      ],
+      [
+        "l",
+        "o"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "c",
+        "e"
+      ],
+      [
+        "ĠĠĠĠ",
+        "ĠĠĠ"
+      ],
+      [
+        "`",
+        "`"
       ],
       [
         "i",
         "m"
+      ],
+      [
+        "Ġ",
+        "c"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "in",
+        "t"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        ")",
+        ";"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "Ġ",
+        "f"
+      ],
+      [
+        "Ġ",
+        "b"
+      ],
+      [
+        "a",
+        "m"
+      ],
+      [
+        "Ġ",
+        "{"
       ],
       [
         "<",
@@ -994,152 +2642,120 @@
         ">"
       ],
       [
-        "t",
-        "a"
-      ],
-      [
-        "Ġ",
-        "Ġ"
-      ],
-      [
-        "s",
-        "ta"
-      ],
-      [
-        "Ġ",
-        "i"
-      ],
-      [
-        "e",
+        "o",
         "r"
       ],
       [
-        "s",
-        "s"
-      ],
-      [
-        "n",
-        "d"
-      ],
-      [
-        "r",
-        "t"
-      ],
-      [
-        "n",
-        "t"
-      ],
-      [
-        "i",
-        "o"
-      ],
-      [
         "e",
-        "nd"
-      ],
-      [
-        "sta",
-        "rt"
-      ],
-      [
-        "Ġ",
-        "a"
-      ],
-      [
-        "a",
-        "t"
-      ],
-      [
-        "u",
-        "g"
-      ],
-      [
-        "a",
-        "ss"
-      ],
-      [
-        "t",
-        "h"
-      ],
-      [
-        "s",
-        "er"
-      ],
-      [
-        "r",
-        "e"
+        "n"
       ],
       [
         "Ġ",
         "p"
       ],
       [
+        ":",
+        ":"
+      ],
+      [
         "i",
-        "n"
-      ],
-      [
-        "Ġ",
-        "c"
-      ],
-      [
-        "o",
-        "r"
-      ],
-      [
-        "Ġ",
         "d"
       ],
       [
-        "ĠĠ",
-        "Ġ"
+        "Ġ",
+        "s"
       ],
       [
-        "h",
+        "i",
         "t"
       ],
       [
-        "o",
-        "ug"
+        "Ġ",
+        "a"
       ],
       [
-        "th",
-        "oug"
+        "at",
+        "e"
       ],
       [
-        "thoug",
-        "ht"
+        "lo",
+        "at"
       ],
       [
-        "u",
-        "d"
+        "/",
+        "/"
       ],
       [
-        "ud",
-        "io"
+        "r",
+        "o"
       ],
       [
-        "i",
-        "sta"
-      ],
-      [
-        "u",
-        "ser"
-      ],
-      [
-        "ass",
-        "ista"
-      ],
-      [
-        "assista",
-        "nt"
-      ],
-      [
-        "Ġa",
-        "udio"
+        "f",
+        "f"
       ],
       [
         "Ġ",
-        "f"
+        "0"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "c",
+        "k"
+      ],
+      [
+        "Ġ",
+        "d"
+      ],
+      [
+        "Ġ",
+        "t"
+      ],
+      [
+        "u",
+        "ff"
+      ],
+      [
+        "``",
+        "`"
+      ],
+      [
+        "uff",
+        "er"
+      ],
+      [
+        "(",
+        ")"
+      ],
+      [
+        "u",
+        "r"
+      ],
+      [
+        "u",
+        "t"
+      ],
+      [
+        "S",
+        "k"
+      ],
+      [
+        "a",
+        "d"
+      ],
+      [
+        "en",
+        "d"
+      ],
+      [
+        "Ġ",
+        "}"
+      ],
+      [
+        "p",
+        "le"
       ],
       [
         "e",
@@ -1147,199 +2763,59 @@
       ],
       [
         "Ġ",
-        "h"
-      ],
-      [
-        "`",
-        "`"
-      ],
-      [
-        "l",
-        "o"
-      ],
-      [
-        "in",
-        "g"
-      ],
-      [
-        "Ġ",
-        "n"
-      ],
-      [
-        "Ġ",
-        "C"
-      ],
-      [
-        "io",
-        "n"
-      ],
-      [
-        "l",
-        "ass"
-      ],
-      [
-        "at",
-        "ion"
-      ],
-      [
-        "?",
-        "<|"
-      ],
-      [
-        "Ġf",
-        "or"
-      ],
-      [
-        "Ġ",
-        "{"
-      ],
-      [
-        "lo",
-        "at"
-      ],
-      [
-        "l",
-        "e"
-      ],
-      [
-        "Ġi",
-        "s"
-      ],
-      [
-        "ation",
-        "s"
-      ],
-      [
-        ".",
-        "<|"
-      ],
-      [
-        "re",
-        "a"
-      ],
-      [
-        "Ġ",
         "v"
       ],
       [
-        "r",
-        "a"
-      ],
-      [
-        "t",
-        "e"
-      ],
-      [
-        "p",
-        "le"
-      ],
-      [
-        ".",
-        "<"
-      ],
-      [
-        "U",
-        "ser"
-      ],
-      [
-        "Ġi",
-        "t"
-      ],
-      [
-        ".<",
-        "/"
-      ],
-      [
-        "ra",
-        "m"
-      ],
-      [
         "a",
-        "y"
+        "int"
       ],
       [
-        "o",
-        "c"
-      ],
-      [
-        "o",
-        "p"
-      ],
-      [
-        "a",
-        "ta"
-      ],
-      [
-        "a",
-        "ram"
-      ],
-      [
-        "Ġ",
-        "0"
-      ],
-      [
-        "Ġ",
-        "="
-      ],
-      [
-        "Ġp",
-        "aram"
-      ],
-      [
-        "Ġc",
-        "lass"
-      ],
-      [
-        "Ġd",
-        "ata"
-      ],
-      [
-        "``",
-        "`"
-      ],
-      [
-        "c",
-        "k"
-      ],
-      [
-        "l",
-        "t"
-      ],
-      [
-        "Ġ",
+        "s",
         "s"
       ],
       [
-        "e",
-        "ss"
+        "st",
+        "ar"
       ],
       [
-        "r",
-        "oc"
+        "star",
+        "t"
       ],
       [
-        "roc",
-        "ess"
+        "c",
+        "t"
       ],
       [
         "Ġ",
-        "th"
+        "("
       ],
       [
-        "t",
+        "Ġ",
         "o"
       ],
       [
-        "h",
-        "at"
+        "am",
+        "ple"
       ],
       [
-        "o",
-        "u"
+        "u",
+        "e"
       ],
       [
-        "+",
-        "+"
+        "s",
+        "i"
+      ],
+      [
+        "g",
+        "et"
+      ],
+      [
+        "Ġf",
+        "loat"
+      ],
+      [
+        "ĠĠĠĠ",
+        "ĠĠĠĠ"
       ],
       [
         "Ġ",
@@ -1347,118 +2823,1186 @@
       ],
       [
         "Ġ",
-        "m"
+        "//"
       ],
       [
-        "*",
-        "="
+        "in",
+        "g"
       ],
       [
-        "f",
-        "loat"
+        "a",
+        "y"
       ],
       [
-        "i",
-        "d"
-      ],
-      [
-        "i",
-        "nt"
+        "Ġ",
+        "i"
       ],
       [
         "o",
         "id"
       ],
       [
-        "Ġ",
-        "<"
+        "i",
+        "on"
       ],
       [
-        "Ġi",
-        "nt"
-      ],
-      [
-        "y",
-        "ou"
-      ],
-      [
-        "Ġ",
-        "you"
+        "ce",
+        "ss"
       ],
       [
         "a",
-        "n"
-      ],
-      [
-        "o",
-        "m"
+        "in"
       ],
       [
         "Ġ",
-        "op"
+        "-"
       ],
       [
-        "Ġop",
-        "er"
+        "u",
+        "s"
       ],
       [
-        "W",
-        "hat"
+        "Ġb",
+        "uffer"
       ],
       [
-        "e",
-        "a"
-      ],
-      [
-        "Ġd",
-        "e"
-      ],
-      [
-        "Ġi",
-        "n"
-      ],
-      [
-        "l",
-        "ug"
-      ],
-      [
-        "Ġp",
-        "lug"
-      ],
-      [
-        "Ġplug",
-        "in"
+        "Ġ",
+        "*"
       ],
       [
         "l",
         "i"
       ],
       [
-        "Ġ",
-        "to"
+        "o",
+        "s"
       ],
       [
-        "el",
+        "ro",
+        "cess"
+      ],
+      [
+        "p",
         "p"
       ],
       [
-        "Ġh",
-        "elp"
+        "u",
+        "d"
+      ],
+      [
+        "j",
+        "u"
+      ],
+      [
+        "i",
+        "o"
+      ],
+      [
+        "ud",
+        "io"
+      ],
+      [
+        "Ġ",
+        "r"
+      ],
+      [
+        "r",
+        "it"
+      ],
+      [
+        "Ġ",
+        "I"
+      ],
+      [
+        "R",
+        "e"
+      ],
+      [
+        "ju",
+        "ce"
+      ],
+      [
+        "Ġ",
+        "m"
+      ],
+      [
+        "Ġ",
+        "1"
+      ],
+      [
+        "Ġ",
+        "re"
+      ],
+      [
+        "r",
+        "a"
+      ],
+      [
+        "(",
+        ");"
+      ],
+      [
+        "Ġ",
+        "Sk"
+      ],
+      [
+        "Ġ",
+        "y"
+      ],
+      [
+        "C",
+        "o"
       ],
       [
         "e",
+        "x"
+      ],
+      [
+        "f",
+        "a"
+      ],
+      [
+        "rit",
         "e"
+      ],
+      [
+        "a",
+        "k"
+      ],
+      [
+        "ar",
+        "am"
+      ],
+      [
+        "ĠĠĠĠ",
+        "Ċ"
+      ],
+      [
+        "h",
+        "e"
+      ],
+      [
+        "R",
+        "ate"
+      ],
+      [
+        "Ġp",
+        "aint"
+      ],
+      [
+        "Ġv",
+        "oid"
+      ],
+      [
+        "Ġ",
+        "n"
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "al",
+        "ue"
+      ],
+      [
+        "Ġ",
+        "st"
+      ],
+      [
+        "P",
+        "os"
+      ],
+      [
+        "c",
+        "pp"
+      ],
+      [
+        "Ġ",
+        "A"
+      ],
+      [
+        "on",
+        "t"
+      ],
+      [
+        "s",
+        "et"
+      ],
+      [
+        "an",
+        "t"
+      ],
+      [
+        "v",
+        "as"
+      ],
+      [
+        "an",
+        "vas"
+      ],
+      [
+        "fa",
+        "ce"
+      ],
+      [
+        "p",
+        "ut"
+      ],
+      [
+        "Ġ",
+        "int"
+      ],
+      [
+        "ample",
+        "s"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "S",
+        "t"
+      ],
+      [
+        "f",
+        "loat"
+      ],
+      [
+        "ex",
+        "t"
+      ],
+      [
+        "a",
+        "ck"
+      ],
+      [
+        "p",
+        "t"
+      ],
+      [
+        "Ġ",
+        "in"
+      ],
+      [
+        "lo",
+        "r"
+      ],
+      [
+        "id",
+        "e"
+      ],
+      [
+        "r",
+        "ide"
+      ],
+      [
+        "Ġo",
+        "ver"
+      ],
+      [
+        "Ġover",
+        "ride"
+      ],
+      [
+        "o",
+        "m"
+      ],
+      [
+        "as",
+        "si"
+      ],
+      [
+        "u",
+        "l"
+      ],
+      [
+        "Ġ",
+        "G"
+      ],
+      [
+        ".",
+        "<|"
+      ],
+      [
+        "as",
+        "e"
+      ],
+      [
+        "o",
+        "t"
+      ],
+      [
+        "u",
+        "n"
+      ],
+      [
+        "lo",
+        "ck"
+      ],
+      [
+        "et",
+        "ur"
+      ],
+      [
+        "Ġr",
+        "etur"
+      ],
+      [
+        "Ġretur",
+        "n"
+      ],
+      [
+        "us",
+        "er"
+      ],
+      [
+        "z",
+        "e"
+      ],
+      [
+        "st",
+        "ant"
+      ],
+      [
+        "assi",
+        "stant"
+      ],
+      [
+        "el",
+        "ay"
+      ],
+      [
+        "et",
+        "er"
       ],
       [
         "v",
         "e"
       ],
       [
-        "Ġc",
-        "a"
+        "ra",
+        "w"
+      ],
+      [
+        "Ġ",
+        "D"
+      ],
+      [
+        "i",
+        "c"
+      ],
+      [
+        "Co",
+        "lor"
+      ],
+      [
+        "ak",
+        "e"
+      ],
+      [
+        "Ġ",
+        "2"
+      ],
+      [
+        "rite",
+        "Pos"
+      ],
+      [
+        "rocess",
+        "or"
+      ],
+      [
+        "Ġ",
+        "juce"
+      ],
+      [
+        "Ġs",
+        "et"
+      ],
+      [
+        "o",
+        "l"
+      ],
+      [
+        "S",
+        "amples"
+      ],
+      [
+        "e",
+        "d"
+      ],
+      [
+        "o",
+        "w"
+      ],
+      [
+        "Ġ",
+        "+"
+      ],
+      [
+        "n",
+        "t"
+      ],
+      [
+        "aram",
+        "eter"
+      ],
+      [
+        "Re",
+        "ct"
+      ],
+      [
+        "*",
+        "*"
       ],
       [
         "u",
+        "g"
+      ],
+      [
+        "o",
+        "ur"
+      ],
+      [
+        "e",
+        "c"
+      ],
+      [
+        "Ġi",
+        "f"
+      ],
+      [
+        "Ġp",
+        "rocess"
+      ],
+      [
+        "}",
+        ";"
+      ],
+      [
+        "Ġc",
+        "anvas"
+      ],
+      [
+        "on",
+        "st"
+      ],
+      [
+        "_",
+        ";"
+      ],
+      [
+        "Ġ",
+        "g"
+      ],
+      [
+        "A",
+        "udio"
+      ],
+      [
+        "le",
+        "ase"
+      ],
+      [
+        "Ġi",
+        "s"
+      ],
+      [
+        "ĠĠĠĠĠĠĠĠ",
+        "ĠĠĠĠĠĠĠ"
+      ],
+      [
+        "en",
+        "t"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "P",
+        "rocessor"
+      ],
+      [
+        "Ġ",
+        "/"
+      ],
+      [
+        "Ġf",
+        "or"
+      ],
+      [
+        "re",
+        "ad"
+      ],
+      [
+        "t",
+        "h"
+      ],
+      [
+        "ion",
+        "s"
+      ],
+      [
+        "-",
+        ">"
+      ],
+      [
+        "Ġs",
+        "ample"
+      ],
+      [
+        "?",
+        "<|"
+      ],
+      [
+        "Ġ",
+        "h"
+      ],
+      [
+        "Ġc",
+        "li"
+      ],
+      [
+        "si",
+        "ze"
+      ],
+      [
+        "u",
+        "st"
+      ],
+      [
+        "t",
+        "ack"
+      ],
+      [
+        "Ġd",
+        "o"
+      ],
+      [
+        "Ġ",
+        "x"
+      ],
+      [
+        "P",
+        "arameter"
+      ],
+      [
+        "\"",
+        ","
+      ],
+      [
+        "u",
+        "b"
+      ],
+      [
+        "Ġv",
+        "alue"
+      ],
+      [
+        "Ġ",
+        "`"
+      ],
+      [
+        "M",
+        "ake"
+      ],
+      [
+        "Ġst",
+        "d"
+      ],
+      [
+        "ec",
+        "ay"
+      ],
+      [
+        "ust",
+        "ain"
+      ],
+      [
+        "Ġ",
+        "C"
+      ],
+      [
+        "st",
+        "d"
+      ],
+      [
+        "u",
+        "m"
+      ],
+      [
+        "Ġ",
+        "<"
+      ],
+      [
+        "it",
+        "h"
+      ],
+      [
+        "as",
+        "s"
+      ],
+      [
+        "v",
+        "el"
+      ],
+      [
+        "F",
+        "or"
+      ],
+      [
+        "ĠĠĠĠ",
+        "ĠĠĠĠĠĠĠ"
+      ],
+      [
+        "Ġc",
+        "onst"
+      ],
+      [
+        "ut",
+        "put"
+      ],
+      [
+        "_",
+        "."
+      ],
+      [
+        "p",
+        "e"
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        "pt",
+        "r"
+      ],
+      [
+        "Ġd",
+        "elay"
+      ],
+      [
+        "Ġt",
+        "h"
+      ],
+      [
+        "ar",
+        "get"
+      ],
+      [
+        "Ġt",
+        "o"
+      ],
+      [
+        "Ġm",
+        "s"
+      ],
+      [
+        "ont",
+        "ext"
+      ],
+      [
+        "id",
+        "x"
+      ],
+      [
+        "get",
+        "N"
+      ],
+      [
+        "v",
+        "oid"
+      ],
+      [
+        "I",
+        "n"
+      ],
+      [
+        "ĠĠĠĠĠĠĠĠ",
+        "Ċ"
+      ],
+      [
+        "p",
+        "aint"
+      ],
+      [
+        "r",
+        "am"
+      ],
+      [
+        "B",
+        "lock"
+      ],
+      [
+        "Ġ",
+        "at"
+      ],
+      [
+        "Ġ",
+        "T"
+      ],
+      [
+        "re",
+        "ct"
+      ],
+      [
+        "i",
+        "l"
+      ],
+      [
+        "H",
+        "ow"
+      ],
+      [
+        "Ġw",
+        "ritePos"
+      ],
+      [
+        "h",
+        "an"
+      ],
+      [
+        "ot",
+        "e"
+      ],
+      [
+        "M",
+        "s"
+      ],
+      [
+        "i",
+        "q"
+      ],
+      [
+        "Ġ",
+        "\""
+      ],
+      [
+        "Ġw",
+        "ith"
+      ],
+      [
+        "aram",
+        "s"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "Ġ",
+        "an"
+      ],
+      [
+        "ul",
+        "l"
+      ],
+      [
+        "Ġo",
+        "utput"
+      ],
+      [
+        "ad",
+        "i"
+      ],
+      [
+        "in",
+        "e"
+      ],
+      [
+        "Ġ",
+        "on"
+      ],
+      [
+        "(",
+        "\""
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "f",
+        "o"
+      ],
+      [
+        "L",
+        "e"
+      ],
+      [
+        "Ġ*",
+        "*"
+      ],
+      [
+        "at",
+        "ion"
+      ],
+      [
+        "Ġy",
+        "our"
+      ],
+      [
+        "l",
+        "ug"
+      ],
+      [
+        "lug",
+        "in"
+      ],
+      [
+        "ĠA",
+        "udio"
+      ],
+      [
+        "h",
+        "o"
+      ],
+      [
+        "C",
+        "ontext"
+      ],
+      [
+        "er",
+        "face"
+      ],
+      [
+        "Ġt",
+        "im"
+      ],
+      [
+        "Ġst",
+        "ate"
+      ],
+      [
+        "al",
+        "l"
+      ],
+      [
+        "pt",
+        "ions"
+      ],
+      [
+        "b",
+        "uffer"
+      ],
+      [
+        "o",
+        "int"
+      ],
+      [
+        "Ġn",
+        "ull"
+      ],
+      [
+        "Ġnull",
+        "ptr"
+      ],
+      [
+        "Ġsample",
+        "Rate"
+      ],
+      [
+        "Ġin",
+        "put"
+      ],
+      [
+        "()",
+        "`"
+      ],
+      [
+        "Ġ",
+        "it"
+      ],
+      [
+        "e",
+        "m"
+      ],
+      [
+        "s",
+        "p"
+      ],
+      [
+        "B",
+        "uffer"
+      ],
+      [
+        "U",
+        "I"
+      ],
+      [
+        "Ġa",
+        "udio"
+      ],
+      [
+        "id",
+        "i"
+      ],
+      [
+        "Ġ{",
+        "}"
+      ],
+      [
+        "Ġt",
+        "he"
+      ],
+      [
+        "y",
+        "pe"
+      ],
+      [
+        "Ġf",
+        "ont"
+      ],
+      [
+        "u",
+        "p"
+      ],
+      [
+        "Ġ",
+        "up"
+      ],
+      [
+        "Ġ1",
+        "00"
+      ],
+      [
+        "Ġd",
+        "raw"
+      ],
+      [
+        "i",
+        "le"
+      ],
+      [
+        "Ġth",
+        "read"
+      ],
+      [
+        "Ġ",
+        "Re"
+      ],
+      [
+        "P",
+        "ro"
+      ],
+      [
+        "G",
+        "ain"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "Ġ",
+        "For"
+      ],
+      [
+        "I",
+        "D"
+      ],
+      [
+        "d",
+        "er"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "GB"
+      ],
+      [
+        "Ġs",
+        "ustain"
+      ],
+      [
+        "Le",
+        "vel"
+      ],
+      [
+        "Ġsustain",
+        "Level"
+      ],
+      [
+        "om",
+        "ic"
+      ],
+      [
+        "a",
+        "b"
+      ],
+      [
+        "Ġ",
+        "B"
+      ],
+      [
+        "S",
+        "et"
+      ],
+      [
+        "Ġ",
+        "get"
+      ],
+      [
+        "_",
+        "["
+      ],
+      [
+        "d",
+        "raw"
+      ],
+      [
+        "or",
+        "m"
+      ],
+      [
+        "at",
+        "a"
+      ],
+      [
+        "P",
+        "aint"
+      ],
+      [
+        "5",
+        "5"
+      ],
+      [
+        "iq",
+        "ue"
+      ],
+      [
+        "li",
+        "c"
+      ],
+      [
+        "ub",
+        "lic"
+      ],
+      [
+        "Ġprocess",
+        "Block"
+      ],
+      [
+        "ĠI",
+        "d"
+      ],
+      [
+        "er",
+        "e"
+      ],
+      [
+        "ur",
+        "face"
+      ],
+      [
+        ".",
+        "."
+      ],
+      [
+        "G",
+        "r"
+      ],
+      [
+        "un",
+        "ique"
+      ],
+      [
+        "V",
+        "alue"
+      ],
+      [
+        "Ġ",
+        "le"
+      ],
+      [
+        "c",
+        "l"
+      ],
+      [
+        "cl",
+        "ass"
+      ],
+      [
+        "re",
+        "ate"
+      ],
+      [
+        "w",
+        "ritePos"
+      ],
+      [
+        "i",
+        "f"
+      ],
+      [
+        "i",
+        "a"
+      ],
+      [
+        "ĠSk",
+        "ia"
+      ],
+      [
+        "Ġa",
+        "l"
+      ],
+      [
+        "al",
+        "se"
+      ],
+      [
+        "ype",
+        "face"
+      ],
+      [
+        "i",
+        "st"
+      ],
+      [
+        "Ġre",
+        "lease"
+      ],
+      [
+        "ro",
+        "m"
+      ],
+      [
+        "n",
+        "el"
+      ],
+      [
+        "han",
+        "nel"
+      ],
+      [
+        "St",
+        "ate"
+      ],
+      [
+        "o",
+        "d"
+      ],
+      [
+        "o",
+        "u"
+      ],
+      [
+        "Ġg",
+        "ain"
+      ],
+      [
+        "()",
+        ")"
+      ],
+      [
+        "'",
         "s"
       ],
       [
@@ -1466,1072 +4010,12 @@
         "M"
       ],
       [
-        "(",
-        ")"
-      ],
-      [
-        "L",
-        "i"
-      ],
-      [
-        "M",
-        "y"
-      ],
-      [
-        "P",
-        "l"
-      ],
-      [
-        "T",
-        "o"
-      ],
-      [
-        "a",
-        "s"
-      ],
-      [
-        "a",
-        "re"
-      ],
-      [
-        "b",
-        "ug"
-      ],
-      [
-        "e",
-        "ck"
-      ],
-      [
-        "h",
-        "eck"
-      ],
-      [
-        "k",
-        "el"
-      ],
-      [
-        "l",
-        "ations"
-      ],
-      [
-        "o",
-        "ve"
-      ],
-      [
-        "p",
-        "are"
-      ],
-      [
-        "u",
-        "e"
-      ],
-      [
-        "v",
-        "y"
-      ],
-      [
         "Ġ",
-        "rea"
+        "3"
       ],
       [
-        "im",
-        "e"
-      ],
-      [
-        "Ġi",
-        "ss"
-      ],
-      [
-        "io",
-        "lations"
-      ],
-      [
-        "re",
-        "pare"
-      ],
-      [
-        "Ġp",
-        "repare"
-      ],
-      [
-        "Ġh",
-        "ea"
-      ],
-      [
-        "Ġh",
-        "as"
-      ],
-      [
-        "ĠC",
-        "an"
-      ],
-      [
-        "ĠC",
-        "heck"
-      ],
-      [
-        "rea",
-        "d"
-      ],
-      [
-        "Ġv",
-        "iolations"
-      ],
-      [
-        "lt",
-        "ime"
-      ],
-      [
-        "Ġth",
-        "read"
-      ],
-      [
-        "Ġoper",
-        "ations"
-      ],
-      [
-        "Ġde",
-        "bug"
-      ],
-      [
-        "Ġca",
-        "us"
-      ],
-      [
-        "ĠM",
-        "ove"
-      ],
-      [
-        "()",
-        ".<|"
-      ],
-      [
-        "Li",
-        "kel"
-      ],
-      [
-        "Pl",
-        "ay"
-      ],
-      [
-        "To",
-        "Play"
-      ],
-      [
-        "Ġrea",
-        "ltime"
-      ],
-      [
-        "Ġiss",
-        "ue"
-      ],
-      [
-        "Ġprepare",
-        "ToPlay"
-      ],
-      [
-        "Ġhea",
-        "vy"
-      ],
-      [
-        "Ġcaus",
-        "e"
-      ],
-      [
-        "Likel",
-        "y"
-      ],
-      [
-        "p",
-        "u"
-      ],
-      [
-        "a",
-        "l"
-      ],
-      [
-        "Ġa",
-        "nd"
-      ],
-      [
-        "Ġp",
-        "rocess"
-      ],
-      [
-        "Ġ",
-        "("
-      ],
-      [
-        "Ġc",
-        "om"
-      ],
-      [
-        "p",
-        "p"
-      ],
-      [
-        "li",
-        "c"
-      ],
-      [
-        "Ġ",
-        "b"
-      ],
-      [
-        "r",
-        "i"
-      ],
-      [
-        "t",
-        "er"
-      ],
-      [
-        "Ġ",
-        "D"
-      ],
-      [
-        "K",
-        "ee"
-      ],
-      [
-        "W",
-        "ri"
-      ],
-      [
-        "a",
-        "nt"
-      ],
-      [
-        "b",
-        "lic"
-      ],
-      [
-        "c",
-        "lass"
-      ],
-      [
-        "c",
-        "pp"
-      ],
-      [
-        "}",
-        ";"
-      ],
-      [
-        "Ġ",
-        "}"
-      ],
-      [
-        "Ġ",
-        "++"
-      ],
-      [
-        "Ġ",
-        "*="
-      ],
-      [
-        "Ġ",
-        "Kee"
-      ],
-      [
-        "im",
-        "ple"
-      ],
-      [
-        "im",
-        "al"
-      ],
-      [
-        "ĠĠ",
-        "ĠĠ"
-      ],
-      [
-        "in",
-        "imal"
-      ],
-      [
-        "Ġf",
-        "loat"
-      ],
-      [
-        "Ġv",
-        "oid"
-      ],
-      [
-        "ple",
-        "te"
-      ],
-      [
-        "```",
-        "<|"
-      ],
-      [
-        "Ġs",
-        "imple"
-      ],
-      [
-        "Ġw",
-        "ant"
-      ],
-      [
-        "Ġm",
-        "inimal"
-      ],
-      [
-        "pu",
-        "blic"
-      ],
-      [
-        "Ġcom",
-        "plete"
-      ],
-      [
-        "Wri",
-        "te"
-      ],
-      [
-        "ĠKee",
-        "p"
-      ],
-      [
-        "ĠĠĠĠ",
-        "ĠĠĠ"
-      ],
-      [
-        "Ġwant",
-        "s"
-      ],
-      [
-        "I",
-        "D"
-      ],
-      [
-        "Ġ",
-        "R"
-      ],
-      [
-        "M",
-        "ID"
-      ],
-      [
-        "el",
-        "ay"
-      ],
-      [
-        ":",
-        ":"
-      ],
-      [
-        ";",
-        "++"
-      ],
-      [
-        "P",
-        "R"
-      ],
-      [
-        "S",
-        "U"
-      ],
-      [
-        "]",
-        "*="
-      ],
-      [
-        "f",
-        "or"
-      ],
-      [
-        "p",
-        "rocess"
-      ],
-      [
-        "v",
-        "oid"
-      ],
-      [
-        "}",
-        "<"
-      ],
-      [
-        "PR",
-        "E"
-      ],
-      [
-        "SU",
-        "F"
-      ],
-      [
-        "Ġb",
-        "u"
-      ],
-      [
-        "e",
-        "v"
-      ],
-      [
-        "er",
-        "b"
-      ],
-      [
-        "ĠR",
-        "ev"
-      ],
-      [
-        "ĠRev",
-        "erb"
-      ],
-      [
-        "H",
-        "el"
-      ],
-      [
-        "Hel",
-        "lo"
-      ],
-      [
-        "F",
-        "i"
-      ],
-      [
-        "Ġ",
-        "Fi"
-      ],
-      [
-        "lt",
-        "er"
-      ],
-      [
-        "ĠFi",
-        "lter"
-      ],
-      [
-        "ĠD",
-        "elay"
-      ],
-      [
-        ";",
-        "<|"
-      ],
-      [
-        "Ġ",
-        "L"
-      ],
-      [
-        "Ġ",
-        "What"
-      ],
-      [
-        "H",
-        "i"
-      ],
-      [
-        "o",
-        "w"
-      ],
-      [
-        "Ġ",
-        "I"
-      ],
-      [
-        "i",
-        "s"
-      ],
-      [
-        "H",
-        "e"
-      ],
-      [
-        "He",
-        "y"
-      ],
-      [
-        "p",
-        "re"
-      ],
-      [
-        "ss",
-        "or"
-      ],
-      [
-        "ĠC",
-        "om"
-      ],
-      [
-        "pre",
-        "ssor"
-      ],
-      [
-        "ĠCom",
-        "pressor"
-      ],
-      [
-        "i",
-        "ter"
-      ],
-      [
-        "im",
-        "iter"
-      ],
-      [
-        "ĠL",
-        "imiter"
-      ],
-      [
-        "c",
-        "h"
-      ],
-      [
-        "E",
-        "Q"
-      ],
-      [
-        "Ġ",
-        "EQ"
-      ],
-      [
-        "u",
-        "t"
-      ],
-      [
-        "Ġs",
-        "t"
-      ],
-      [
-        "Ġ",
-        "g"
-      ],
-      [
-        "p",
-        "ing"
-      ],
-      [
-        "Ġp",
-        "op"
-      ],
-      [
-        "Ġpop",
-        "ping"
-      ],
-      [
-        "l",
-        "ing"
-      ],
-      [
-        "Ġc",
-        "ra"
-      ],
-      [
-        "ck",
-        "ling"
-      ],
-      [
-        "Ġcra",
-        "ckling"
-      ],
-      [
-        "z",
-        "z"
-      ],
-      [
-        "Ġbu",
-        "zz"
-      ],
-      [
-        "Ġbuzz",
-        "ing"
-      ],
-      [
-        "rt",
-        "ing"
-      ],
-      [
-        "Ġd",
-        "is"
-      ],
-      [
-        "to",
-        "rting"
-      ],
-      [
-        "Ġdis",
-        "torting"
-      ],
-      [
-        "at",
-        "e"
-      ],
-      [
-        "t",
-        "ch"
-      ],
-      [
-        "li",
-        "tch"
-      ],
-      [
-        "Ġg",
-        "litch"
-      ],
-      [
-        "Ġglitch",
-        "ing"
-      ],
-      [
-        "a",
-        "m"
-      ],
-      [
-        "am",
-        "ple"
-      ],
-      [
-        "o",
-        "d"
-      ],
-      [
-        "ter",
-        "ing"
-      ],
-      [
-        "ut",
-        "tering"
-      ],
-      [
-        "Ġst",
-        "uttering"
-      ],
-      [
-        "e",
-        "w"
-      ],
-      [
-        "c",
-        "ation"
-      ],
-      [
-        "Ġ",
-        "re"
-      ],
-      [
-        "Ġre",
-        "s"
-      ],
-      [
-        "Ġ",
-        "S"
-      ],
-      [
-        "Ġn",
-        "ee"
-      ],
-      [
-        "Ġnee",
-        "d"
-      ],
-      [
-        "e",
-        "c"
-      ],
-      [
-        "Ġc",
-        "an"
-      ],
-      [
-        "Ġs",
-        "ample"
-      ],
-      [
-        "er",
-        "e"
-      ],
-      [
-        "Ġth",
-        "ere"
-      ],
-      [
-        "or",
-        "k"
-      ],
-      [
-        "Ġw",
-        "hat"
-      ],
-      [
-        "Ġm",
-        "e"
-      ],
-      [
-        "Ġth",
-        "e"
-      ],
-      [
-        "d",
-        "y"
-      ],
-      [
-        "e",
-        "t"
-      ],
-      [
-        "Ġ",
-        "V"
-      ],
-      [
-        "'",
-        "s"
-      ],
-      [
-        "at",
-        "or"
-      ],
-      [
-        "Ġn",
-        "ew"
-      ],
-      [
-        "Ġoper",
-        "ator"
-      ],
-      [
-        "i",
-        "le"
-      ],
-      [
-        "Ġf",
-        "ile"
-      ],
-      [
-        "u",
-        "te"
-      ],
-      [
-        "Ġ",
-        "lo"
-      ],
-      [
-        "Ġm",
-        "ute"
-      ],
-      [
-        "Ġlo",
-        "ck"
-      ],
-      [
-        "Ġmute",
-        "x"
-      ],
-      [
-        "l",
-        "lo"
-      ],
-      [
-        "Ġa",
-        "llo"
-      ],
-      [
-        "Ġallo",
-        "cation"
-      ],
-      [
-        "i",
-        "z"
-      ],
-      [
-        "t",
-        "or"
-      ],
-      [
-        "Ġv",
-        "ec"
-      ],
-      [
-        "Ġres",
-        "iz"
-      ],
-      [
-        "Ġvec",
-        "tor"
-      ],
-      [
-        "Ġresiz",
-        "e"
-      ],
-      [
-        "i",
-        "g"
-      ],
-      [
-        "i",
-        "t"
-      ],
-      [
-        "Ġ",
-        "A"
-      ],
-      [
-        "Ġ",
-        "o"
-      ],
-      [
-        "Ġa",
-        "re"
-      ],
-      [
-        "n",
-        "ing"
-      ],
-      [
-        "o",
-        "od"
-      ],
-      [
-        "H",
-        "ow"
-      ],
-      [
-        "e",
-        "x"
-      ],
-      [
-        "n",
-        "ex"
-      ],
-      [
-        "er",
-        "nex"
-      ],
-      [
-        "ĠV",
-        "ernex"
-      ],
-      [
-        "G",
-        "a"
-      ],
-      [
-        "Ġ",
-        "Ga"
-      ],
-      [
-        "ĠGa",
-        "in"
-      ],
-      [
-        "S",
-        "T"
-      ],
-      [
-        "Ġd",
-        "o"
-      ],
-      [
-        "Ġc",
-        "od"
-      ],
-      [
-        "ea",
-        "dy"
-      ],
-      [
-        "ĠR",
-        "eady"
-      ],
-      [
-        "Ġcod",
-        "e"
-      ],
-      [
-        "m",
-        "at"
-      ],
-      [
-        "Ġfor",
-        "mat"
-      ],
-      [
-        "c",
-        "y"
-      ],
-      [
-        "n",
-        "cy"
-      ],
-      [
-        "pu",
-        "t"
-      ],
-      [
-        "ate",
-        "ncy"
-      ],
-      [
-        "S",
-        "P"
-      ],
-      [
-        "G",
-        "ood"
-      ],
-      [
-        "te",
-        "m"
-      ],
-      [
-        "i",
-        "ta"
-      ],
-      [
-        "p",
-        "th"
-      ],
-      [
-        "Ġ",
-        "sta"
-      ],
-      [
-        "nd",
-        "s"
-      ],
-      [
-        "Ġde",
-        "pth"
-      ],
-      [
-        "ĠD",
-        "ig"
-      ],
-      [
-        "ita",
-        "l"
-      ],
-      [
-        "Ġsta",
-        "nds"
-      ],
-      [
-        "ĠDig",
-        "ital"
-      ],
-      [
-        "f",
-        "f"
-      ],
-      [
-        "or",
-        "a"
-      ],
-      [
-        "Ġbu",
-        "ff"
-      ],
-      [
-        "Ġbuff",
-        "er"
-      ],
-      [
-        "A",
-        "W"
-      ],
-      [
-        "i",
-        "th"
-      ],
-      [
-        "Ġw",
-        "ith"
-      ],
-      [
-        "o",
-        "l"
-      ],
-      [
-        "Ġ",
-        "How"
-      ],
-      [
-        "ss",
-        "is"
-      ],
-      [
-        "Ġa",
-        "ssis"
-      ],
-      [
-        "Ġsample",
-        "s"
-      ],
-      [
-        "Ġassis",
-        "t"
-      ],
-      [
-        "'",
-        "re"
-      ],
-      [
-        "h",
-        "ow"
-      ],
-      [
-        "Ġw",
-        "ork"
-      ],
-      [
-        "ĠS",
-        "how"
-      ],
-      [
-        "Ġo",
-        "n"
-      ],
-      [
-        "Ġwork",
-        "ing"
-      ],
-      [
-        "d",
-        "ing"
-      ],
-      [
-        "i",
-        "l"
-      ],
-      [
-        "Ġw",
-        "e"
-      ],
-      [
-        "Ġbu",
-        "il"
-      ],
-      [
-        "Ġbuil",
-        "ding"
-      ],
-      [
-        "r",
-        "ate"
-      ],
-      [
-        "Ġ",
-        "rate"
-      ],
-      [
-        "k",
-        "n"
-      ],
-      [
-        "Ġ",
-        "kn"
-      ],
-      [
-        "ĠL",
-        "et"
-      ],
-      [
-        "Ġkn",
-        "ow"
+        "getN",
+        "um"
       ],
       [
         "C",
@@ -2546,940 +4030,7196 @@
         "CE"
       ],
       [
-        "s",
-        "k"
-      ],
-      [
-        "Ġ",
-        "ta"
-      ],
-      [
-        "Ġta",
-        "sk"
-      ],
-      [
-        "or",
-        "ning"
-      ],
-      [
-        ";",
-        "<"
-      ],
-      [
-        "ve",
-        "ning"
-      ],
-      [
-        "Y",
-        "o"
-      ],
-      [
-        "u",
-        "p"
-      ],
-      [
-        "V",
-        "ST"
-      ],
-      [
-        "b",
-        "er"
-      ],
-      [
-        "re",
-        "ate"
-      ],
-      [
-        "in",
-        "ber"
-      ],
-      [
-        "Ġc",
-        "reate"
-      ],
-      [
-        "te",
-        "inber"
-      ],
-      [
-        "Ġb",
-        "y"
-      ],
-      [
-        "ĠS",
-        "teinber"
-      ],
-      [
-        "ĠV",
-        "ST"
-      ],
-      [
-        "Ġcreate",
-        "d"
-      ],
-      [
-        "ĠSteinber",
-        "g"
-      ],
-      [
-        "L",
-        "atency"
-      ],
-      [
-        "l",
-        "atency"
-      ],
-      [
-        "s",
-        "tem"
-      ],
-      [
-        "t",
-        "put"
-      ],
-      [
-        "w",
-        "ee"
-      ],
-      [
-        "y",
-        "stem"
-      ],
-      [
-        "Ġ",
-        "ou"
-      ],
-      [
-        "Ġ",
-        "latency"
-      ],
-      [
-        "Ġd",
-        "elay"
-      ],
-      [
-        "Ġs",
-        "ystem"
-      ],
-      [
-        "Ġin",
-        "put"
-      ],
-      [
-        "Ġb",
-        "et"
-      ],
-      [
-        "wee",
-        "n"
-      ],
-      [
-        "Ġou",
-        "tput"
-      ],
-      [
-        "Ġsystem",
-        "s"
-      ],
-      [
-        "Ġbet",
-        "ween"
-      ],
-      [
-        "D",
-        "SP"
-      ],
-      [
-        "P",
-        "rocess"
-      ],
-      [
-        "n",
-        "al"
-      ],
-      [
-        "Ġ",
-        "Process"
-      ],
-      [
-        "ĠD",
-        "SP"
-      ],
-      [
-        "ĠS",
-        "ig"
-      ],
-      [
-        "ĠProcess",
-        "ing"
-      ],
-      [
-        "ĠSig",
-        "nal"
-      ],
-      [
-        "B",
-        "it"
-      ],
-      [
-        "e",
-        "s"
-      ],
-      [
-        "m",
-        "in"
-      ],
-      [
-        "Ġ",
-        "ea"
-      ],
-      [
-        "Ġde",
-        "ter"
-      ],
-      [
-        "Ġb",
-        "it"
-      ],
-      [
-        "ut",
-        "ion"
-      ],
-      [
-        "Ġres",
+        "o",
         "ol"
       ],
       [
-        "Ġo",
-        "f"
-      ],
-      [
-        "min",
-        "es"
-      ],
-      [
-        "Ġea",
-        "ch"
-      ],
-      [
-        "Ġdeter",
-        "mines"
-      ],
-      [
-        "Ġresol",
-        "ution"
-      ],
-      [
-        "g",
-        "e"
-      ],
-      [
-        "p",
-        "ora"
-      ],
-      [
-        "r",
-        "y"
-      ],
-      [
-        "r",
-        "ing"
-      ],
-      [
-        "u",
-        "ring"
-      ],
-      [
-        "Ġ",
-        "tem"
-      ],
-      [
         "Ġd",
-        "uring"
+        "ecay"
       ],
       [
-        "Ġprocess",
-        "ing"
+        "ĠId",
+        "le"
       ],
       [
-        "Ġst",
-        "ora"
+        "C",
+        "anvas"
       ],
       [
-        "pora",
-        "ry"
-      ],
-      [
-        "Ġtem",
-        "porary"
-      ],
-      [
-        "Ġstora",
-        "ge"
-      ],
-      [
-        "A",
-        "U"
-      ],
-      [
-        "A",
-        "udio"
-      ],
-      [
-        "D",
-        "AW"
-      ],
-      [
-        "U",
-        "n"
-      ],
-      [
-        "W",
-        "ork"
-      ],
-      [
-        "p",
-        "ple"
-      ],
-      [
-        "t",
-        "ion"
+        "r",
+        "ue"
       ],
       [
         "Ġ",
-        "Un"
-      ],
-      [
-        "Ġ",
-        "Work"
-      ],
-      [
-        "sta",
-        "tion"
-      ],
-      [
-        "ĠD",
-        "AW"
-      ],
-      [
-        "ĠA",
-        "U"
-      ],
-      [
-        "ĠA",
-        "udio"
-      ],
-      [
-        "ĠA",
-        "pple"
-      ],
-      [
-        "ĠUn",
-        "it"
-      ],
-      [
-        "ĠWork",
-        "station"
-      ],
-      [
-        "S",
-        "ample"
+        "S"
       ],
       [
         "o",
-        "nd"
+        "p"
       ],
       [
-        "p",
-        "t"
+        "Ġ",
+        "W"
       ],
       [
-        "u",
-        "re"
+        "A",
+        "li"
       ],
       [
-        "Ġp",
-        "er"
-      ],
-      [
-        "Ġh",
-        "ow"
-      ],
-      [
-        "Ġs",
-        "ec"
-      ],
-      [
-        "Ġm",
-        "an"
-      ],
-      [
-        "Ġca",
-        "pt"
-      ],
-      [
-        "ure",
-        "d"
-      ],
-      [
-        "Ġsec",
-        "ond"
-      ],
-      [
-        "Ġman",
-        "y"
-      ],
-      [
-        "Ġcapt",
-        "ured"
-      ],
-      [
-        "c",
-        "al"
-      ],
-      [
-        "e",
+        "A",
         "nt"
       ],
       [
         "i",
-        "cation"
+        "Ali"
+      ],
+      [
+        "Ant",
+        "iAli"
+      ],
+      [
+        "AntiAli",
+        "as"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "set",
+        "Color"
+      ],
+      [
+        ")",
+        ");"
+      ],
+      [
+        "us",
+        "e"
       ],
       [
         "i",
-        "cal"
+        "rect"
       ],
       [
-        "m",
-        "u"
-      ],
-      [
-        "m",
-        "ent"
-      ],
-      [
-        "n",
-        "ication"
+        "Co",
+        "m"
       ],
       [
         "o",
-        "t"
+        "re"
       ],
       [
-        "r",
-        "u"
+        "it",
+        "i"
       ],
       [
-        "r",
-        "ot"
+        "g",
+        "ain"
       ],
       [
-        "s",
-        "t"
+        "In",
+        "fo"
       ],
       [
-        "Ġp",
-        "rot"
+        "Ġ",
+        "idx"
       ],
       [
-        "oc",
-        "ol"
+        "Ġdelay",
+        "Samples"
       ],
       [
-        "Ġm",
+        "d",
+        "ate"
+      ],
+      [
+        "R",
+        "E"
+      ],
+      [
+        "he",
+        "ck"
+      ],
+      [
+        "ĠSk",
+        "Rect"
+      ],
+      [
+        "Ġ",
+        "L"
+      ],
+      [
+        "g",
+        "ram"
+      ],
+      [
+        "Pro",
+        "gram"
+      ],
+      [
+        ")",
+        ","
+      ],
+      [
+        "E",
+        "d"
+      ],
+      [
+        "Ġcli",
+        "p"
+      ],
+      [
+        "Ġre",
+        "ad"
+      ],
+      [
+        "Ġy",
+        "ou"
+      ],
+      [
+        "Ġup",
+        "date"
+      ],
+      [
+        "e",
+        "p"
+      ],
+      [
+        "or",
+        "y"
+      ],
+      [
+        "em",
+        "ory"
+      ],
+      [
+        "ab",
+        "le"
+      ],
+      [
+        "Ġ",
+        "UI"
+      ],
+      [
+        "Ġ",
+        "4"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "Ġr",
+        "adi"
+      ],
+      [
+        "Ġradi",
         "us"
       ],
       [
-        "Ġin",
-        "st"
+        "Ġn",
+        "ote"
       ],
       [
-        "ĠM",
-        "ID"
+        "00",
+        "1"
       ],
       [
-        "Ġcom",
-        "mu"
+        "t",
+        "tack"
       ],
       [
-        "MID",
-        "I"
+        "re",
+        "ak"
       ],
       [
-        "ru",
-        "ment"
+        "Ġc",
+        "ase"
       ],
       [
-        "Ġprot",
-        "ocol"
+        "Ġb",
+        "reak"
       ],
       [
-        "Ġmus",
-        "ical"
+        "Rate",
+        "s"
       ],
       [
-        "Ġinst",
-        "rument"
+        "Ġat",
+        "tack"
       ],
       [
-        "ĠMID",
-        "I"
+        "Ġupdate",
+        "Rates"
       ],
       [
-        "Ġcommu",
-        "nication"
+        "Ġd",
+        "e"
+      ],
+      [
+        "Ġp",
+        "ro"
       ],
       [
         "Ġ",
         "JUCE"
       ],
       [
-        "Ġa",
-        "pp"
+        "Ġ",
+        "use"
       ],
       [
-        "Ġf",
-        "ram"
+        "p",
+        "er"
       ],
       [
-        "Ġplugin",
-        "s"
+        "Ġ",
+        "N"
       ],
       [
-        "lic",
-        "ations"
+        "p",
+        "ublic"
       ],
       [
-        "ew",
-        "ork"
+        "Sk",
+        "Canvas"
       ],
       [
-        "Ġapp",
-        "lications"
-      ],
-      [
-        "Ġfram",
-        "ework"
+        "Sk",
+        "Color"
       ],
       [
         "M",
-        "orning"
+        "idi"
       ],
       [
-        "ud",
-        "dy"
+        "an",
+        "d"
       ],
       [
-        "Ġb",
-        "uddy"
+        "un",
+        "d"
       ],
       [
-        "How",
-        "dy"
+        "Y",
+        "our"
+      ],
+      [
+        "W",
+        "H"
+      ],
+      [
+        "A",
+        "RGB"
+      ],
+      [
+        "an",
+        "iti"
+      ],
+      [
+        "Set",
+        "ARGB"
+      ],
+      [
+        "\"",
+        ");"
+      ],
+      [
+        "t",
+        "rue"
+      ],
+      [
+        "i",
+        "ce"
+      ],
+      [
+        "re",
+        "e"
+      ],
+      [
+        "Ġt",
+        "arget"
+      ],
+      [
+        "Ġtim",
+        "er"
+      ],
+      [
+        "T",
+        "h"
+      ],
+      [
+        "U",
+        "se"
+      ],
+      [
+        "T",
+        "E"
+      ],
+      [
+        "Ġ",
+        "8"
+      ],
+      [
+        "ut",
+        "o"
+      ],
+      [
+        "it",
+        "or"
+      ],
+      [
+        "G",
+        "L"
+      ],
+      [
+        "b",
+        "Info"
+      ],
+      [
+        "ĠG",
+        "L"
+      ],
+      [
+        "ĠG",
+        "r"
+      ],
+      [
+        "ram",
+        "e"
+      ],
+      [
+        "v",
+        "alue"
+      ],
+      [
+        "ct",
+        "or"
+      ],
+      [
+        "p",
+        "ol"
+      ],
+      [
+        "er",
+        "pol"
       ],
       [
         "Ġf",
-        "ri"
+        "ra"
       ],
       [
-        "What",
-        "s"
+        "r",
+        "ing"
+      ],
+      [
+        "St",
+        "ring"
+      ],
+      [
+        "st",
+        "ore"
+      ],
+      [
+        "5",
+        "0"
       ],
       [
         "Ġg",
-        "ood"
+        "r"
       ],
       [
-        "Ġfri",
-        "end"
+        "at",
+        "omic"
+      ],
+      [
+        "s",
+        "k"
+      ],
+      [
+        "Ġ",
+        "l"
+      ],
+      [
+        "Ġh",
+        "ere"
+      ],
+      [
+        "getNum",
+        "Samples"
+      ],
+      [
+        "o",
+        "ptions"
+      ],
+      [
+        "Ġ+",
+        "="
+      ],
+      [
+        "p",
+        "on"
+      ],
+      [
+        "pon",
+        "ent"
+      ],
+      [
+        "ine",
+        "ar"
+      ],
+      [
+        "Ġc",
+        "os"
+      ],
+      [
+        "Ġcos",
+        "w"
+      ],
+      [
+        "pp",
+        "ed"
+      ],
+      [
+        "am",
+        "e"
+      ],
+      [
+        "Audio",
+        "Processor"
+      ],
+      [
+        "t",
+        "er"
+      ],
+      [
+        "Ġb",
+        "ool"
+      ],
+      [
+        "h",
+        "a"
+      ],
+      [
+        "Ġ3",
+        "0"
+      ],
+      [
+        "T",
+        "he"
+      ],
+      [
+        "it",
+        "ion"
+      ],
+      [
+        "il",
+        "l"
+      ],
+      [
+        "en",
+        "er"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "b",
+        "ack"
+      ],
+      [
+        "Ġm",
+        "et"
+      ],
+      [
+        "F",
+        "loat"
+      ],
+      [
+        "Audio",
+        "Parameter"
+      ],
+      [
+        "ct",
+        "ion"
+      ],
+      [
+        "g",
+        "g"
+      ],
+      [
+        "y",
+        "le"
+      ],
+      [
+        "St",
+        "yle"
+      ],
+      [
+        "ad",
+        "ata"
+      ],
+      [
+        "Ġms",
+        "g"
+      ],
+      [
+        "P",
+        "lugin"
+      ],
+      [
+        "Your",
+        "Plugin"
+      ],
+      [
+        "Ġp",
+        "arams"
+      ],
+      [
+        "ĠĠĠĠĠĠĠĠ",
+        "ĠĠĠĠĠĠĠĠ"
+      ],
+      [
+        "Ġp",
+        "lugin"
+      ],
+      [
+        "A",
+        "D"
+      ],
+      [
+        "O",
+        "D"
+      ],
+      [
+        "O",
+        "OD"
+      ],
+      [
+        "ĠG",
+        "OOD"
+      ],
+      [
+        "ĠB",
+        "AD"
+      ],
+      [
+        "Ġ",
+        "en"
+      ],
+      [
+        "ĠRe",
+        "lease"
+      ],
+      [
+        "Ġ",
+        ":"
+      ],
+      [
+        "Ġ",
+        "lo"
+      ],
+      [
+        "d",
+        "d"
+      ],
+      [
+        "fa",
+        "ul"
+      ],
+      [
+        "ĠD",
+        "e"
+      ],
+      [
+        "faul",
+        "t"
+      ],
+      [
+        "a",
+        "ve"
+      ],
+      [
+        "m",
+        "ake"
+      ],
+      [
+        "P",
+        "oint"
+      ],
+      [
+        "T",
+        "ext"
+      ],
+      [
+        "lo",
+        "c"
+      ],
+      [
+        "Ġle",
+        "vel"
+      ],
+      [
+        "it",
+        "y"
+      ],
+      [
+        "2",
+        "55"
+      ],
+      [
+        "set",
+        "AntiAlias"
+      ],
+      [
+        "d",
+        "s"
+      ],
+      [
+        "W",
+        "rite"
+      ],
+      [
+        "ĠSk",
+        "Paint"
+      ],
+      [
+        "Ġp",
+        "oint"
+      ],
+      [
+        "1",
+        "00"
+      ],
+      [
+        "Ġb",
+        "e"
+      ],
+      [
+        "a",
+        "ce"
+      ],
+      [
+        "Ġ+",
+        "+"
+      ],
+      [
+        "ĠI",
+        "n"
+      ],
+      [
+        "a",
+        "x"
+      ],
+      [
+        "in",
+        "d"
+      ],
+      [
+        "ad",
+        "d"
+      ],
+      [
+        "mo",
+        "ve"
+      ],
+      [
+        "f",
+        "orm"
+      ],
+      [
+        "re",
+        "ss"
+      ],
+      [
+        "Ġc",
+        "hannel"
+      ],
+      [
+        "Ġa",
+        "c"
+      ],
+      [
+        "re",
+        "nt"
+      ],
+      [
+        "ur",
+        "rent"
+      ],
+      [
+        "orm",
+        "al"
+      ],
+      [
+        "Ġc",
+        "all"
+      ],
+      [
+        "Ġs",
+        "amples"
+      ],
+      [
+        "Ġc",
+        "om"
+      ],
+      [
+        "Ġw",
+        "rite"
+      ],
+      [
+        "8",
+        "8"
+      ],
+      [
+        "D",
+        "irect"
+      ],
+      [
+        "S",
+        "urface"
+      ],
+      [
+        "Ġf",
+        "rame"
+      ],
+      [
+        "Ġs",
+        "urface"
+      ],
+      [
+        "Ġint",
+        "erface"
+      ],
+      [
+        "ĠC",
+        "reate"
+      ],
+      [
+        "Direct",
+        "Context"
+      ],
+      [
+        "I",
+        "nt"
+      ],
+      [
+        "..",
+        "."
+      ],
+      [
+        "Ġfra",
+        "c"
+      ],
+      [
+        "or",
+        "der"
+      ],
+      [
+        "b",
+        "er"
+      ],
+      [
+        "od",
+        "e"
+      ],
+      [
+        "L",
+        "ist"
+      ],
+      [
+        "y",
+        "Com"
+      ],
+      [
+        "yCom",
+        "ponent"
+      ],
+      [
+        "i",
+        "al"
+      ],
+      [
+        "o",
+        "lor"
+      ],
+      [
+        "Ġc",
+        "olor"
+      ],
+      [
+        "adi",
+        "ent"
+      ],
+      [
+        "h",
+        "t"
+      ],
+      [
+        "Ġv",
+        "er"
+      ],
+      [
+        "p",
+        "ass"
+      ],
+      [
+        "A",
+        "TE"
+      ],
+      [
+        "I",
+        "V"
+      ],
+      [
+        "P",
+        "R"
+      ],
+      [
+        "f",
+        "s"
+      ],
+      [
+        "Ġ",
+        "PR"
+      ],
+      [
+        "aniti",
+        "ze"
+      ],
+      [
+        "IV",
+        "ATE"
+      ],
+      [
+        "fs",
+        "anitize"
+      ],
+      [
+        "ĠPR",
+        "IVATE"
+      ],
+      [
+        "&",
+        ")"
+      ],
+      [
+        "Ġf",
+        "alse"
+      ],
+      [
+        "Ed",
+        "itor"
+      ],
+      [
+        "F",
+        "rom"
+      ],
+      [
+        "g",
+        "in"
+      ],
+      [
+        "c",
+        "onst"
+      ],
+      [
+        "c",
+        "le"
+      ],
+      [
+        "p",
+        "ha"
+      ],
+      [
+        "Ġal",
+        "pha"
+      ],
+      [
+        "p",
+        "ri"
+      ],
+      [
+        "v",
+        "ate"
+      ],
+      [
+        "pri",
+        "vate"
+      ],
+      [
+        "Ġn",
+        "ot"
+      ],
+      [
+        "Ġcli",
+        "pped"
+      ],
+      [
+        "S",
+        "K"
+      ],
+      [
+        "Ġc",
+        "reate"
+      ],
+      [
+        "T",
+        "ypeface"
+      ],
+      [
+        "Ġt",
+        "ext"
+      ],
+      [
+        "im",
+        "ple"
+      ],
+      [
+        "Ġs",
+        "y"
+      ],
+      [
+        "St",
+        "ep"
+      ],
+      [
+        "ĠDe",
+        "fault"
+      ],
+      [
+        "f",
+        "alse"
+      ],
+      [
+        "i",
+        "ve"
+      ],
+      [
+        "Sk",
+        "Paint"
+      ],
+      [
+        "d",
+        "Re"
+      ],
+      [
+        "ul",
+        "dRe"
+      ],
+      [
+        "ho",
+        "uldRe"
+      ],
+      [
+        "houldRe",
+        "paint"
+      ],
+      [
+        "Ġ",
+        "un"
+      ],
+      [
+        "Th",
+        "is"
+      ],
+      [
+        "Ġf",
+        "rom"
+      ],
+      [
+        "Ġ2",
+        "00"
+      ],
+      [
+        "um",
+        "ber"
+      ],
+      [
+        "Ġ2",
+        "55"
+      ],
+      [
+        "Ġmet",
+        "adata"
+      ],
+      [
+        ">",
+        "("
+      ],
+      [
+        "{",
+        "\""
+      ],
+      [
+        "}",
+        ","
+      ],
+      [
+        "an",
+        "ge"
+      ],
+      [
+        "Ġp",
+        "arameter"
+      ],
+      [
+        "Parameter",
+        "ID"
+      ],
+      [
+        "P",
+        "U"
+      ],
+      [
+        "T",
+        "arget"
+      ],
+      [
+        "f",
+        "or"
+      ],
+      [
+        "si",
+        "on"
+      ],
+      [
+        "Ġver",
+        "sion"
+      ],
+      [
+        "_",
+        ")"
+      ],
+      [
+        "_",
+        ");"
+      ],
+      [
+        "ĠA",
+        "ttack"
+      ],
+      [
+        "ĠD",
+        "ecay"
+      ],
+      [
+        "Ġrelease",
+        "Rate"
+      ],
+      [
+        "Ġdecay",
+        "Rate"
+      ],
+      [
+        "ĠS",
+        "ustain"
+      ],
+      [
+        "Ġattack",
+        "Rate"
+      ],
+      [
+        "Ġc",
+        "an"
+      ],
+      [
+        "Ġ",
+        "."
+      ],
+      [
+        "Ġ",
+        "or"
+      ],
+      [
+        "Ġ",
+        ">"
+      ],
+      [
+        "_",
+        "]"
+      ],
+      [
+        "Ġ",
+        "q"
+      ],
+      [
+        "l",
+        "y"
+      ],
+      [
+        "'",
+        "t"
+      ],
+      [
+        "Ġd",
+        "ata"
+      ],
+      [
+        "s",
+        "ample"
+      ],
+      [
+        "Ġc",
+        "r"
+      ],
+      [
+        "ve",
+        "ctor"
+      ],
+      [
+        "Ġ<",
+        "="
+      ],
+      [
+        "C",
+        "hannel"
+      ],
+      [
+        "a",
+        "g"
       ],
       [
         "e",
-        "vening"
+        "ver"
+      ],
+      [
+        "th",
+        "is"
+      ],
+      [
+        ">",
+        "&"
+      ],
+      [
+        "Audio",
+        "Buffer"
+      ],
+      [
+        "Midi",
+        "Buffer"
+      ],
+      [
+        "Ġre",
+        "move"
+      ],
+      [
+        "Ġle",
+        "ak"
+      ],
+      [
+        "i",
+        "g"
+      ],
+      [
+        "Ġ",
+        "li"
+      ],
+      [
+        "Ġset",
+        "S"
+      ],
+      [
+        "R",
+        "a"
+      ],
+      [
+        "w",
+        "Parameter"
+      ],
+      [
+        "get",
+        "Ra"
+      ],
+      [
+        "wParameter",
+        "Value"
+      ],
+      [
+        "getRa",
+        "wParameterValue"
+      ],
+      [
+        "Ġre",
+        "ct"
+      ],
+      [
+        "SkColor",
+        "SetARGB"
+      ],
+      [
+        "Ġa",
+        "uto"
+      ],
+      [
+        "Ġm",
+        "idi"
+      ],
+      [
+        "Ġcli",
+        "ck"
+      ],
+      [
+        "r",
+        "on"
+      ],
+      [
+        "E",
+        "R"
+      ],
+      [
+        "E",
+        "V"
+      ],
+      [
+        "Ġ",
+        "lock"
+      ],
+      [
+        "ĠN",
+        "EV"
+      ],
+      [
+        "ĠNEV",
+        "ER"
+      ],
+      [
+        "Ġb",
+        "lock"
+      ],
+      [
+        "Ġat",
+        "omic"
+      ],
+      [
+        "p",
+        "arams"
+      ],
+      [
+        "ro",
+        "und"
+      ],
+      [
+        "Ġr",
+        "ace"
+      ],
+      [
+        "re",
+        "size"
+      ],
+      [
+        "h",
+        "at"
+      ],
+      [
+        ":",
+        "**"
+      ],
+      [
+        "A",
+        "K"
+      ],
+      [
+        "t",
+        "on"
+      ],
+      [
+        "ut",
+        "ton"
+      ],
+      [
+        "List",
+        "ener"
+      ],
+      [
+        "Ġ",
+        "%"
+      ],
+      [
+        "Ġ*",
+        "="
+      ],
+      [
+        "ĠT",
+        "he"
+      ],
+      [
+        "Ġ2",
+        "0"
+      ],
+      [
+        "Ġb",
+        "y"
+      ],
+      [
+        "ub",
+        "le"
+      ],
+      [
+        "ĠAudio",
+        "Processor"
+      ],
+      [
+        "D",
+        "en"
+      ],
+      [
+        "ormal",
+        "s"
+      ],
+      [
+        "Den",
+        "ormals"
+      ],
+      [
+        "form",
+        "ation"
+      ],
+      [
+        "S",
+        "h"
+      ],
+      [
+        "f",
+        "e"
+      ],
+      [
+        "n",
+        "e"
+      ],
+      [
+        "t",
+        "arget"
+      ],
+      [
+        "()`",
+        ","
+      ],
+      [
+        "Ġc",
+        "h"
+      ],
+      [
+        "Ġ",
+        "50"
+      ],
+      [
+        "m",
+        "emory"
+      ],
+      [
+        "Ġan",
+        "d"
+      ],
+      [
+        "Ġ4",
+        "0"
+      ],
+      [
+        "B",
+        "ack"
+      ],
+      [
+        "R",
+        "end"
+      ],
+      [
+        "f",
+        "bInfo"
+      ],
+      [
+        "Ġ",
+        "k"
+      ],
+      [
+        "er",
+        "Target"
+      ],
+      [
+        "Ġc",
+        "ontext"
+      ],
+      [
+        "int",
+        "erface"
+      ],
+      [
+        "Ġf",
+        "bInfo"
+      ],
+      [
+        "end",
+        "Rend"
+      ],
+      [
+        "Ġo",
+        "ptions"
+      ],
+      [
+        "ĠG",
+        "PU"
+      ],
+      [
+        "RGB",
+        "A"
+      ],
+      [
+        "ĠGr",
+        "GL"
+      ],
+      [
+        "ĠGr",
+        "DirectContext"
+      ],
+      [
+        "Ġgr",
+        "Context"
+      ],
+      [
+        "Ġframe",
+        "buffer"
+      ],
+      [
+        "Int",
+        "erface"
+      ],
+      [
+        "Back",
+        "endRend"
+      ],
+      [
+        "BackendRend",
+        "erTarget"
+      ],
+      [
+        "ra",
+        "p"
+      ],
+      [
+        "D",
+        "elay"
+      ],
+      [
+        "d",
+        "elay"
+      ],
+      [
+        "ate",
+        "d"
+      ],
+      [
+        "Ġint",
+        "erpol"
+      ],
+      [
+        "read",
+        "Pos"
+      ],
+      [
+        "Ġread",
+        "Pos"
+      ],
+      [
+        "erpol",
+        "ated"
+      ],
+      [
+        "ax",
+        "Samples"
+      ],
+      [
+        "delay",
+        "Samples"
+      ],
+      [
+        "Ġinterpol",
+        "ation"
+      ],
+      [
+        "k",
+        "C"
+      ],
+      [
+        "t",
+        "om"
+      ],
+      [
+        "ot",
+        "tom"
+      ],
+      [
+        "L",
+        "inear"
+      ],
+      [
+        "Ġp",
+        "os"
+      ],
+      [
+        "p",
+        "l"
+      ],
+      [
+        "Ġ",
+        "Use"
+      ],
+      [
+        "Ġac",
+        "ce"
+      ],
+      [
+        "as",
+        "ic"
+      ],
+      [
+        "Ġb",
+        "asic"
+      ],
+      [
+        "6",
+        "0"
+      ],
+      [
+        "Ġ",
+        "60"
+      ],
+      [
+        "ad",
+        "er"
+      ],
+      [
+        "ĠSk",
+        "Color"
+      ],
+      [
+        "ĠSk",
+        "Point"
+      ],
+      [
+        "ĠD",
+        "raw"
+      ],
+      [
+        "Ġgr",
+        "adient"
+      ],
+      [
+        "Ġpoint",
+        "s"
+      ],
+      [
+        "Ġcolor",
+        "s"
+      ],
+      [
+        "Sh",
+        "ader"
+      ],
+      [
+        "ĠSkColor",
+        "SetARGB"
+      ],
+      [
+        "+",
+        "+"
+      ],
+      [
+        "n",
+        "der"
+      ],
+      [
+        "at",
+        "h"
+      ],
+      [
+        "Ġre",
+        "nder"
+      ],
+      [
+        "()",
+        ");"
+      ],
+      [
+        "op",
+        "y"
+      ],
+      [
+        "Ġw",
+        "ant"
+      ],
+      [
+        "Ġ8",
+        "0"
+      ],
+      [
+        "C",
+        "urrent"
+      ],
+      [
+        "N",
+        "ame"
+      ],
+      [
+        "O",
+        "utput"
+      ],
+      [
+        "o",
+        "ug"
+      ],
+      [
+        "p",
+        "v"
+      ],
+      [
+        "s",
+        "Midi"
+      ],
+      [
+        "t",
+        "s"
+      ],
+      [
+        "w",
+        "ith"
+      ],
+      [
+        "st",
+        "ere"
+      ],
+      [
+        "ain",
+        "Processor"
+      ],
+      [
+        "ĠG",
+        "ainProcessor"
+      ],
+      [
+        "Audio",
+        "Channel"
+      ],
+      [
+        "th",
+        "oug"
+      ],
+      [
+        "In",
+        "put"
+      ],
+      [
+        "In",
+        "formation"
+      ],
+      [
+        "State",
+        "Information"
+      ],
+      [
+        "Program",
+        "Name"
+      ],
+      [
+        "Current",
+        "Program"
+      ],
+      [
+        "pv",
+        "ts"
+      ],
+      [
+        "stere",
+        "o"
+      ],
+      [
+        "AudioChannel",
+        "Set"
+      ],
+      [
+        "thoug",
+        "ht"
+      ],
+      [
+        "A",
+        "l"
+      ],
+      [
+        "id",
+        "th"
+      ],
+      [
+        "()",
+        ","
+      ],
+      [
+        "O",
+        "r"
+      ],
+      [
+        "u",
+        "ad"
+      ],
+      [
+        "in",
+        "w"
+      ],
+      [
+        "re",
+        "q"
+      ],
+      [
+        "Ġf",
+        "req"
+      ],
+      [
+        "Ġs",
+        "inw"
+      ],
+      [
+        "ĠD",
+        "irect"
+      ],
+      [
+        "ow",
+        "pass"
+      ],
+      [
+        "iq",
+        "uad"
+      ],
+      [
+        "ĠFor",
+        "m"
+      ],
+      [
+        "C",
+        "i"
+      ],
+      [
+        "c",
+        "li"
+      ],
+      [
+        "p",
+        "Rect"
+      ],
+      [
+        "r",
+        "cle"
+      ],
+      [
+        "s",
+        "ave"
+      ],
+      [
+        "re",
+        "store"
+      ],
+      [
+        "draw",
+        "Ci"
+      ],
+      [
+        "Ġclip",
+        "Rect"
+      ],
+      [
+        "Ġ>",
+        "="
+      ],
+      [
+        "cli",
+        "pRect"
+      ],
+      [
+        "drawCi",
+        "rcle"
+      ],
+      [
+        "Ġh",
+        "as"
+      ],
+      [
+        "ot",
+        "h"
+      ],
+      [
+        "F",
+        "ont"
+      ],
+      [
+        "g",
+        "ing"
+      ],
+      [
+        "i",
+        "x"
+      ],
+      [
+        "p",
+        "ix"
+      ],
+      [
+        "t",
+        "ext"
+      ],
+      [
+        "t",
+        "ypeface"
+      ],
+      [
+        "el",
+        "AntiAlias"
+      ],
+      [
+        "ub",
+        "pix"
+      ],
+      [
+        "Ed",
+        "ging"
+      ],
+      [
+        "ubpix",
+        "elAntiAlias"
+      ],
+      [
+        "Ġf",
+        "l"
+      ],
+      [
+        "han",
+        "ge"
+      ],
+      [
+        "M",
+        "ode"
+      ],
+      [
+        "Ġc",
+        "le"
+      ],
+      [
+        "a",
+        "pp"
+      ],
+      [
+        "st",
+        "em"
+      ],
+      [
+        "ch",
+        "ing"
+      ],
+      [
+        "Ġl",
+        "inear"
+      ],
+      [
+        "i",
+        "es"
+      ],
+      [
+        "P",
+        "arams"
+      ],
+      [
+        "T",
+        "ree"
+      ],
+      [
+        "ra",
+        "ct"
+      ],
+      [
+        "Value",
+        "Tree"
+      ],
+      [
+        "AudioProcessor",
+        "ValueTree"
+      ],
+      [
+        "AudioParameter",
+        "Float"
+      ],
+      [
+        "AudioProcessorValueTree",
+        "State"
+      ],
+      [
+        "Ġ",
+        "..."
+      ],
+      [
+        "re",
+        "paint"
+      ],
+      [
+        "Ġs",
+        "houldRepaint"
+      ],
+      [
+        "X",
+        "Y"
+      ],
+      [
+        "Make",
+        "XY"
+      ],
+      [
+        "MakeXY",
+        "WH"
+      ],
+      [
+        "g",
+        "n"
+      ],
+      [
+        "i",
+        "as"
+      ],
+      [
+        "Ġ",
+        "ant"
+      ],
+      [
+        "ias",
+        "ing"
+      ],
+      [
+        "Ġw",
+        "ill"
+      ],
+      [
+        "Ġ",
+        "ju"
+      ],
+      [
+        "Ġpro",
+        "per"
+      ],
+      [
+        "e",
+        "ff"
+      ],
+      [
+        "Co",
+        "eff"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "ri",
+        "gg"
+      ],
+      [
+        "rigg",
+        "er"
+      ],
+      [
+        "Ġre",
+        "c"
+      ],
+      [
+        "re",
+        "lease"
+      ],
+      [
+        "R",
+        "o"
+      ],
+      [
+        "ro",
+        "ke"
+      ],
+      [
+        "set",
+        "Style"
+      ],
+      [
+        "St",
+        "roke"
+      ],
+      [
+        "draw",
+        "Ro"
+      ],
+      [
+        "und",
+        "Rect"
+      ],
+      [
+        "drawRo",
+        "undRect"
+      ],
+      [
+        "an",
+        "g"
+      ],
+      [
+        "N",
+        "ote"
+      ],
+      [
+        "N",
+        "umber"
+      ],
+      [
+        "e",
+        "loc"
+      ],
+      [
+        "m",
+        "s"
+      ],
+      [
+        "o",
+        "ice"
+      ],
+      [
+        "Ġv",
+        "oice"
+      ],
+      [
+        "Pos",
+        "ition"
+      ],
+      [
+        "nt",
+        "h"
+      ],
+      [
+        "is",
+        "Note"
+      ],
+      [
+        "getN",
+        "ote"
+      ],
+      [
+        "Ġtim",
+        "ing"
+      ],
+      [
+        "Ġsy",
+        "nth"
+      ],
+      [
+        "sample",
+        "Position"
+      ],
+      [
+        "eloc",
+        "ity"
+      ],
+      [
+        "ms",
+        "g"
+      ],
+      [
+        "isNote",
+        "O"
+      ],
+      [
+        "getNote",
+        "Number"
+      ],
+      [
+        "a",
+        "ge"
+      ],
+      [
+        "e",
+        "ss"
+      ],
+      [
+        "ess",
+        "age"
+      ],
+      [
+        "p",
+        "us"
+      ],
+      [
+        "Ġ",
+        "));"
+      ],
+      [
+        "Ġr",
+        "ange"
+      ],
+      [
+        "Ġh",
+        "int"
+      ],
+      [
+        "ho",
+        "ice"
+      ],
+      [
+        "ĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠ",
+        "ĠĠĠĠĠĠĠĠ"
+      ],
+      [
+        "pus",
+        "h"
+      ],
+      [
+        "Ġ1",
+        "0"
+      ],
+      [
+        "A",
+        "ttack"
+      ],
+      [
+        "at",
+        "tack"
+      ],
+      [
+        "!",
+        "="
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "Ġ",
+        "State"
+      ],
+      [
+        "Ġ",
+        "!="
+      ],
+      [
+        "st",
+        "ate"
+      ],
+      [
+        "lo",
+        "pe"
+      ],
+      [
+        "Ġs",
+        "r"
+      ],
+      [
+        "Ġ-",
+        "="
+      ],
+      [
+        "ĠA",
+        "DS"
+      ],
+      [
+        "ve",
+        "lope"
+      ],
+      [
+        "Ġrelease",
+        "Ms"
+      ],
+      [
+        "Ġdecay",
+        "Ms"
+      ],
+      [
+        "Ġnote",
+        "O"
+      ],
+      [
+        "Ġattack",
+        "Ms"
+      ],
+      [
+        "Ġen",
+        "velope"
+      ],
+      [
+        "ĠADS",
+        "R"
+      ],
+      [
+        "ample",
+        "Rate"
+      ],
+      [
+        "C",
+        "heck"
+      ],
+      [
+        "g",
+        "r"
+      ],
+      [
+        "M",
+        "ID"
+      ],
+      [
+        "P",
+        "RE"
+      ],
+      [
+        "S",
+        "U"
+      ],
+      [
+        "SU",
+        "F"
+      ],
+      [
+        "lo",
+        "w"
+      ],
+      [
+        "'",
+        "re"
+      ],
+      [
+        "u",
+        "il"
+      ],
+      [
+        "Ġb",
+        "uil"
+      ],
+      [
+        "Ġp",
+        "ublic"
+      ],
+      [
+        "RE",
+        "D"
+      ],
+      [
+        "Ġremove",
+        "s"
+      ],
+      [
+        "ut",
+        "ion"
+      ],
+      [
+        "E",
+        "n"
+      ],
+      [
+        "im",
+        "er"
+      ],
+      [
+        "it",
+        "ions"
+      ],
+      [
+        "ic",
+        "al"
+      ],
+      [
+        "Ġo",
+        "f"
+      ],
+      [
+        "Ġon",
+        "e"
+      ],
+      [
+        "on",
+        "ds"
+      ],
+      [
+        "Ġn",
+        "o"
+      ],
+      [
+        "ec",
+        "onds"
+      ],
+      [
+        "ly",
+        "Gain"
+      ],
+      [
+        "app",
+        "lyGain"
+      ],
+      [
+        "i",
+        "re"
+      ],
+      [
+        "z",
+        "er"
+      ],
+      [
+        "b",
+        "ug"
+      ],
+      [
+        "all",
+        "y"
+      ],
+      [
+        "b",
+        "st"
+      ],
+      [
+        "Ġs",
+        "imple"
+      ],
+      [
+        "Ġclick",
+        "s"
+      ],
+      [
+        "bst",
+        "ract"
+      ],
+      [
+        "pp",
+        "ing"
+      ],
+      [
+        "F",
+        "ile"
+      ],
+      [
+        "c",
+        "re"
+      ],
+      [
+        "d",
+        "en"
+      ],
+      [
+        "Ġs",
+        "cre"
+      ],
+      [
+        "l",
+        "assi"
+      ],
+      [
+        "t",
+        "ing"
+      ],
+      [
+        "th",
+        "er"
+      ],
+      [
+        "lassi",
+        "c"
+      ],
+      [
+        "Ġan",
+        "y"
+      ],
+      [
+        "ron",
+        "g"
+      ],
+      [
+        "k",
+        "s"
+      ],
+      [
+        "ad",
+        "ing"
+      ],
+      [
+        "Ġlo",
+        "ading"
+      ],
+      [
+        "c",
+        "om"
+      ],
+      [
+        "as",
+        "h"
+      ],
+      [
+        "N",
+        "o"
+      ],
+      [
+        "s",
+        "ol"
+      ],
+      [
+        "at",
+        "ions"
+      ],
+      [
+        "ut",
+        "ex"
+      ],
+      [
+        "Ġo",
+        "per"
+      ],
+      [
+        "Ġprocess",
+        "ing"
+      ],
+      [
+        "Ġoper",
+        "ations"
+      ],
+      [
+        "M",
+        "eter"
+      ],
+      [
+        "b",
+        "ool"
+      ],
+      [
+        "f",
+        "ree"
+      ],
+      [
+        "Ġp",
+        "ol"
+      ],
+      [
+        "Ġpol",
+        "l"
+      ],
+      [
+        "a",
+        "re"
+      ],
+      [
+        "p",
+        "are"
+      ],
+      [
+        "re",
+        "pare"
+      ],
+      [
+        "ĠA",
+        "dd"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "on",
+        "d"
+      ],
+      [
+        "Ġc",
+        "ond"
+      ],
+      [
+        "L",
+        "ine"
+      ],
+      [
+        "]",
+        ";"
+      ],
+      [
+        "s",
+        "amples"
+      ],
+      [
+        "elay",
+        "Line"
+      ],
+      [
+        "ĠD",
+        "elayLine"
+      ],
+      [
+        "Ġs",
+        "w"
+      ],
+      [
+        "i",
+        "ze"
+      ],
+      [
+        "Make",
+        "WH"
+      ],
+      [
+        "draw",
+        "Rect"
+      ],
+      [
+        "E",
+        "AK"
+      ],
+      [
+        "M",
+        "yComponent"
+      ],
+      [
+        "r",
+        "u"
+      ],
+      [
+        "st",
+        "ru"
+      ],
+      [
+        "Ġb",
+        "utton"
+      ],
+      [
+        "ĠM",
+        "yComponent"
+      ],
+      [
+        "RE",
+        "Q"
+      ],
+      [
+        "ĠL",
+        "EAK"
+      ],
+      [
+        "Ġpro",
+        "c"
+      ],
+      [
+        "add",
+        "ress"
+      ],
+      [
+        "M",
+        "y"
+      ],
+      [
+        "et",
+        "e"
+      ],
+      [
+        "Ġd",
+        "el"
+      ],
+      [
+        "S",
+        "aniti"
+      ],
+      [
+        "b",
+        "ash"
+      ],
+      [
+        "l",
+        "in"
+      ],
+      [
+        "m",
+        "on"
+      ],
+      [
+        "p",
+        "ile"
+      ],
+      [
+        "Ġ",
+        "Processor"
+      ],
+      [
+        "Ġf",
+        "ind"
+      ],
+      [
+        "ĠC",
+        "heck"
+      ],
+      [
+        "Com",
+        "mon"
+      ],
+      [
+        "com",
+        "pile"
+      ],
+      [
+        "Saniti",
+        "zer"
+      ],
+      [
+        "lin",
+        "k"
+      ],
+      [
+        "d",
+        "Gain"
+      ],
+      [
+        "l",
+        "ing"
+      ],
+      [
+        "m",
+        "p"
+      ],
+      [
+        "Ġ",
+        "start"
+      ],
+      [
+        "Ġs",
+        "mo"
+      ],
+      [
+        "he",
+        "dGain"
+      ],
+      [
+        "ot",
+        "hedGain"
+      ],
+      [
+        "Ġju",
+        "mp"
+      ],
+      [
+        "Ġsmo",
+        "othedGain"
+      ],
+      [
+        "V",
+        "er"
+      ],
+      [
+        "e",
+        "v"
+      ],
+      [
+        "Ġ",
+        "Ver"
+      ],
+      [
+        "ig",
+        "h"
+      ],
+      [
+        "T",
+        "able"
+      ],
+      [
+        "g",
+        "round"
+      ],
+      [
+        "i",
+        "fo"
+      ],
+      [
+        "m",
+        "un"
+      ],
+      [
+        "et",
+        "im"
+      ],
+      [
+        "as",
+        "he"
+      ],
+      [
+        "Ġb",
+        "ack"
+      ],
+      [
+        "Ġs",
+        "om"
+      ],
+      [
+        "ple",
+        "x"
+      ],
+      [
+        "Ġ-",
+        ">"
+      ],
+      [
+        "ic",
+        "ation"
+      ],
+      [
+        "th",
+        "read"
+      ],
+      [
+        "Ġthread",
+        "s"
+      ],
+      [
+        "and",
+        "om"
+      ],
+      [
+        "Ġcom",
+        "mun"
+      ],
+      [
+        "Ġwrite",
+        "s"
+      ],
+      [
+        "Ġcr",
+        "ashe"
+      ],
+      [
+        "etim",
+        "es"
+      ],
+      [
+        "Ġback",
+        "ground"
+      ],
+      [
+        "Ġsom",
+        "etimes"
+      ],
+      [
+        "Ġcommun",
+        "ication"
+      ],
+      [
+        "Ġcrashe",
+        "s"
+      ],
+      [
+        "P",
+        "l"
+      ],
+      [
+        "T",
+        "o"
+      ],
+      [
+        "Ġp",
+        "repare"
+      ],
+      [
+        "Pl",
+        "ay"
+      ],
+      [
+        "To",
+        "Play"
+      ],
+      [
+        "Th",
+        "at"
+      ],
+      [
+        "if",
+        "y"
+      ],
+      [
+        "Ġp",
+        "rocessor"
+      ],
+      [
+        "Ġal",
+        "l"
+      ],
+      [
+        "Ġa",
+        "dd"
+      ],
+      [
+        "ĠAudio",
+        "Buffer"
       ],
       [
         "f",
         "ter"
       ],
       [
-        "n",
+        "d",
         "o"
       ],
       [
-        "o",
-        "n"
+        "Ġprepare",
+        "ToPlay"
+      ],
+      [
+        "do",
+        "uble"
+      ],
+      [
+        "Ġc",
+        "urrent"
+      ],
+      [
+        "Ġn",
+        "e"
+      ],
+      [
+        "c",
+        "ur"
+      ],
+      [
+        "cur",
+        "ate"
+      ],
+      [
+        "(",
+        "..."
+      ],
+      [
+        "C",
+        "all"
+      ],
+      [
+        "a",
+        "fe"
+      ],
+      [
+        "p",
+        "rocessor"
       ],
       [
         "Ġ",
-        "evening"
+        "ed"
+      ],
+      [
+        "ad",
+        "lock"
+      ],
+      [
+        "ĠT",
+        "hat"
+      ],
+      [
+        "Ġde",
+        "adlock"
+      ],
+      [
+        "Ġtimer",
+        "Call"
+      ],
+      [
+        "(...",
+        ")"
+      ],
+      [
+        "Ġed",
+        "itor"
+      ],
+      [
+        "ĠtimerCall",
+        "back"
+      ],
+      [
+        "w",
+        "ay"
+      ],
+      [
+        "way",
+        "s"
+      ],
+      [
+        "}",
+        "<"
+      ],
+      [
+        "g",
+        "ent"
+      ],
+      [
+        "ĠA",
+        "gent"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "B",
+        "O"
+      ],
+      [
+        "B",
+        "ottom"
+      ],
+      [
+        "F",
+        "a"
+      ],
+      [
+        "F",
+        "rame"
+      ],
+      [
+        "F",
+        "BO"
+      ],
+      [
+        "M",
+        "as"
+      ],
+      [
+        "N",
+        "at"
+      ],
+      [
+        "O",
+        "ri"
+      ],
+      [
+        "O",
+        "ptions"
+      ],
+      [
+        "P",
+        "ath"
+      ],
+      [
+        "T",
+        "ype"
+      ],
+      [
+        "W",
+        "rap"
+      ],
+      [
+        "a",
+        "ching"
+      ],
+      [
+        "f",
+        "t"
+      ],
+      [
+        "f",
+        "For"
+      ],
+      [
+        "f",
+        "Al"
+      ],
+      [
+        "f",
+        "FBO"
+      ],
+      [
+        "i",
+        "e"
+      ],
+      [
+        "l",
+        "er"
+      ],
+      [
+        "l",
+        "and"
+      ],
+      [
+        "m",
+        "at"
+      ],
+      [
+        "w",
+        "idth"
+      ],
+      [
+        "Ġ",
+        "he"
+      ],
+      [
+        "Ġ",
+        "ever"
+      ],
+      [
+        "at",
+        "form"
+      ],
+      [
+        "on",
+        "ed"
+      ],
+      [
+        "Ġd",
+        "ie"
+      ],
+      [
+        "Ġt",
+        "rue"
+      ],
+      [
+        "Sk",
+        "Surface"
+      ],
+      [
+        "Ġ(",
+        "!"
+      ],
+      [
+        "get",
+        "Canvas"
+      ],
+      [
+        "Ġw",
+        "ind"
+      ],
+      [
+        "ay",
+        "land"
+      ],
+      [
+        "ĠSk",
+        "Surface"
+      ],
+      [
+        "ĠG",
+        "et"
+      ],
+      [
+        "ĠD",
+        "BG"
+      ],
+      [
+        "ow",
+        "ing"
+      ],
+      [
+        "ec",
+        "if"
+      ],
+      [
+        "Make",
+        "GL"
+      ],
+      [
+        "Make",
+        "Nat"
+      ],
+      [
+        "Le",
+        "ft"
+      ],
+      [
+        "Context",
+        "Options"
+      ],
+      [
+        "Ġtim",
+        "e"
+      ],
+      [
+        "buffer",
+        "Info"
+      ],
+      [
+        "sp",
+        "ecif"
+      ],
+      [
+        "ile",
+        "d"
+      ],
+      [
+        "ab",
+        "and"
+      ],
+      [
+        "Gr",
+        "GL"
+      ],
+      [
+        "Gr",
+        "Surface"
+      ],
+      [
+        "Gr",
+        "DirectContext"
+      ],
+      [
+        "Gr",
+        "BackendRenderTarget"
+      ],
+      [
+        "Gr",
+        "ContextOptions"
+      ],
+      [
+        "ĠW",
+        "ayland"
+      ],
+      [
+        "SkColor",
+        "Type"
+      ],
+      [
+        "88",
+        "88"
+      ],
+      [
+        "Ġsy",
+        "stem"
+      ],
+      [
+        "ive",
+        "Interface"
+      ],
+      [
+        "ig",
+        "ht"
+      ],
+      [
+        "Ġk",
+        "RGBA"
+      ],
+      [
+        "Ġk",
+        "Bottom"
+      ],
+      [
+        "ĠGrGL",
+        "Interface"
+      ],
+      [
+        "ĠGrGL",
+        "MakeNat"
+      ],
+      [
+        "kC",
+        "aching"
+      ],
+      [
+        "pl",
+        "atform"
+      ],
+      [
+        "Ġacce",
+        "ler"
+      ],
+      [
+        "Ġrender",
+        "ing"
+      ],
+      [
+        "gr",
+        "Context"
+      ],
+      [
+        "low",
+        "Path"
+      ],
+      [
+        "Fa",
+        "iled"
+      ],
+      [
+        "Frame",
+        "bufferInfo"
+      ],
+      [
+        "Mas",
+        "kCaching"
+      ],
+      [
+        "Ori",
+        "gin"
+      ],
+      [
+        "Wrap",
+        "BackendRenderTarget"
+      ],
+      [
+        "fFor",
+        "mat"
+      ],
+      [
+        "fAl",
+        "lowPath"
+      ],
+      [
+        "fFBO",
+        "ID"
+      ],
+      [
+        "Ġhe",
+        "ight"
+      ],
+      [
+        "Ġever",
+        "y"
+      ],
+      [
+        "Ġwind",
+        "owing"
+      ],
+      [
+        "ĠSkSurface",
+        "s"
+      ],
+      [
+        "specif",
+        "ic"
+      ],
+      [
+        "aband",
+        "oned"
+      ],
+      [
+        "GrGL",
+        "FramebufferInfo"
+      ],
+      [
+        "GrSurface",
+        "Origin"
+      ],
+      [
+        "ĠkBottom",
+        "Left"
+      ],
+      [
+        "ĠGrGLMakeNat",
+        "iveInterface"
+      ],
+      [
+        "Ġacceler",
+        "ation"
+      ],
+      [
+        "fAllowPath",
+        "MaskCaching"
+      ],
+      [
+        "I",
+        "m"
+      ],
+      [
+        "M",
+        "ax"
+      ],
+      [
+        "_",
+        "++"
+      ],
+      [
+        "d",
+        "v"
+      ],
+      [
+        "f",
+        "lo"
+      ],
+      [
+        "m",
+        "in"
+      ],
+      [
+        "m",
+        "ent"
+      ],
+      [
+        "m",
+        "axSamples"
+      ],
+      [
+        "er",
+        "fe"
+      ],
+      [
+        "int",
+        "erpolated"
+      ],
+      [
+        "an",
+        "ce"
+      ],
+      [
+        "Ġf",
+        "ine"
+      ],
+      [
+        "Ġp",
+        "erfe"
+      ],
+      [
+        "ple",
+        "ment"
+      ],
+      [
+        "Ġw",
+        "rap"
+      ],
+      [
+        "Ġm",
+        "axSamples"
+      ],
+      [
+        "ĠA",
+        "dv"
+      ],
+      [
+        "Ġset",
+        "Delay"
+      ],
+      [
+        "Ġset",
+        "Max"
+      ],
+      [
+        "Ġprocess",
+        "Int"
+      ],
+      [
+        "Ġdelay",
+        "s"
+      ],
+      [
+        "ĠRe",
+        "ad"
+      ],
+      [
+        "ĠW",
+        "rite"
+      ],
+      [
+        "Ġfra",
+        "ction"
+      ],
+      [
+        "Ġl",
+        "ine"
+      ],
+      [
+        "ction",
+        "ist"
+      ],
+      [
+        "Ġpos",
+        "ition"
+      ],
+      [
+        "Ġall",
+        "pass"
+      ],
+      [
+        "Im",
+        "plement"
+      ],
+      [
+        "_++",
+        ";"
+      ],
+      [
+        "flo",
+        "or"
+      ],
+      [
+        "Ġperfe",
+        "ctionist"
+      ],
+      [
+        "ĠAdv",
+        "ance"
+      ],
+      [
+        "ĠsetMax",
+        "Delay"
+      ],
+      [
+        "ĠprocessInt",
+        "erpolated"
+      ],
+      [
+        "Ġfraction",
+        "al"
+      ],
+      [
+        "2",
+        "00"
+      ],
+      [
+        "T",
+        "ile"
+      ],
+      [
+        "b",
+        "ution"
+      ],
+      [
+        "c",
+        "anvas"
+      ],
+      [
+        "l",
+        "am"
+      ],
+      [
+        "t",
+        "ical"
+      ],
+      [
+        "Ġ",
+        "ev"
+      ],
+      [
+        "Ġp",
+        "ass"
+      ],
+      [
+        "Ġd",
+        "ist"
+      ],
+      [
+        "Sk",
+        "Rect"
+      ],
+      [
+        "Sk",
+        "Gr"
+      ],
+      [
+        "Sk",
+        "Point"
+      ],
+      [
+        "ĠSk",
+        "Tile"
+      ],
+      [
+        "set",
+        "Shader"
+      ],
+      [
+        "Make",
+        "Linear"
+      ],
+      [
+        "ĠT",
+        "op"
+      ],
+      [
+        "ri",
+        "bution"
+      ],
+      [
+        "ĠB",
+        "ottom"
+      ],
+      [
+        "adient",
+        "Shader"
+      ],
+      [
+        "kC",
+        "lam"
+      ],
+      [
+        "Ġpos",
+        "itions"
+      ],
+      [
+        "ĠVer",
+        "tical"
+      ],
+      [
+        "Ġev",
+        "en"
+      ],
+      [
+        "Ġdist",
+        "ribution"
+      ],
+      [
+        "SkGr",
+        "adientShader"
+      ],
+      [
+        "ĠSkTile",
+        "Mode"
+      ],
+      [
+        "kClam",
+        "p"
+      ],
+      [
+        "cle",
+        "ar"
       ],
       [
         "Ġa",
         "fter"
       ],
       [
-        "no",
-        "on"
-      ],
-      [
-        "Ġafter",
-        "noon"
-      ],
-      [
-        "Ġm",
-        "orning"
-      ],
-      [
-        "E",
-        "vening"
-      ],
-      [
-        "G",
-        "re"
-      ],
-      [
-        "ing",
+        "Ġplugin",
         "s"
       ],
       [
-        "et",
-        "ings"
+        "D",
+        "on"
       ],
       [
-        "Gre",
-        "etings"
+        "c",
+        "opy"
       ],
       [
-        "S",
-        "up"
+        "e",
+        "ad"
+      ],
+      [
+        "n",
+        "er"
+      ],
+      [
+        "p",
+        "y"
+      ],
+      [
+        "u",
+        "ally"
       ],
       [
         "Ġ",
-        "up"
+        "Co"
       ],
       [
-        "8",
-        "6"
+        "Ġ",
+        "Or"
+      ],
+      [
+        "st",
+        "ead"
+      ],
+      [
+        "Ġc",
+        "opy"
+      ],
+      [
+        "an",
+        "ually"
+      ],
+      [
+        "ro",
+        "ug"
+      ],
+      [
+        "Ġm",
+        "anually"
+      ],
+      [
+        "Ġre",
+        "pl"
+      ],
+      [
+        "Ġin",
+        "stead"
+      ],
+      [
+        "Ġth",
+        "roug"
+      ],
+      [
+        "Ġan",
+        "oth"
+      ],
+      [
+        "ho",
+        "ds"
+      ],
+      [
+        "Ġmet",
+        "hods"
+      ],
+      [
+        "Ġlo",
+        "op"
+      ],
+      [
+        "Ġbe",
+        "gin"
+      ],
+      [
+        "add",
+        "From"
+      ],
+      [
+        "Ġli",
+        "ke"
+      ],
+      [
+        "Ġbuil",
+        "t"
+      ],
+      [
+        "copy",
+        "From"
+      ],
+      [
+        "ĠCo",
+        "py"
+      ],
+      [
+        "Ġrepl",
+        "ace"
+      ],
+      [
+        "Ġthroug",
+        "h"
+      ],
+      [
+        "Ġanoth",
+        "er"
+      ],
+      [
+        "Ġbegin",
+        "ner"
+      ],
+      [
+        "\"",
+        ";"
+      ],
+      [
+        ")",
+        "}"
+      ],
+      [
+        "*",
+        ","
+      ],
+      [
+        ".",
+        "<"
+      ],
+      [
+        ">",
+        "(\""
+      ],
+      [
+        "B",
+        "us"
+      ],
+      [
+        "K",
+        "e"
+      ],
+      [
+        "L",
+        "en"
+      ],
+      [
+        "M",
+        "emory"
+      ],
+      [
+        "S",
+        "econds"
+      ],
+      [
+        "T",
+        "a"
+      ],
+      [
+        "U",
+        "s"
+      ],
+      [
+        "a",
+        "pvts"
+      ],
+      [
+        "d",
+        "u"
+      ],
+      [
+        "g",
+        "th"
+      ],
+      [
+        "s",
+        "our"
+      ],
+      [
+        "t",
+        "ies"
+      ],
+      [
+        "{",
+        "*"
+      ],
+      [
+        "Ġ",
+        "getN"
+      ],
+      [
+        "Ġ",
+        "getNum"
+      ],
+      [
+        "Ġ",
+        "Ke"
+      ],
+      [
+        "in",
+        "im"
+      ],
+      [
+        "ce",
+        "s"
+      ],
+      [
+        "ce",
+        "sMidi"
+      ],
+      [
+        "Ġc",
+        "hange"
+      ],
+      [
+        "ar",
+        "y"
+      ],
+      [
+        "Ġ{",
+        "};"
+      ],
+      [
+        "Ġa",
+        "pvts"
+      ],
+      [
+        "Ġa",
+        "bstract"
+      ],
+      [
+        "cess",
+        "ary"
+      ],
+      [
+        "Re",
+        "sour"
+      ],
+      [
+        "Ġm",
+        "inim"
+      ],
+      [
+        "pt",
+        "sMidi"
+      ],
+      [
+        "Ġset",
+        "StateInformation"
+      ],
+      [
+        "Ġset",
+        "CurrentProgram"
+      ],
+      [
+        "Ġdo",
+        "uble"
+      ],
+      [
+        "il",
+        "Len"
+      ],
+      [
+        "es",
+        "Pro"
+      ],
+      [
+        "Ġget",
+        "StateInformation"
+      ],
+      [
+        "Ġget",
+        "ProgramName"
+      ],
+      [
+        "Ġget",
+        "CurrentProgram"
+      ],
+      [
+        "Ġget",
+        "Ta"
+      ],
+      [
+        "Ġrelease",
+        "Resour"
+      ],
+      [
+        "())",
+        ")"
+      ],
+      [
+        "Program",
+        "s"
+      ],
+      [
+        "Ġpro",
+        "du"
+      ],
+      [
+        "per",
+        "ties"
+      ],
+      [
+        "ĠN",
+        "o"
+      ],
+      [
+        "AudioProcessor",
+        "Editor"
+      ],
+      [
+        "Ġcreate",
+        "Editor"
+      ],
+      [
+        "Ġun",
+        "ne"
+      ],
+      [
+        "Ġacce",
+        "ptsMidi"
+      ],
+      [
+        "Ġwant",
+        "s"
+      ],
+      [
+        "with",
+        "Output"
+      ],
+      [
+        "with",
+        "Input"
+      ],
+      [
+        "Ġhas",
+        "Editor"
+      ],
+      [
+        "Ġfl",
+        "uff"
+      ],
+      [
+        ")}",
+        "};"
+      ],
+      [
+        ".<",
+        "/"
+      ],
+      [
+        "Bus",
+        "esPro"
+      ],
+      [
+        "Memory",
+        "Block"
+      ],
+      [
+        "Us",
+        "er"
+      ],
+      [
+        "gth",
+        "Seconds"
+      ],
+      [
+        "ĠgetN",
+        "ame"
+      ],
+      [
+        "ĠgetNum",
+        "Programs"
+      ],
+      [
+        "ĠKe",
+        "ep"
+      ],
+      [
+        "Ġchange",
+        "ProgramName"
+      ],
+      [
+        "Ġabstract",
+        "ions"
+      ],
+      [
+        "Ġminim",
+        "al"
+      ],
+      [
+        "ilLen",
+        "gthSeconds"
+      ],
+      [
+        "ĠgetTa",
+        "ilLengthSeconds"
+      ],
+      [
+        "ĠreleaseResour",
+        "ces"
+      ],
+      [
+        "Ġprodu",
+        "cesMidi"
+      ],
+      [
+        "Ġunne",
+        "cessary"
+      ],
+      [
+        "BusesPro",
+        "perties"
+      ],
+      [
+        "L",
+        "owpass"
+      ],
+      [
+        "P",
+        "I"
+      ],
+      [
+        "c",
+        "os"
+      ],
+      [
+        "i",
+        "ent"
+      ],
+      [
+        "r",
+        "an"
+      ],
+      [
+        "s",
+        "in"
+      ],
+      [
+        "at",
+        "ing"
+      ],
+      [
+        "Ġc",
+        "uto"
+      ],
+      [
+        "Ġf",
+        "il"
+      ],
+      [
+        "Ġb",
+        "iquad"
+      ],
+      [
+        "Ġa",
+        "void"
+      ],
+      [
+        "Ġ(",
+        "("
+      ],
+      [
+        "Ġ(",
+        "-"
+      ],
+      [
+        "si",
+        "gn"
+      ],
+      [
+        "os",
+        "ed"
+      ],
+      [
+        "ĠI",
+        "I"
+      ],
+      [
+        "Ġm",
+        "od"
+      ],
+      [
+        "Ġre",
+        "set"
+      ],
+      [
+        "ul",
+        "ating"
+      ],
+      [
+        "ic",
+        "ient"
+      ],
+      [
+        "Ġset",
+        "Coeff"
+      ],
+      [
+        "Ġset",
+        "Lowpass"
+      ],
+      [
+        "ĠT",
+        "ran"
+      ],
+      [
+        "sp",
+        "osed"
+      ],
+      [
+        "ĠB",
+        "iquad"
+      ],
+      [
+        "ĠL",
+        "owpass"
+      ],
+      [
+        "Ġde",
+        "sign"
+      ],
+      [
+        "++",
+        "<|"
+      ],
+      [
+        "Ġcuto",
+        "ff"
+      ],
+      [
+        "Ġfil",
+        "ter"
+      ],
+      [
+        "Ġmod",
+        "ulating"
+      ],
+      [
+        "icient",
+        "s"
+      ],
+      [
+        "ĠsetCoeff",
+        "icients"
+      ],
+      [
+        "ĠTran",
+        "sposed"
+      ],
+      [
+        "/",
+        "`"
       ],
       [
         "2",
-        "2"
+        "50"
       ],
       [
-        "3",
-        "1"
+        "A",
+        "Y"
       ],
       [
-        "4",
-        "1"
+        "B",
+        "L"
+      ],
+      [
+        "C",
+        "li"
+      ],
+      [
+        "E",
+        "ver"
+      ],
+      [
+        "L",
+        "W"
+      ],
+      [
+        "U",
+        "E"
+      ],
+      [
+        "g",
+        "ion"
+      ],
+      [
+        "y",
+        "th"
+      ],
+      [
+        "Ġ",
+        "Ever"
+      ],
+      [
+        "Ġc",
+        "lassic"
+      ],
+      [
+        "Ġb",
+        "ug"
+      ],
+      [
+        "Ġs",
+        "ave"
+      ],
+      [
+        "Ġo",
+        "ther"
+      ],
+      [
+        "get",
+        "ting"
+      ],
+      [
+        "Ġre",
+        "gion"
+      ],
+      [
+        "ĠA",
+        "LW"
+      ],
+      [
+        "Ġint",
+        "o"
+      ],
+      [
+        "Color",
+        "RED"
+      ],
+      [
+        "Color",
+        "BL"
+      ],
+      [
+        "Ġcli",
+        "pping"
+      ],
+      [
+        "For",
+        "getting"
+      ],
+      [
+        "fo",
+        "re"
+      ],
+      [
+        "()`",
+        "/`"
+      ],
+      [
+        "Ġdraw",
+        "n"
+      ],
+      [
+        "Ġdraw",
+        "ing"
+      ],
+      [
+        "Ġdraw",
+        "Cli"
+      ],
+      [
+        "ĠRe",
+        "store"
+      ],
+      [
+        "ĠW",
+        "ill"
+      ],
+      [
+        "Ġbe",
+        "fore"
+      ],
+      [
+        "Ġcall",
+        "s"
+      ],
+      [
+        "ĠDraw",
+        "ing"
+      ],
+      [
+        "AY",
+        "S"
+      ],
+      [
+        "yth",
+        "ing"
+      ],
+      [
+        "ĠEver",
+        "ything"
+      ],
+      [
+        "ĠALW",
+        "AYS"
+      ],
+      [
+        "ColorBL",
+        "UE"
+      ],
+      [
+        "ĠdrawCli",
+        "pped"
       ],
       [
         "1",
-        "3"
-      ],
-      [
-        "3",
         "4"
       ],
       [
-        "8",
-        "9"
+        "C",
+        "D"
       ],
       [
-        "3",
-        "3"
+        "E",
+        "m"
       ],
       [
-        "4",
-        "9"
+        "I",
+        "TE"
       ],
       [
-        "5",
-        "1"
+        "S",
+        "imple"
       ],
       [
-        "6",
-        "5"
+        "S",
+        "ubpixelAntiAlias"
       ],
       [
-        "9",
-        "2"
+        "S",
+        "ize"
       ],
       [
-        "9",
-        "8"
+        "T",
+        "F"
       ],
       [
-        "1",
-        "4"
+        "U",
+        "TF"
       ],
       [
-        "1",
-        "6"
+        "b",
+        "ol"
       ],
       [
-        "5",
-        "6"
+        "c",
+        "od"
       ],
       [
-        "5",
-        "8"
+        "f",
+        "ont"
       ],
       [
-        "7",
-        "6"
+        "g",
+        "ul"
       ],
       [
-        "8",
-        "8"
+        "k",
+        "SubpixelAntiAlias"
+      ],
+      [
+        "k",
+        "UTF"
+      ],
+      [
+        "l",
+        "ur"
+      ],
+      [
+        "o",
+        "ks"
+      ],
+      [
+        "p",
+        "ath"
+      ],
+      [
+        "r",
+        "y"
+      ],
+      [
+        "r",
+        "le"
+      ],
+      [
+        "t",
+        "f"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "t",
+        "tf"
+      ],
+      [
+        "Ġb",
+        "lur"
+      ],
+      [
+        "en",
+        "s"
+      ],
+      [
+        "Ġt",
+        "ypeface"
+      ],
+      [
+        "Sk",
+        "Typeface"
+      ],
+      [
+        "Sk",
+        "Font"
+      ],
+      [
+        "ĠSk",
+        "Text"
+      ],
+      [
+        "ĠSk",
+        "Typeface"
+      ],
+      [
+        "ĠSk",
+        "Font"
+      ],
+      [
+        "Ġst",
+        "rle"
+      ],
+      [
+        "set",
+        "Typeface"
+      ],
+      [
+        "set",
+        "Edging"
+      ],
+      [
+        "set",
+        "Em"
+      ],
+      [
+        "set",
+        "Size"
+      ],
+      [
+        "Color",
+        "WH"
+      ],
+      [
+        "Make",
+        "From"
+      ],
+      [
+        "(\"",
+        "/"
+      ],
+      [
+        "Ġdraw",
+        "Text"
+      ],
+      [
+        "ĠRe",
+        "gul"
+      ],
+      [
+        "draw",
+        "Simple"
+      ],
+      [
+        "ĠS",
+        "ubpixelAntiAlias"
+      ],
+      [
+        "ĠL",
+        "CD"
+      ],
+      [
+        "Ġlo",
+        "oks"
+      ],
+      [
+        "ial",
+        "iasing"
+      ],
+      [
+        "Ġch",
+        "ar"
+      ],
+      [
+        "Ġcle",
+        "an"
+      ],
+      [
+        "Ġant",
+        "ialiasing"
+      ],
+      [
+        "En",
+        "cod"
+      ],
+      [
+        "Ġscre",
+        "ens"
+      ],
+      [
+        "bol",
+        "den"
+      ],
+      [
+        "Ġblur",
+        "ry"
+      ],
+      [
+        "ĠSkText",
+        "Encod"
+      ],
+      [
+        "Ġstrle",
+        "n"
+      ],
+      [
+        "setEm",
+        "bolden"
+      ],
+      [
+        "ColorWH",
+        "ITE"
+      ],
+      [
+        "MakeFrom",
+        "File"
+      ],
+      [
+        "ĠRegul",
+        "ar"
+      ],
+      [
+        "drawSimple",
+        "Text"
+      ],
+      [
+        "ĠSkTextEncod",
+        "ing"
+      ],
+      [
+        "\"",
+        ")"
+      ],
+      [
+        "Ġm",
+        "emory"
+      ],
+      [
+        "ĠT",
+        "imer"
+      ],
+      [
+        "Ġw",
+        "rong"
+      ],
+      [
+        "Ġn",
+        "umber"
+      ],
+      [
+        "Ġnumber",
+        "s"
+      ],
+      [
+        ")",
+        ")"
+      ],
+      [
+        "I",
+        "s"
+      ],
+      [
+        "L",
+        "o"
+      ],
+      [
+        "b",
+        "sol"
+      ],
+      [
+        "c",
+        "hange"
+      ],
+      [
+        "i",
+        "pe"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "s",
+        "houldRepaint"
+      ],
+      [
+        "Ġs",
+        "afe"
+      ],
+      [
+        "Ġt",
+        "rigger"
+      ],
+      [
+        "ut",
+        "el"
+      ],
+      [
+        "Ġm",
+        "ust"
+      ],
+      [
+        "Ġm",
+        "utex"
+      ],
+      [
+        "Ġre",
+        "paint"
+      ],
+      [
+        "ex",
+        "change"
+      ],
+      [
+        "ĠA",
+        "bsol"
+      ],
+      [
+        "om",
+        "e"
+      ],
+      [
+        "Ġg",
+        "o"
+      ],
+      [
+        "Ġh",
+        "ome"
+      ],
+      [
+        "Ġth",
+        "at"
+      ],
+      [
+        "Ġlevel",
+        "Meter"
+      ],
+      [
+        "Ġfl",
+        "ag"
+      ],
+      [
+        "ac",
+        "qu"
+      ],
+      [
+        "Ġrec",
+        "ipe"
+      ],
+      [
+        "Ġdeadlock",
+        "s"
+      ],
+      [
+        "Lo",
+        "ck"
+      ],
+      [
+        "utel",
+        "y"
+      ],
+      [
+        "Ġmutex",
+        "es"
+      ],
+      [
+        "ĠAbsol",
+        "utely"
+      ],
+      [
+        "acqu",
+        "ire"
+      ],
+      [
+        "Ġcle",
+        "ar"
+      ],
+      [
+        "Ġde",
+        "bug"
       ],
       [
         "2",
-        "6"
-      ],
-      [
-        "6",
         "4"
       ],
       [
-        "9",
+        "Ġc",
+        "heck"
+      ],
+      [
+        "```",
+        "<|"
+      ],
+      [
+        "Ġal",
+        "loc"
+      ],
+      [
+        "A",
+        "N"
+      ],
+      [
+        "F",
+        "ill"
+      ],
+      [
+        "W",
+        "idth"
+      ],
+      [
+        "a",
+        "gg"
+      ],
+      [
+        "j",
+        "agg"
+      ],
+      [
+        "k",
+        "Stroke"
+      ],
+      [
+        "k",
+        "Fill"
+      ],
+      [
+        "Ġ",
+        "round"
+      ],
+      [
+        "Ġ",
+        "jagg"
+      ],
+      [
+        "le",
+        "ss"
+      ],
+      [
+        "Ġb",
+        "order"
+      ],
+      [
+        "al",
+        "iasing"
+      ],
+      [
+        "set",
+        "Stroke"
+      ],
+      [
+        "ĠW",
+        "AN"
+      ],
+      [
+        "Ġen",
+        "able"
+      ],
+      [
+        "Ġun",
+        "less"
+      ],
+      [
+        "Ġrect",
+        "ang"
+      ],
+      [
+        "Al",
+        "ways"
+      ],
+      [
+        "Ġant",
+        "i"
+      ],
+      [
+        "Ġround",
+        "ed"
+      ],
+      [
+        "Ġjagg",
+        "ies"
+      ],
+      [
+        "setStroke",
+        "Width"
+      ],
+      [
+        "ĠWAN",
+        "T"
+      ],
+      [
+        "Ġrectang",
+        "le"
+      ],
+      [
+        "M",
+        "essage"
+      ],
+      [
+        "V",
+        "elocity"
+      ],
+      [
+        "c",
+        "ial"
+      ],
+      [
+        "m",
+        "et"
+      ],
+      [
+        "o",
+        "ff"
+      ],
+      [
+        "u",
+        "ck"
+      ],
+      [
+        "u",
+        "cial"
+      ],
+      [
+        "Ġ",
+        "el"
+      ],
+      [
+        "Ġs",
+        "uck"
+      ],
+      [
+        "Ġv",
+        "elocity"
+      ],
+      [
+        "get",
+        "Float"
+      ],
+      [
+        "get",
+        "Message"
+      ],
+      [
+        "ĠI",
+        "gn"
+      ],
+      [
+        "ĠT",
+        "rigger"
+      ],
+      [
+        "ID",
+        "I"
+      ],
+      [
+        "ĠM",
+        "IDI"
+      ],
+      [
+        "Ġcr",
+        "ucial"
+      ],
+      [
+        "ac",
+        "curate"
+      ],
+      [
+        "isNoteO",
+        "n"
+      ],
+      [
+        "isNoteO",
+        "ff"
+      ],
+      [
+        "met",
+        "adata"
+      ],
+      [
+        "Ġel",
+        "se"
+      ],
+      [
+        "getFloat",
+        "Velocity"
+      ],
+      [
+        "ĠIgn",
+        "ore"
+      ],
+      [
+        "\"",
+        "},"
+      ],
+      [
+        "0",
         "1"
       ],
       [
-        "2",
-        "9"
+        ">",
+        ">"
       ],
       [
-        "3",
-        "2"
+        "A",
+        "W"
+      ],
+      [
+        "A",
+        "r"
+      ],
+      [
+        "A",
+        "gg"
+      ],
+      [
+        "C",
+        "le"
+      ],
+      [
+        "C",
+        "hoice"
+      ],
+      [
+        "L",
+        "ay"
+      ],
+      [
+        "N",
+        "ormal"
+      ],
+      [
+        "P",
+        "V"
+      ],
+      [
+        "R",
+        "ange"
+      ],
+      [
+        "R",
+        "ang"
+      ],
+      [
+        "T",
+        "S"
+      ],
+      [
+        "W",
+        "ar"
+      ],
+      [
+        "b",
+        "e"
+      ],
+      [
+        "b",
+        "il"
+      ],
+      [
+        "d",
+        "ex"
+      ],
+      [
+        "i",
+        "p"
+      ],
+      [
+        "i",
+        "bil"
+      ],
+      [
+        "k",
+        "ip"
+      ],
+      [
+        "m",
+        "ode"
+      ],
+      [
+        "o",
+        "ut"
+      ],
+      [
+        "p",
+        "at"
+      ],
+      [
+        "r",
+        "ay"
+      ],
+      [
+        "Ġ",
+        "Float"
+      ],
+      [
+        "Ġ",
+        "ParameterID"
+      ],
+      [
+        "at",
+        "ter"
+      ],
+      [
+        "Ġp",
+        "atter"
+      ],
+      [
+        "Ġs",
+        "ke"
+      ],
+      [
+        "Ġs",
+        "kip"
+      ],
+      [
+        "()",
+        "};"
+      ],
+      [
+        "Ġw",
+        "a"
+      ],
+      [
+        "ĠI",
+        "D"
+      ],
+      [
+        "Ġst",
+        "ep"
+      ],
+      [
+        "ĠA",
+        "PV"
+      ],
+      [
+        "Ġin",
+        "dex"
+      ],
+      [
+        "ĠD",
+        "on"
+      ],
+      [
+        "ĠD",
+        "AW"
+      ],
+      [
+        "ed",
+        "AudioParameter"
+      ],
+      [
+        "Parameter",
+        "Lay"
+      ],
+      [
+        "ĠC",
+        "hoice"
+      ],
+      [
+        "is",
+        "able"
+      ],
+      [
+        "ĠN",
+        "ame"
+      ],
+      [
+        "String",
+        "Ar"
+      ],
+      [
+        "AudioParameter",
+        "Choice"
+      ],
+      [
+        "ress",
+        "ive"
+      ],
+      [
+        "Ġac",
+        "cess"
+      ],
+      [
+        "Ġcom",
+        "pat"
+      ],
+      [
+        "Ġcreate",
+        "Params"
+      ],
+      [
+        "Ġparameter",
+        "s"
+      ],
+      [
+        "Ġproper",
+        "ly"
+      ],
+      [
+        "Ġrec",
+        "all"
+      ],
+      [
+        "ĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠĠ",
+        "ĠĠĠĠ"
+      ],
+      [
+        "Ġcond",
+        "ition"
+      ],
+      [
+        "Agg",
+        "ressive"
+      ],
+      [
+        "Cle",
+        "an"
+      ],
+      [
+        "Normal",
+        "isable"
+      ],
+      [
+        "Rang",
+        "edAudioParameter"
+      ],
+      [
+        "War",
+        "m"
+      ],
+      [
+        "be",
+        "gin"
+      ],
+      [
+        "ibil",
+        "ity"
+      ],
+      [
+        "Ġpatter",
+        "n"
+      ],
+      [
+        "Ġske",
+        "w"
+      ],
+      [
+        "ĠAPV",
+        "TS"
+      ],
+      [
+        "ParameterLay",
+        "out"
+      ],
+      [
+        "StringAr",
+        "ray"
+      ],
+      [
+        "Ġcompat",
+        "ibility"
+      ],
+      [
+        "Normalisable",
+        "Range"
       ],
       [
         "4",
-        "8"
+        "100"
       ],
       [
-        "6",
+        "A",
+        "ct"
+      ],
+      [
+        "D",
+        "ecay"
+      ],
+      [
+        "_",
+        "`"
+      ],
+      [
+        "c",
+        "al"
+      ],
+      [
+        "d",
+        "ecay"
+      ],
+      [
+        "u",
+        "si"
+      ],
+      [
+        "Ġ",
+        "ex"
+      ],
+      [
+        "Ġc",
+        "ur"
+      ],
+      [
+        "it",
+        "ch"
+      ],
+      [
+        "Ġ}",
+        ";"
+      ],
+      [
+        "Re",
+        "lease"
+      ],
+      [
+        "Ġm",
+        "usi"
+      ],
+      [
+        "ve",
+        "s"
+      ],
+      [
+        "Ġset",
+        "Attack"
+      ],
+      [
+        "Ġset",
+        "Decay"
+      ],
+      [
+        "Ġset",
+        "Release"
+      ],
+      [
+        "Ġis",
+        "Act"
+      ],
+      [
+        "Ġdecay",
+        "Coeff"
+      ],
+      [
+        "Ġ4",
+        "4100"
+      ],
+      [
+        "ponent",
+        "ial"
+      ],
+      [
+        "Ġen",
+        "um"
+      ],
+      [
+        "ĠsetS",
+        "ustain"
+      ],
+      [
+        "ĠsetS",
+        "ampleRate"
+      ],
+      [
+        "release",
+        "Ms"
+      ],
+      [
+        "attack",
+        "Ms"
+      ],
+      [
+        "ĠnoteO",
+        "n"
+      ],
+      [
+        "ĠnoteO",
+        "ff"
+      ],
+      [
+        "Ġenvelope",
+        "s"
+      ],
+      [
+        "Ġsw",
+        "itch"
+      ],
+      [
+        "_`",
+        ".<|"
+      ],
+      [
+        "decay",
+        "Ms"
+      ],
+      [
+        "Ġex",
+        "ponential"
+      ],
+      [
+        "Ġcur",
+        "ves"
+      ],
+      [
+        "Ġmusi",
+        "cal"
+      ],
+      [
+        "ĠisAct",
+        "ive"
+      ],
+      [
+        "S",
+        "ampleRate"
+      ],
+      [
+        "or",
+        "rect"
+      ],
+      [
+        "Y",
+        "ou"
+      ],
+      [
+        "c",
+        "rit"
+      ],
+      [
+        "s",
+        "y"
+      ],
+      [
+        "at",
+        "ching"
+      ],
+      [
+        "on",
+        "se"
+      ],
+      [
+        "Ġa",
+        "re"
+      ],
+      [
+        "Ġw",
+        "atching"
+      ],
+      [
+        "Ġre",
+        "sp"
+      ],
+      [
+        "ag",
+        "ent"
+      ],
+      [
+        "crit",
+        "ic"
+      ],
+      [
+        "sy",
+        "stem"
+      ],
+      [
+        "Ġresp",
+        "onse"
+      ],
+      [
+        ")",
+        ":"
+      ],
+      [
+        ">",
+        "();"
+      ],
+      [
+        "A",
+        "L"
+      ],
+      [
+        "A",
+        "S"
+      ],
+      [
+        "A",
+        "dd"
+      ],
+      [
+        "B",
+        "UI"
+      ],
+      [
+        "C",
+        "M"
+      ],
+      [
+        "D",
+        "e"
+      ],
+      [
+        "E",
+        "M"
+      ],
+      [
+        "L",
+        "D"
+      ],
+      [
+        "O",
+        "R"
+      ],
+      [
+        "P",
+        "E"
+      ],
+      [
+        "R",
+        "un"
+      ],
+      [
+        "R",
+        "AS"
+      ],
+      [
+        "T",
+        "Y"
+      ],
+      [
+        "T",
+        "imer"
+      ],
+      [
+        "T",
+        "REQ"
+      ],
+      [
+        "U",
+        "AL"
+      ],
+      [
+        "b",
+        "j"
+      ],
+      [
+        "b",
+        "et"
+      ],
+      [
+        "c",
+        "heck"
+      ],
+      [
+        "d",
+        "ow"
+      ],
+      [
+        "e",
+        "ct"
+      ],
+      [
+        "f",
+        "ull"
+      ],
+      [
+        "h",
+        "ut"
+      ],
+      [
+        "n",
+        "ed"
+      ],
+      [
+        "p",
+        "rit"
+      ],
+      [
+        "t",
+        "x"
+      ],
+      [
+        "u",
+        "clear"
+      ],
+      [
+        "v",
+        "al"
+      ],
+      [
+        "w",
+        "ned"
+      ],
+      [
+        "Ġ",
+        "as"
+      ],
+      [
+        "Ġ",
+        "REQ"
+      ],
+      [
+        "st",
+        "ener"
+      ],
+      [
+        "et",
+        "es"
+      ],
+      [
+        "re",
+        "move"
+      ],
+      [
+        "le",
+        "ak"
+      ],
+      [
+        "Ġc",
+        "ul"
+      ],
+      [
+        "Ġf",
+        "ire"
+      ],
+      [
+        "Ġs",
+        "hut"
+      ],
+      [
+        "Ġd",
+        "ete"
+      ],
+      [
+        "end",
+        "if"
+      ],
+      [
+        "Ġo",
+        "pt"
+      ],
+      [
+        "Ġo",
+        "bj"
+      ],
+      [
+        "Ġo",
+        "wned"
+      ],
+      [
+        "Ġ-",
+        "-"
+      ],
+      [
+        "Ġn",
+        "ever"
+      ],
+      [
+        "Ġn",
+        "uclear"
+      ],
+      [
+        "Ġst",
+        "op"
+      ],
+      [
+        "read",
+        "y"
+      ],
+      [
+        "Ġh",
+        "ow"
+      ],
+      [
+        "Make",
+        "List"
+      ],
+      [
+        "ĠC",
+        "RAS"
+      ],
+      [
+        "ĠC",
+        "MakeList"
+      ],
+      [
+        "Ġth",
+        "is"
+      ],
+      [
+        "UI",
+        "RED"
+      ],
+      [
+        "ĠB",
+        "utton"
+      ],
+      [
+        "Ġal",
+        "ready"
+      ],
+      [
+        "ist",
+        "ener"
+      ],
+      [
+        "ĠM",
+        "EM"
+      ],
+      [
+        "ĠS",
+        "TREQ"
+      ],
+      [
+        "ĠW",
+        "ho"
+      ],
+      [
+        "ĠL",
+        "istener"
+      ],
+      [
+        "Ġde",
+        "fault"
+      ],
+      [
+        "Ġde",
+        "stru"
+      ],
+      [
+        "back",
+        "s"
+      ],
+      [
+        "ĠDe",
+        "stru"
+      ],
+      [
+        "add",
+        "Listener"
+      ],
+      [
+        "ress",
+        "Sanitizer"
+      ],
+      [
+        "Ġcall",
+        "backs"
+      ],
+      [
+        "Ġ.",
+        "/"
+      ],
+      [
+        "Ġremove",
+        "d"
+      ],
+      [
+        "Ġleak",
+        "ing"
+      ],
+      [
+        "Ġli",
+        "stener"
+      ],
+      [
+        "AK",
+        "E"
+      ],
+      [
+        "gr",
+        "ind"
+      ],
+      [
+        "Ġbuil",
+        "ds"
+      ],
+      [
+        "En",
+        "able"
+      ],
+      [
+        "Ġdel",
+        "etes"
+      ],
+      [
+        "Ġne",
+        "w"
+      ],
+      [
+        "Add",
+        "ressSanitizer"
+      ],
+      [
+        "BUI",
+        "LD"
+      ],
+      [
+        "CM",
+        "AKE"
+      ],
+      [
+        "De",
+        "bug"
+      ],
+      [
+        "OR",
+        "Y"
+      ],
+      [
+        "TY",
+        "PE"
+      ],
+      [
+        "bet",
+        "ter"
+      ],
+      [
+        "dow",
+        "n"
+      ],
+      [
+        "ect",
+        "s"
+      ],
+      [
+        "prit",
+        "s"
+      ],
+      [
+        "tx",
+        "t"
+      ],
+      [
+        "val",
+        "grind"
+      ],
+      [
+        "ĠREQ",
+        "UIRED"
+      ],
+      [
+        "remove",
+        "Listener"
+      ],
+      [
+        "Ġcul",
+        "prits"
+      ],
+      [
+        "Ġshut",
+        "down"
+      ],
+      [
+        "Ġdete",
+        "ctor"
+      ],
+      [
+        "Ġopt",
+        "ion"
+      ],
+      [
+        "Ġobj",
+        "ects"
+      ],
+      [
+        "Ġstop",
+        "Timer"
+      ],
+      [
+        "ĠCRAS",
+        "H"
+      ],
+      [
+        "ĠCMakeList",
+        "s"
+      ],
+      [
+        "ĠMEM",
+        "ORY"
+      ],
+      [
+        "ĠSTREQ",
+        "UAL"
+      ],
+      [
+        "Ġdestru",
+        "ction"
+      ],
+      [
+        "ĠDestru",
+        "ctor"
+      ],
+      [
+        "D",
+        "is"
+      ],
+      [
+        "S",
+        "c"
+      ],
+      [
+        "W",
+        "rong"
+      ],
+      [
+        "a",
+        "st"
+      ],
+      [
+        "a",
+        "use"
+      ],
+      [
+        "a",
+        "uto"
+      ],
+      [
+        "c",
+        "ont"
+      ],
+      [
+        "c",
+        "lock"
+      ],
+      [
+        "f",
+        "ile"
+      ],
+      [
+        "h",
+        "igh"
+      ],
+      [
+        "i",
+        "ho"
+      ],
+      [
+        "k",
+        "el"
+      ],
+      [
+        "m",
+        "utex"
+      ],
+      [
+        "n",
+        "ow"
+      ],
+      [
+        "o",
+        "pping"
+      ],
+      [
+        "p",
+        "opping"
+      ],
+      [
+        "r",
+        "ate"
+      ],
+      [
+        "r",
+        "un"
+      ],
+      [
+        "u",
+        "iti"
+      ],
+      [
+        "w",
+        "ed"
+      ],
+      [
+        "Ġ",
+        "end"
+      ],
+      [
+        "Ġ",
+        "Parameter"
+      ],
+      [
+        "Ġ",
+        "Pro"
+      ],
+      [
+        "Ġ",
+        "Your"
+      ],
+      [
+        "in",
+        "y"
+      ],
+      [
+        "in",
+        "uiti"
+      ],
+      [
+        "re",
+        "sol"
+      ],
+      [
+        "Ġc",
+        "ra"
+      ],
+      [
+        "Ġc",
+        "ause"
+      ],
+      [
+        "an",
+        "k"
+      ],
+      [
+        "Ġf",
+        "ile"
+      ],
+      [
+        "Ġf",
+        "ree"
+      ],
+      [
+        "Ġp",
+        "ast"
+      ],
+      [
+        "Ġs",
+        "low"
+      ],
+      [
+        "Ġs",
+        "econds"
+      ],
+      [
+        "al",
+        "loc"
+      ],
+      [
+        "ck",
+        "ling"
+      ],
+      [
+        "Ġt",
+        "ake"
+      ],
+      [
+        "Ġt",
+        "ank"
+      ],
+      [
+        "Ġo",
+        "ff"
+      ],
+      [
+        "Ġfloat",
+        "ing"
+      ],
+      [
+        "Ġw",
+        "hat"
+      ],
+      [
+        "ud",
+        "den"
+      ],
+      [
+        "ĠI",
+        "f"
+      ],
+      [
+        "Ġm",
+        "alloc"
+      ],
+      [
+        "();",
+        "`"
+      ],
+      [
+        "Ġn",
+        "um"
+      ],
+      [
+        "ĠA",
+        "re"
+      ],
+      [
+        "set",
+        "Target"
+      ],
+      [
+        "ext",
+        "Value"
+      ],
+      [
+        "ed",
+        "No"
+      ],
+      [
+        "Ġh",
+        "and"
+      ],
+      [
+        "ĠC",
+        "PU"
+      ],
+      [
+        "Ġto",
+        "o"
+      ],
+      [
+        "getN",
+        "extValue"
+      ],
+      [
+        "Block",
+        "ing"
+      ],
+      [
+        "ĠT",
+        "iny"
+      ],
+      [
+        "der",
+        "ed"
+      ],
+      [
+        "der",
+        "run"
+      ],
+      [
+        "ĠM",
+        "emory"
+      ],
+      [
+        "ĠS",
+        "udden"
+      ],
+      [
+        "op",
+        "edNo"
+      ],
+      [
+        "ch",
+        "ron"
+      ],
+      [
+        "Ġread",
+        "ing"
+      ],
+      [
+        "Ġtarget",
+        "Gain"
+      ],
+      [
+        "Ġun",
+        "derrun"
+      ],
+      [
+        "Ġli",
+        "kel"
+      ],
+      [
+        "Ġlock",
+        "s"
+      ],
+      [
+        "ne",
+        "w"
+      ],
+      [
+        "target",
+        "Gain"
+      ],
+      [
+        "Or",
+        "dered"
+      ],
+      [
+        "Ġno",
+        "Denormals"
+      ],
+      [
+        "Ġscre",
+        "wed"
+      ],
+      [
+        "Ġdel",
+        "ete"
+      ],
+      [
+        "Ġjump",
+        "s"
+      ],
+      [
+        "Ġalloc",
+        "ation"
+      ],
+      [
+        "Dis",
+        "cont"
+      ],
+      [
+        "Sc",
+        "opedNo"
+      ],
+      [
+        "iho",
+        "od"
+      ],
+      [
+        "ĠPro",
+        "file"
+      ],
+      [
+        "inuiti",
+        "es"
+      ],
+      [
+        "resol",
+        "ution"
+      ],
+      [
+        "Ġcra",
+        "ckling"
+      ],
+      [
+        "Ġtake",
+        "s"
+      ],
+      [
+        "Ġnum",
+        "Samples"
+      ],
+      [
+        "setTarget",
+        "Value"
+      ],
+      [
+        "Ġhand",
+        "ling"
+      ],
+      [
+        "chron",
+        "o"
+      ],
+      [
+        "Ġlikel",
+        "ihood"
+      ],
+      [
+        "Discont",
+        "inuities"
+      ],
+      [
+        "ScopedNo",
+        "Denormals"
+      ],
+      [
+        "'",
+        "m"
+      ],
+      [
+        "*",
+        ">"
+      ],
+      [
+        "A",
+        "bstract"
+      ],
+      [
+        "C",
+        "rit"
+      ],
+      [
+        "C",
+        "han"
+      ],
+      [
+        "F",
+        "ifo"
+      ],
+      [
+        "I",
+        "L"
+      ],
+      [
+        "N",
+        "ever"
+      ],
+      [
+        "O",
+        "ther"
+      ],
+      [
+        "R",
+        "andom"
+      ],
+      [
+        "S",
+        "e"
+      ],
+      [
+        "W",
+        "ave"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "g",
+        "ed"
+      ],
+      [
+        "h",
+        "read"
+      ],
+      [
+        "o",
+        "ad"
+      ],
+      [
+        "p",
+        "re"
+      ],
+      [
+        "p",
+        "rocess"
+      ],
+      [
+        "v",
+        "et"
+      ],
+      [
+        "w",
+        "rite"
+      ],
+      [
+        "y",
+        "si"
+      ],
+      [
+        "Ġ",
+        "Com"
+      ],
+      [
+        "Ġ",
+        "Common"
+      ],
+      [
+        "Ġ",
+        "Other"
+      ],
+      [
+        "ĠĠ",
+        "Ċ"
+      ],
+      [
+        "re",
+        "d"
+      ],
+      [
+        "Ġf",
+        "ifo"
+      ],
+      [
+        "Ġb",
+        "oth"
+      ],
+      [
+        "or",
+        "ity"
+      ],
+      [
+        "or",
+        "ks"
+      ],
+      [
+        "Ġp",
+        "aram"
+      ],
+      [
+        "Ġp",
+        "ri"
+      ],
+      [
+        "Ġs",
+        "ha"
+      ],
+      [
+        "al",
+        "ysi"
+      ],
+      [
+        "ue",
+        "ue"
+      ],
+      [
+        "Ġw",
+        "orks"
+      ],
+      [
+        "Ġr",
+        "andom"
+      ],
+      [
+        "ĠI",
+        "t"
+      ],
+      [
+        "set",
+        "s"
+      ],
+      [
+        "Ġset",
+        "s"
+      ],
+      [
+        "ent",
+        "ify"
+      ],
+      [
+        "Ġh",
+        "igh"
+      ],
+      [
+        "Ġdo",
+        "es"
+      ],
+      [
+        "Ġvalue",
+        "s"
+      ],
+      [
+        "ĠC",
+        "lassic"
+      ],
+      [
+        "For",
+        "Meter"
+      ],
+      [
+        "ĠT",
+        "hread"
+      ],
+      [
+        "Ġan",
+        "alysi"
+      ],
+      [
+        "Ġget",
+        "ting"
+      ],
+      [
+        "ĠId",
+        "entify"
+      ],
+      [
+        "ĠM",
+        "essage"
+      ],
+      [
+        "ĠW",
+        "IL"
+      ],
+      [
+        "ĠL",
+        "oad"
+      ],
+      [
+        "Ġread",
+        "s"
+      ],
+      [
+        "able",
+        "s"
+      ],
+      [
+        "Ġtimer",
+        "s"
+      ],
+      [
+        "Ġlevel",
+        "ForMeter"
+      ],
+      [
+        "Ġpoint",
+        "er"
+      ],
+      [
+        "Ġcom",
+        "plex"
+      ],
+      [
+        "Ġq",
+        "ueue"
+      ],
+      [
+        "Ġblock",
+        "s"
+      ],
+      [
+        "Ġatomic",
+        "ally"
+      ],
+      [
+        "resize",
+        "d"
+      ],
+      [
+        "ical",
+        "Se"
+      ],
+      [
+        "Ġpoll",
+        "s"
+      ],
+      [
+        "10",
+        "24"
+      ],
+      [
+        "Ġcond",
+        "itions"
+      ],
+      [
+        "Ġsw",
+        "ap"
+      ],
+      [
+        "Ġcurrent",
+        "Table"
+      ],
+      [
+        "Ġclear",
+        "s"
+      ],
+      [
+        "Ġcheck",
+        "s"
+      ],
+      [
+        "Ġwa",
+        "vet"
+      ],
+      [
+        "Ġpattern",
+        "s"
+      ],
+      [
+        "Abstract",
+        "Fifo"
+      ],
+      [
+        "Crit",
+        "icalSe"
+      ],
+      [
+        "Chan",
+        "ged"
+      ],
+      [
+        "Wave",
+        "Table"
+      ],
+      [
+        "pre",
+        "sets"
+      ],
+      [
+        "process",
+        "Block"
+      ],
+      [
+        "ĠCom",
+        "plex"
+      ],
+      [
+        "Ġparam",
+        "Changed"
+      ],
+      [
+        "Ġpri",
+        "ority"
+      ],
+      [
+        "Ġsha",
+        "red"
+      ],
+      [
+        "Ġdoes",
+        "n"
+      ],
+      [
+        "ĠThread",
+        "Sanitizer"
+      ],
+      [
+        "Ġanalysi",
+        "s"
+      ],
+      [
+        "ĠWIL",
+        "L"
+      ],
+      [
+        "Ġwavet",
+        "ables"
+      ],
+      [
+        "CriticalSe",
+        "ction"
+      ],
+      [
+        "get",
+        "SampleRate"
+      ],
+      [
+        "ate",
+        "st"
+      ],
+      [
+        "Ġl",
+        "atest"
+      ],
+      [
+        "()",
+        "];"
+      ],
+      [
+        "};",
+        "<"
+      ],
+      [
+        "_[",
+        "("
+      ],
+      [
+        "ĠsetS",
+        "ize"
+      ],
+      [
+        "For",
+        "UI"
+      ],
+      [
+        "ab",
+        "el"
+      ],
+      [
+        "get",
+        "Write"
+      ],
+      [
+        "getNum",
+        "Channel"
+      ],
+      [
+        "Point",
+        "er"
+      ],
+      [
+        "getWrite",
+        "Pointer"
+      ],
+      [
+        "getNumChannel",
+        "s"
+      ],
+      [
+        "D",
+        "ev"
+      ],
+      [
+        "M",
+        "an"
+      ],
+      [
+        "Ġa",
+        "pp"
+      ],
+      [
+        "Ġr",
+        "ate"
+      ],
+      [
+        "ice",
+        "Man"
+      ],
+      [
+        "ag",
+        "er"
+      ],
+      [
+        "ĠVer",
+        "ify"
+      ],
+      [
+        "Dev",
+        "iceMan"
+      ],
+      [
+        "DeviceMan",
+        "ager"
+      ],
+      [
+        "e",
+        "ar"
+      ],
+      [
+        "Ġs",
+        "ear"
+      ],
+      [
+        "Ġsear",
+        "ch"
+      ],
+      [
+        "C",
+        "orrect"
+      ],
+      [
+        "Ġju",
+        "st"
+      ],
+      [
+        "set",
+        "Text"
+      ],
+      [
+        "Ġvalue",
+        "ForUI"
+      ],
+      [
+        "Ġl",
+        "abel"
+      ],
+      [
+        "W",
+        "hat"
+      ],
+      [
+        "Ġne",
+        "ed"
+      ],
+      [
+        "o",
+        "es"
+      ],
+      [
+        "Ġ",
+        "zer"
+      ],
+      [
+        "Ġc",
+        "orrect"
+      ],
+      [
+        "Ġd",
+        "irect"
+      ],
+      [
+        "ĠS",
+        "imple"
+      ],
+      [
+        "ĠN",
+        "oth"
+      ],
+      [
+        "Ġchannel",
+        "s"
+      ],
+      [
+        "Ġac",
+        "curate"
+      ],
+      [
+        "ne",
+        "ss"
+      ],
+      [
+        "Ġzer",
+        "oes"
+      ],
+      [
+        "Ġcorrect",
+        "ness"
+      ],
+      [
+        "ĠNoth",
+        "ing"
+      ],
+      [
+        "F",
+        "TE"
+      ],
+      [
+        "P",
+        "er"
+      ],
+      [
+        "a",
+        "lo"
+      ],
+      [
+        "a",
+        "ch"
+      ],
+      [
+        "h",
+        "ic"
+      ],
+      [
+        "h",
+        "ere"
+      ],
+      [
+        "p",
+        "repare"
+      ],
+      [
+        "r",
+        "or"
+      ],
+      [
+        "s",
+        "w"
+      ],
+      [
+        "w",
+        "here"
+      ],
+      [
+        "Ġ",
+        "er"
+      ],
+      [
+        "Ġ",
+        "St"
+      ],
+      [
+        "le",
+        "d"
+      ],
+      [
+        "Ġc",
+        "al"
+      ],
+      [
+        "Ġf",
+        "un"
+      ],
+      [
+        "ro",
+        "ach"
+      ],
+      [
+        "Ġw",
+        "hic"
+      ],
+      [
+        "rit",
+        "ique"
+      ],
+      [
+        "Ġm",
+        "em"
+      ],
+      [
+        "Ġst",
+        "and"
+      ],
+      [
+        "ĠA",
+        "FTE"
+      ],
+      [
+        "Audio",
+        "DeviceManager"
+      ],
+      [
+        "ĠC",
+        "orrect"
+      ],
+      [
+        "ĠC",
+        "ritique"
+      ],
+      [
+        "Ġan",
+        "sw"
+      ],
+      [
+        "ĠAudio",
+        "DeviceManager"
+      ],
+      [
+        "()`",
+        "."
+      ],
+      [
+        "Ġsamples",
+        "Per"
+      ],
+      [
+        "Ġany",
+        "where"
+      ],
+      [
+        "Ġcurrent",
+        "SampleRate"
+      ],
+      [
+        "Ġapp",
+        "s"
+      ],
+      [
+        "Ġapp",
+        "roach"
+      ],
+      [
+        "alo",
+        "ne"
+      ],
+      [
+        "prepare",
+        "ToPlay"
+      ],
+      [
+        "ror",
+        "s"
+      ],
+      [
+        "Ġer",
+        "rors"
+      ],
+      [
+        "ĠSt",
+        "ore"
+      ],
+      [
+        "Ġcal",
+        "led"
+      ],
+      [
+        "Ġfun",
+        "ction"
+      ],
+      [
+        "Ġwhic",
+        "h"
+      ],
+      [
+        "Ġmem",
+        "ber"
+      ],
+      [
+        "Ġstand",
+        "alone"
+      ],
+      [
+        "ĠAFTE",
+        "R"
+      ],
+      [
+        "Ġansw",
+        "er"
+      ],
+      [
+        "ĠsamplesPer",
+        "Block"
+      ],
+      [
+        "A",
+        "R"
+      ],
+      [
+        "A",
+        "fter"
+      ],
+      [
+        "C",
+        "H"
+      ],
+      [
+        "E",
+        "AR"
+      ],
+      [
+        "S",
+        "EAR"
+      ],
+      [
+        "a",
+        "le"
+      ],
+      [
+        "e",
+        "b"
+      ],
+      [
+        "i",
+        "v"
+      ],
+      [
+        "l",
+        "ways"
+      ],
+      [
+        "Ġ",
         "7"
       ],
       [
-        "7",
-        "4"
+        "Ġ",
+        "["
       ],
       [
-        "7",
-        "5"
+        "ut",
+        "date"
       ],
       [
-        "8",
-        "5"
+        "Ġo",
+        "utdate"
       ],
       [
-        "9",
-        "5"
+        "Ġw",
+        "eb"
       ],
       [
-        "1",
-        "8"
+        "Ġst",
+        "ale"
       ],
       [
-        "1",
-        "9"
+        "ĠA",
+        "lways"
       ],
       [
-        "3",
-        "7"
+        "Ġin",
+        "formation"
       ],
       [
-        "3",
-        "9"
+        "Ġg",
+        "iv"
       ],
       [
-        "6",
-        "2"
+        "Ġrelease",
+        "d"
       ],
       [
-        "7",
-        "8"
+        "Ġbe",
+        "en"
       ],
       [
-        "9",
-        "4"
+        "Ġver",
+        "ify"
       ],
       [
-        "9",
-        "7"
+        "Ġ20",
+        "24"
       ],
       [
-        "9",
-        "9"
+        "Ġcheck",
+        "ing"
       ],
       [
-        "2",
-        "5"
+        "Ġneed",
+        "ed"
       ],
       [
-        "3",
-        "5"
+        "SEAR",
+        "CH"
       ],
       [
-        "4",
-        "5"
+        "Ġoutdate",
+        "d"
       ],
       [
-        "8",
-        "7"
+        "Ġgiv",
+        "ing"
       ],
       [
-        "1",
-        "1"
+        "E",
+        "as"
       ],
       [
-        "2",
-        "1"
+        "F",
+        "l"
       ],
       [
-        "2",
-        "4"
+        "L",
+        "abel"
       ],
       [
-        "4",
-        "3"
+        "O",
+        "P"
       ],
       [
-        "5",
-        "2"
+        "S",
+        "T"
       ],
       [
-        "6",
-        "3"
+        "e",
+        "f"
       ],
       [
-        "6",
-        "8"
+        "i",
+        "or"
       ],
       [
-        "7",
-        "1"
+        "l",
+        "ax"
       ],
       [
-        "7",
-        "2"
+        "m",
+        "y"
       ],
       [
-        "9",
-        "3"
+        "s",
+        "ide"
       ],
       [
-        "1",
-        "7"
+        "s",
+        "afe"
       ],
       [
-        "2",
-        "3"
+        "v",
+        "ior"
       ],
       [
-        "2",
-        "8"
+        "Ġ",
+        "und"
       ],
       [
-        "3",
-        "6"
+        "Ġ",
+        "Fl"
       ],
       [
-        "7",
-        "3"
+        "in",
+        "ed"
       ],
       [
-        "7",
-        "9"
+        "lo",
+        "ad"
       ],
       [
-        "3",
-        "8"
+        "re",
+        "lax"
       ],
       [
-        "7",
-        "7"
+        "Ġp",
+        "ot"
       ],
       [
-        "8",
-        "2"
+        "Ġp",
+        "ract"
       ],
       [
-        "8",
-        "3"
+        "it",
+        "ing"
       ],
       [
-        "1",
-        "2"
+        "ate",
+        "s"
       ],
       [
-        "4",
-        "4"
+        "Ġm",
+        "essage"
       ],
       [
-        "4",
-        "6"
+        "put",
+        "ed"
       ],
       [
-        "5",
-        "3"
+        "Ġin",
+        "side"
       ],
       [
-        "5",
-        "4"
+        "Ġset",
+        "Text"
       ],
       [
-        "2",
-        "7"
+        "ent",
+        "ial"
       ],
       [
-        "5",
-        "7"
+        "Ġh",
+        "app"
       ],
       [
-        "4",
-        "2"
+        "ĠC",
+        "all"
       ],
       [
-        "5",
-        "5"
+        "())",
+        ");"
       ],
       [
-        "6",
-        "1"
+        "ice",
+        "s"
       ],
       [
-        "6",
-        "6"
+        "value",
+        "ForUI"
       ],
       [
-        "6",
-        "9"
+        "ha",
+        "vior"
       ],
       [
-        "8",
-        "4"
+        "Ġbe",
+        "havior"
       ],
       [
-        "1",
-        "5"
+        "Ġun",
+        "safe"
       ],
       [
-        "4",
-        "7"
+        "Ġcr",
+        "ash"
       ],
       [
-        "9",
-        "6"
+        "com",
+        "puted"
       ],
       [
-        "5",
-        "9"
+        "\")",
+        "`"
       ],
       [
-        "8",
-        "1"
+        "Ġalloc",
+        "ates"
+      ],
+      [
+        "Ġwa",
+        "iting"
+      ],
+      [
+        "Ġaccess",
+        "es"
+      ],
+      [
+        "Eas",
+        "y"
+      ],
+      [
+        "ST",
+        "OP"
+      ],
+      [
+        "ef",
+        "ined"
+      ],
+      [
+        "my",
+        "Label"
+      ],
+      [
+        "Ġund",
+        "efined"
+      ],
+      [
+        "ĠFl",
+        "ag"
+      ],
+      [
+        "relax",
+        "ed"
+      ],
+      [
+        "Ġpot",
+        "ential"
+      ],
+      [
+        "Ġpract",
+        "ices"
+      ],
+      [
+        "Ġhapp",
+        "en"
+      ],
+      [
+        "ĠCall",
+        "ing"
+      ],
+      [
+        "computed",
+        "Value"
+      ],
+      [
+        "H",
+        "el"
+      ],
+      [
+        "Hel",
+        "lo"
+      ],
+      [
+        "L",
+        "et"
+      ],
+      [
+        "H",
+        "i"
+      ],
+      [
+        "b",
+        "le"
+      ],
+      [
+        "Ġm",
+        "e"
+      ],
+      [
+        "Ġpro",
+        "ble"
+      ],
+      [
+        "Sh",
+        "ow"
+      ],
+      [
+        "Ġproble",
+        "m"
+      ],
+      [
+        "Ġc",
+        "ode"
+      ],
+      [
+        "H",
+        "e"
+      ],
+      [
+        "He",
+        "y"
       ]
     ]
   }

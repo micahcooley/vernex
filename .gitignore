@@ -19,3 +19,11 @@ data/
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs and Caches
+*.log
+cache/
+*.deb
+*.zip
+*.ps1
+*.sh

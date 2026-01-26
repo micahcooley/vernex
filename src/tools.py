@@ -1,12 +1,19 @@
 import os
 import subprocess
-import shutil
+from pathlib import Path
 
-WORKSPACE_ROOT = "c:/vernex"
+# Workspace is the project root
+ROOT = Path(__file__).parent.parent
+WORKSPACE_ROOT = ROOT
 
 def read_file(path):
-    full_path = os.path.join(WORKSPACE_ROOT, path)
-    if not os.path.exists(full_path):
+    # Support both relative and absolute paths
+    if os.path.isabs(path):
+        full_path = Path(path)
+    else:
+        full_path = WORKSPACE_ROOT / path
+    
+    if not full_path.exists():
         return f"Error: File {path} not found."
     try:
         with open(full_path, "r", encoding="utf-8") as f:
@@ -15,8 +22,12 @@ def read_file(path):
         return f"Error reading file: {e}"
 
 def write_file(path, content):
-    full_path = os.path.join(WORKSPACE_ROOT, path)
-    os.makedirs(os.path.dirname(full_path), exist_ok=True)
+    if os.path.isabs(path):
+        full_path = Path(path)
+    else:
+        full_path = WORKSPACE_ROOT / path
+    
+    full_path.parent.mkdir(parents=True, exist_ok=True)
     try:
         with open(full_path, "w", encoding="utf-8") as f:
             f.write(content)
@@ -41,7 +52,14 @@ def run_command(command):
         return "Error: Command blocked for safety."
         
     try:
-        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=30, cwd=WORKSPACE_ROOT)
+        result = subprocess.run(
+            command, 
+            shell=True, 
+            capture_output=True, 
+            text=True, 
+            timeout=30, 
+            cwd=str(WORKSPACE_ROOT)
+        )
         output = result.stdout + result.stderr
         return output if output else "Command executed successfully (no output)."
     except Exception as e:
@@ -49,18 +67,22 @@ def run_command(command):
 
 def grep_search(pattern):
     try:
-        # Simple recursive search
         matches = []
         for root, dirs, files in os.walk(WORKSPACE_ROOT):
-            if ".git" in root or "node_modules" in root: continue
+            # Skip hidden and common exclusions
+            dirs[:] = [d for d in dirs if not d.startswith('.') and d != 'node_modules']
+            
             for file in files:
                 if file.endswith((".py", ".cpp", ".h", ".txt", ".md")):
-                    path = os.path.join(root, file)
-                    with open(path, "r", encoding="utf-8", errors="ignore") as f:
-                        for i, line in enumerate(f):
-                            if pattern in line:
-                                rel_path = os.path.relpath(path, WORKSPACE_ROOT)
-                                matches.append(f"{rel_path}:{i+1}: {line.strip()}")
+                    path = Path(root) / file
+                    try:
+                        with open(path, "r", encoding="utf-8", errors="ignore") as f:
+                            for i, line in enumerate(f):
+                                if pattern in line:
+                                    rel_path = path.relative_to(WORKSPACE_ROOT)
+                                    matches.append(f"{rel_path}:{i+1}: {line.strip()}")
+                    except:
+                        continue
         return "\n".join(matches[:20]) if matches else "No matches found."
     except Exception as e:
         return f"Error searching: {e}"
