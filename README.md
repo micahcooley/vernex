@@ -1,3 +1,9 @@
+# ⚠️ DEPRECATED - Development Discontinued
+
+**Important Notice:** The claims made in this repository are probably not true. Additionally, active development on this project has ceased as the focus has shifted to the Ghost Engine.
+
+---
+
 # Vernex AI
 
 Local AI assistant for C++/JUCE/Skia audio software development. GPU-accelerated, web search, dual-agent critique system.
